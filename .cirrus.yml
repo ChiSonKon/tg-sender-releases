@@ -1,7 +1,0 @@
-task:
-  name: Test Build
-  container:
-    image: python:3.11-slim
-  test_script:
-    - echo 'Hello from Cirrus CI!'
-    - python3 --version
