@@ -19,7 +19,6 @@ env:
 # ---------------------------------------------------------------
 linux_build_task:
   name: "Linux Build (Ubuntu)"
-  only_if: $CIRRUS_BRANCH == "main"
   
   container:
     image: python:3.11-slim
@@ -80,7 +79,6 @@ linux_build_task:
 # ---------------------------------------------------------------
 macos_build_task:
   name: "macOS Build (Sonoma)"
-  only_if: $CIRRUS_BRANCH == "main"
 
   macos_instance:
     image: ghcr.io/cirruslabs/macos-sonoma-xcode:latest
