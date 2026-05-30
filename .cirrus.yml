@@ -1,0 +1,132 @@
+# ==============================================================
+# 白猫工作室 TG群发助手 — Cirrus CI 跨平台构建
+# 仓库：tg-sender-releases（公开仓库，享受 Cirrus CI 免费额度）
+# 构建：Linux + macOS
+# 触发：push to main 分支（通过 local_build_and_release.py 推送触发文件）
+# ==============================================================
+
+# 公共环境变量（敏感值在 Cirrus CI 后台配置为加密变量）
+env:
+  # 在 https://cirrus-ci.com/github/ChiSonKon/tg-sender-releases 配置
+  # Settings -> Encrypted Variables -> 名称 RELEASE_PAT -> 值为你的 GitHub PAT
+  RELEASE_PAT: ENCRYPTED[请在Cirrus后台替换此值]
+  SOURCE_REPO: ChiSonKon/tg-sender-studio
+  RELEASES_REPO: ChiSonKon/tg-sender-releases
+  PY_VERSION: "3.11"
+
+# ---------------------------------------------------------------
+# Linux 构建任务
+# ---------------------------------------------------------------
+linux_build_task:
+  name: "Linux Build (Ubuntu)"
+  only_if: $CIRRUS_BRANCH == "main"
+  
+  container:
+    image: python:3.11-slim
+    cpu: 4
+    memory: 8G
+  
+  timeout_in: 60m
+
+  # pip 缓存加速
+  pip_cache:
+    folder: ~/.cache/pip
+    fingerprint_script: echo "pyinstaller-5.13.2-linux"
+
+  setup_script:
+    - apt-get update -qq
+    - apt-get install -y --no-install-recommends git zip unzip curl libxkbcommon-x11-0 libgl1 libglib2.0-0 libegl1 libdbus-1-3 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 xvfb
+    - git config --global core.quotepath false
+
+  clone_source_script:
+    - git clone https://x-access-token:${RELEASE_PAT}@github.com/${SOURCE_REPO}.git src
+    - echo "Source cloned OK"
+
+  install_deps_script:
+    - pip install --upgrade pip --quiet
+    - pip install pyinstaller==5.13.2 tinyaes --quiet
+    # 安装三个版本的依赖（如有差异可分别安装）
+    - pip install -r src/基础版/requirements.txt --quiet || true
+    - pip install -r src/进阶版/requirements.txt --quiet || true
+    - pip install -r src/完全版/requirements.txt --quiet || true
+
+  build_basic_script:
+    - cd src/基础版
+    - xvfb-run --auto-servernum pyinstaller --clean "TG_Bulk_Sender_Linux.spec" 2>&1
+    - mkdir -p /artifacts
+    - cd dist && zip -r /artifacts/WhiteCat_TG_Assistant_Basic_Linux.zip WhiteCat_TG_Assistant_Basic/
+    - echo "Basic Linux done"
+
+  build_advanced_script:
+    - cd src/进阶版
+    - xvfb-run --auto-servernum pyinstaller --clean "TG_Bulk_Sender_Linux.spec" 2>&1
+    - cd dist && zip -r /artifacts/WhiteCat_TG_Assistant_Advanced_Linux.zip WhiteCat_TG_Assistant_Advanced/
+    - echo "Advanced Linux done"
+
+  build_complete_script:
+    - cd src/完全版
+    - xvfb-run --auto-servernum pyinstaller --clean "TG_Bulk_Sender_Linux.spec" 2>&1
+    - cd dist && zip -r /artifacts/WhiteCat_TG_Assistant_Complete_Linux.zip WhiteCat_TG_Assistant_Complete/
+    - echo "Complete Linux done"
+
+  upload_script:
+    - python3 src/ci/upload_to_release.py /artifacts RELEASE_PAT
+
+  binaries_artifacts:
+    path: /artifacts/*.zip
+
+# ---------------------------------------------------------------
+# macOS 构建任务
+# ---------------------------------------------------------------
+macos_build_task:
+  name: "macOS Build (Sonoma)"
+  only_if: $CIRRUS_BRANCH == "main"
+
+  macos_instance:
+    image: ghcr.io/cirruslabs/macos-sonoma-xcode:latest
+
+  timeout_in: 90m
+
+  pip_cache:
+    folder: ~/Library/Caches/pip
+    fingerprint_script: echo "pyinstaller-5.13.2-macos"
+
+  setup_script:
+    - python3 --version || brew install python@3.11
+    - git config --global core.quotepath false
+
+  clone_source_script:
+    - git clone https://x-access-token:${RELEASE_PAT}@github.com/${SOURCE_REPO}.git src
+    - echo "Source cloned OK"
+
+  install_deps_script:
+    - pip3 install --upgrade pip --quiet
+    - pip3 install pyinstaller==5.13.2 tinyaes --quiet
+    - pip3 install -r src/基础版/requirements.txt --quiet || true
+    - pip3 install -r src/进阶版/requirements.txt --quiet || true
+    - pip3 install -r src/完全版/requirements.txt --quiet || true
+
+  build_basic_script:
+    - cd src/基础版
+    - pyinstaller --clean "TG_Bulk_Sender_Mac.spec" 2>&1
+    - mkdir -p ~/artifacts
+    - cd dist && zip -r ~/artifacts/WhiteCat_TG_Assistant_Basic_macOS.zip WhiteCat_TG_Assistant_Basic/
+    - echo "Basic macOS done"
+
+  build_advanced_script:
+    - cd src/进阶版
+    - pyinstaller --clean "TG_Bulk_Sender_Mac.spec" 2>&1
+    - cd dist && zip -r ~/artifacts/WhiteCat_TG_Assistant_Advanced_macOS.zip WhiteCat_TG_Assistant_Advanced/
+    - echo "Advanced macOS done"
+
+  build_complete_script:
+    - cd src/完全版
+    - pyinstaller --clean "TG_Bulk_Sender_Mac.spec" 2>&1
+    - cd dist && zip -r ~/artifacts/WhiteCat_TG_Assistant_Complete_macOS.zip WhiteCat_TG_Assistant_Complete/
+    - echo "Complete macOS done"
+
+  upload_script:
+    - python3 src/ci/upload_to_release.py ~/artifacts RELEASE_PAT
+
+  binaries_artifacts:
+    path: ~/artifacts/*.zip
