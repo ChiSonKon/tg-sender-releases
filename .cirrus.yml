@@ -1,4 +1,3 @@
-# Last triggered: 2026-05-31 04:19
 # ==============================================================
 # 白猫工作室 TG群发助手 — Cirrus CI 跨平台构建
 # 仓库：tg-sender-releases（公开仓库，享受 Cirrus CI 免费额度）
@@ -10,7 +9,7 @@
 env:
   # 在 https://cirrus-ci.com/github/ChiSonKon/tg-sender-releases 配置
   # Settings -> Encrypted Variables -> 名称 RELEASE_PAT -> 值为你的 GitHub PAT
-  RELEASE_PAT: ENCRYPTED[请在Cirrus后台替换此值]
+  RELEASE_PAT: ENCRYPTED[5a97f48cb461770ccdb0f83ed78345c09752aaef8c59b9e1730126795e6b6f14cb4707206e360307d0a0f451da65af7d]
   SOURCE_REPO: ChiSonKon/tg-sender-studio
   RELEASES_REPO: ChiSonKon/tg-sender-releases
   PY_VERSION: "3.11"
