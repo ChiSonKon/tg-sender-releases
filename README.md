@@ -26,23 +26,19 @@
 
 ---
 
-## 📺 视频演示 (Video Demo)
+## 视频演示 📺
 
 <table>
 <thead>
 <tr>
-<th align="center">▶️ 币安官方群自动化运营演示 (40秒极速全模块版)</th>
-<th align="center">▶️ OKX官方群 AI智能社群互动演示 (实战细节版)</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《币安官方群自动化运营演示 (40秒极速全模块版)》</th>
+<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《OKX官方群 AI智能社群互动演示 (实战细节版)》</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">
-  <video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 400px; border-radius: 8px;" controls></video>
-</td>
-<td align="center">
-  <video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_AI_Demo.mp4" width="100%" style="max-width: 400px; border-radius: 8px;" controls></video>
-</td>
+<td align="center"><video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4"></video></td>
+<td align="center"><video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_AI_Demo.mp4"></video></td>
 </tr>
 </tbody>
 </table>
