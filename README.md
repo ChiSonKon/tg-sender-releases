@@ -1,136 +1,166 @@
 <p align="center">
-  <img src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/logo.png" width="120" height="120" alt="WhiteCat TG Bulk Assistant Logo" style="border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+  <img src="./docs/logo.png" width="120" height="120" alt="白猫工作室" />
 </p>
 
-<h1 align="center"> 白猫 TG群发与裂变营销控制台</h1>
+<h1 align="center">🐱 白猫 TG 社群运营助手</h1>
 
 <p align="center">
-  <strong>全网最顶尖的 Telegram 私域流量获客与自动化营销控制台</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Release" src="https://img.shields.io/github/v/release/ChiSonKon/tg-sender-releases?style=flat-square&color=007acc"></a>
-  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChiSonKon/tg-sender-releases/total?style=flat-square&color=22c55e"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-1677ff?style=flat-square">
-  <img alt="License" src="https://img.shields.io/badge/Auth-Licensed%20Only-d9383a?style=flat-square">
+  <strong>White Cat Studio — Telegram 多账号管理 · 矩阵风控 · AI 智能社群运营平台</strong>
 </p>
 
 <p align="center">
-  <a href="#-视频演示-video-demo">视频演示</a> ·
-  <a href="#-系统核心优势-why-us">核心优势</a> ·
-  <a href="#-功能模块-modules">功能模块</a> ·
-  <a href="#-极速下载-downloads">下载通道</a> ·
-  <a href="#-macos-首次运行指引">macOS解锁</a> ·
-  <a href="#-商务合作--授权激活">授权激活</a>
+  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Release" src="https://img.shields.io/github/v/release/ChiSonKon/tg-sender-releases?style=for-the-badge&color=blue"></a>
+  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChiSonKon/tg-sender-releases/total?style=for-the-badge&color=green"></a>
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20|%20Linux%20|%20macOS-blueviolet?style=for-the-badge">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="#-视频演示">视频演示</a> ·
+  <a href="#-功能亮点">功能亮点</a> ·
+  <a href="#-产品版本矩阵">版本对比</a> ·
+  <a href="#-下载安装">下载安装</a> ·
+  <a href="#-常见问题">常见问题</a> ·
+  <a href="#-联系我们">联系我们</a>
 </p>
 
 ---
 
-## 视频演示 📺
+## 📺 视频演示
 
-<table>
-<thead>
-<tr>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《币安官方群自动化运营演示 (40秒极速全模块版)》</th>
-<th align="center"><g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 《OKX官方群 AI智能社群互动演示 (实战细节版)》</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center"><video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4"></video></td>
-<td align="center"><video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_AI_Demo.mp4"></video></td>
-</tr>
-</tbody>
-</table>
+> ⏳ 视频演示即将上线，敬请期待！
+
 
 ---
 
-### 🎥 演示一视频 (Binance) 完整涵盖以下核心模块实操：
-* **[账号管理]**：账号资产盘点、在线账号监测、Session 集中导入导出、秒级批量连通状态检测。
-* **[统一群发/爆群]**：灵活选择发信账号、消息参数自定义、图文/附件编辑、转发模式及目标群组自动推送。
-* **[私信触达]**：面向已授权客户列表的安全私信广播。
-* **[高精度成员采集]**：秒级整理群成员公开数据（包含群ID、用户名、名字、姓氏、手机号、在线状态），支持导出 Excel。
-* **[资料批量修改]**：一键同步所有营销矩阵账号的头像、昵称、个人简介。
-* **[批量举报安全阀]**：对违规竞争对手进行安全隔离，输入目标链接即可多账号智能轮替批量举报。
-* **[养号暖号引擎]**：模拟真人轨迹自动加群、刷阅读量，提升新账号权重。
-* **[安全与格式转换]**：内置 Session ↔ TData 协议格式双向转换。
-* **[AI 智能炒群]**：导入项目背景/FAQ、设定上下文记忆层，多账号智能分配角色，按比例自动发言讨论。
+## ✨ 功能亮点
+
+- 🔑 **多账号统一管理** — Session 导入导出、在线检测、账号资产一目了然
+- 📢 **统一群发 & 私信群发** — 对自有群组/频道/用户列表进行消息触达，支持附件与转发模式
+- 👥 **成员采集** — 从目标群组采集公开成员信息，表格化查看与 CSV 导出
+- ✏️ **资料批量修改** — 批量更新账号昵称、头像、简介，保持运营一致性
+- 🛡️ **批量举报** — 两阶段智能规避策略，支持自定义举报原因与描述
+- 🌱 **养号暖号** — 批量加群、刷阅读量，自动化账号培育
+- 🤖 **AI 炒群引擎** — 导入项目背景 / FAQ，多角色拟真群聊，智能上下文感知回复
+- 🔄 **Session ↔ Tdata 转换** — 一键安全格式互转
+- 🤖 **SpamBot 智能申诉** — 全自动申诉被封账号
+- ⚡ **FloodWait 自愈** — 账号轮转 & 自动恢复，7×24 不间断运行
 
 ---
 
-## ⚡ 系统核心优势 (Why Us)
+## 📊 产品版本矩阵
 
-在 Telegram 流量营销生态中，传统的营销脚本往往面临 **“单账号效率极低”**、**“风控敏感极易封号”**、**“成员数据杂乱无法过滤”** 以及 **“功能单一无法形成流量闭环”** 等痛点。
-
-**白猫 TG 助手** 是一款革命性的、跨平台企业级 Telegram 裂变营销控制台。它不仅是一个群发工具，更是一个将 **多账号高并发管理**、**高精度成员采集**、**智能代理物理防封** 以及 **AI 智能炒群互动** 融为一体的终极营销利器。
-
-* **💎 账号矩阵生态**：集中管理数百个 Telegram 会话（Session），实时检测在线状态，多账号轮流自动切换，轻松承载百万级流量。
-* **🔥 高阶群发/爆群引擎**：支持向特定群组、频道或私信列表执行定时、定量的消息广播，内置智能延迟与防风控队列。
-* **👥 精准获客数据采集**：多线程极速采集任意公开群组的在线活跃成员，自动按发言活跃度与在线状态过滤，一键导出 Excel 报表。
-* **🧠 AI 仿真社群互动**：一键导入项目 FAQ 与定制人设背景，利用大语言模型让 AI 账号在目标群组中模拟真人自动活跃气氛、精准答疑。
-* **🔒 工业级安全防护**：核心采用 Cython 物理编译为 C 二进制链接库，外壳融入 AES-128-CTR 高强度字节码加密，杜绝二次破解。
-
----
-
-## 📂 功能模块 (Modules)
-
-| 🎯 模块名称 | ⚙️ 核心技术指标 / 功能详情 |
-| --- | --- |
-| **多账号矩阵管理** | 会话导入与集中连通状态核验、独立 IP 代理绑定、账号轮转保护机制 |
-| **群组统一群发** | 支持多媒体/图文/HTML格式，多账号轮流轰炸、自动消息退回重发保障 |
-| **精准私信触达** | 面向特定用户列表或导入的目标精准一对一通知，安全间隔调优 |
-| **高精度成员采集** | 过滤僵尸粉，精准筛选 1天/3天 内在线的真实活跃用户，多线程极速提取 |
-| **AI 仿真自动炒群** | 导入 FAQ、设定群内专业话术，AI 自动轮替扮演角色、引流炒作 |
-| **批量资料维护** | 集中修改所有营销账号的昵称、展示头像、个人简介，塑造统一商业形象 |
-| **全局代理管理** | 支持配置 SOCKS5 / HTTP 独享代理，实现一号一 IP，彻底隔绝关联封号 |
+| 功能模块 | 🟢 基础版 Basic | 🔵 进阶版 Advanced | 🟣 完全版 Complete |
+|:---|:---:|:---:|:---:|
+| **多账号批量管理** | ✅ | ✅ | ✅ |
+| **统一群发 & 私信群发** | ✅ | ✅ | ✅ |
+| **成员采集与导出** | ✅ | ✅ | ✅ |
+| **资料批量修改** (名称/简介/头像) | ✅ | ✅ | ✅ |
+| **独立代理 IP 分流** | ✅ | ✅ | ✅ |
+| **发送后自动撤回 (防留痕)** | ✅ | ✅ | ✅ |
+| **批量举报** (两阶段智能规避) | ❌ | ✅ | ✅ |
+| **养号暖号** (批量加群/刷阅读量) | ❌ | ✅ | ✅ |
+| **SpamBot 全自动智能申诉** | ❌ | ✅ | ✅ |
+| **Session ↔ Tdata 双向转换** | ❌ | ✅ | ✅ |
+| **AI 炒群大模型引擎** | ❌ | ❌ | ✅ |
+| **多角色拟真群聊扮演** | ❌ | ❌ | ✅ |
+| **智能上下文感知回复** | ❌ | ❌ | ✅ |
+| **真人打字速度模拟** | ❌ | ❌ | ✅ |
+| **账号轮转 & FloodWait 自愈** | ❌ | ❌ | ✅ |
 
 ---
 
-## 📦 极速下载 (Downloads)
+## 💻 下载安装
 
-> 🚀 **全平台已全面升级，请直接选择您所需的版本下载：**
+前往 [📥 Releases 页面](https://github.com/ChiSonKon/tg-sender-releases/releases) 下载最新版本。
 
-| 操作系统 (OS) | 🟢 基础版 (Basic) | 🔵 进阶版 (Advanced) | 🟣 完全版 (Complete) |
-|---|---|---|---|
-| 🪟 **Windows** | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_Windows.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_Windows.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_Windows.zip) |
-| 🍎 **macOS** *(全新)* | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_macOS.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_macOS.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_macOS.zip) |
-| 🐧 **Linux** *(全新)* | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_Linux.tar.gz) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_Linux.tar.gz) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_Linux.tar.gz) |
+| 平台 | 格式 | 说明 |
+|:---|:---|:---|
+| 🪟 **Windows** (x64) | 免安装绿色版 `.exe` 目录 | GUI 桌面 + FastAPI 控制台 |
+| 🐧 **Linux** (x64) | 原生 ELF 二进制 | FastAPI 无头服务 (Headless) |
+| 🍎 **macOS** (Apple Silicon / Intel) | `.app` 应用包 + `.zip` 分发 | GUI 桌面 + FastAPI 控制台 |
 
----
+### 快速开始
 
-## 🛠️ macOS 首次运行指引
+1. 从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载对应平台的压缩包
+2. 解压到任意目录，双击 `.exe`（Windows）或运行二进制文件启动
+3. 进入 **账号管理**，导入 Telegram Session 并确认连接
+4. 根据需要使用 **统一群发**、**成员采集** 或 **AI 社群互动** 模块
 
-由于 macOS 系统对非 App Store 签名的第三方软件实施了 Gatekeeper（门禁）安全校验，若您解压双击打开提示“**Apple 无法验证恶意软件**”，请复制并运行以下官方解锁指令：
-
-1. 打开 Mac 系统自带的 **“终端” (Terminal)**。
-2. 复制并输入以下解除隔离命令（**注意最后有一个空格**）：
-   ```bash
-   xattr -cr 
-   ```
-3. **把您解压出的整个 `WhiteCat_TG_Assistant_*` 文件夹拖入终端中**，回车执行。
-4. 继续复制并输入赋予执行权限命令（**最后也有空格**）：
-   ```bash
-   chmod +x 
-   ```
-5. **把文件夹内黑色图标的 `WhiteCat_TG_Assistant_*` 主程序拖入终端中**，回车执行即可。
+> ⚠️ **Windows 首次运行提示**：由于本软件没有购买代码签名证书，Windows SmartScreen 可能会弹出"Windows 已保护你的电脑"蓝色警告。这是正常现象，**点击「更多信息」→「仍要运行」** 即可正常使用。macOS 用户请在系统偏好设置 → 安全性中允许运行。
 
 ---
 
-## 🛠️ Windows 首次运行拦截/报毒提示解决方法 (必读)
+## 🔧 技术栈
 
-由于本系统进行了 **Cython 二进制机器码编译** 与 **AES-128-CTR 字节码高强加密** 保护（确保核心商业算法不被破解），且软件暂未购买昂贵的数字签名证书，Windows Defender 等安全中心在进行机器学习启发式安全扫描时会出现 **`DefenseEvasion` 误报拦截**（将高强加密壳特征误判为躲避检测特征）。此为**完全正常的安全误报，请放心使用**。
-
-**【两步添加排除项，永久解除拦截】**：
-1. 打开 Windows 自带的 **“Windows 安全中心”** -> 点击 **“病毒和威胁防护”**。
-2. 点击“病毒和威胁防护设置”下的 **“管理设置”**。
-3. 往下滚动到 **“排除项”** -> 点击 **“添加或删除排除项”**。
-4. 点击 **“添加排除项”** -> 选择 **“文件夹”**，然后选择您解压出来的整个 `WhiteCat_TG_Assistant_*` 文件夹即可。
+| Layer | Technology |
+|:---|:---|
+| **GUI Framework** | PyQt5 5.15+ (qasync event loop bridge) |
+| **Telegram Client** | Telethon 1.34+ (MTProto native) |
+| **API Console** | FastAPI + Uvicorn (async ASGI) |
+| **Session Security** | opentele (session ↔ tdata conversion) |
+| **AI Engine** | OpenAI / DeepSeek / 通义千问等多模型接入 |
+| **Packaging** | PyInstaller (cross-platform frozen builds) |
+| **CI/CD** | GitHub Actions (Linux + macOS 自动构建) |
 
 ---
 
-## 🔑 商务合作 & 授权激活
+## ❓ 常见问题
 
-白猫工作室坚持**极致的商业精神**与**卓越的客户服务**，为行业提供最硬核的私域营销技术支撑。
+<details>
+<summary><strong>支持哪些操作系统？</strong></summary>
 
-* **获取授权卡密、定制功能或咨询技术细节**，请联系我们的官方客服：
-  👉 **Telegram: [@oxbaimao](https://t.me/oxbaimao)**
+目前支持 Windows (x64)、Linux (x64) 和 macOS (Apple Silicon / Intel) 三大平台。Windows 版提供完整 GUI 界面，Linux 版支持无头部署（通过 FastAPI Swagger API 远程控制），macOS 版提供原生 GUI。
+</details>
+
+<details>
+<summary><strong>下载后无法运行 / Windows SmartScreen 拦截？</strong></summary>
+
+这是因为软件没有购买代码签名证书，Windows 会弹出蓝色安全警告。解决方法：**点击「更多信息」→「仍要运行」**。如果被杀毒软件误报，请添加到白名单。
+</details>
+
+<details>
+<summary><strong>AI 社群互动需要什么配置？</strong></summary>
+
+需要配置可用的 AI API（如 OpenAI、DeepSeek 等），并在软件内导入项目背景、FAQ 或群组记忆内容。建议先在测试群验证回复风格后再投入正式使用。
+</details>
+
+<details>
+<summary><strong>可以直接大规模发送吗？</strong></summary>
+
+不建议。请先用少量测试账号和自有测试群验证内容、间隔和账号状态，确认一切正常后再逐步扩大范围。所有触达都应基于合法授权目的。
+</details>
+
+<details>
+<summary><strong>如何选择版本？</strong></summary>
+
+- **基础版** — 适合只需要群发和账号管理的用户
+- **进阶版** — 需要养号、批量举报、格式转换等高阶功能
+- **完全版** — 需要 AI 炒群、多角色扮演等智能化运营
+</details>
+
+---
+
+## 📞 联系我们
+
+- 💬 Telegram: [t.me/oxbaimao](https://t.me/oxbaimao)
+- 📝 问题反馈: [GitHub Issues](https://github.com/ChiSonKon/tg-sender-releases/issues)
+
+---
+
+## ⚖️ 免责声明
+
+本工具仅用于合法、授权、合规的社群运营场景。使用者应自行确保：
+- 只向自有群组、频道或明确授权的用户发送消息
+- 不用于骚扰、刷屏、诈骗、钓鱼、虚假宣传或规避平台规则
+- 遵守 Telegram 服务条款及当地法律法规
+
+使用者需自行承担账号、数据和运营行为的相关风险。开发者不对任何违规或未授权使用行为负责。
+
+---
+
+<p align="center">
+  <strong>White Cat Studio</strong> · Engineered for Scale, Built for Stealth.
+  <br>
+  <sub>© 2024-2026 白猫工作室 All Rights Reserved.</sub>
+</p>
