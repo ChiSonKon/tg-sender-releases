@@ -31,7 +31,11 @@
 > 🚀 **百闻不如一见，点击下方直接在线观看白猫 TG 助手的硬核功能演示：**
 
 <p align="center">
-  <video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 850px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);" controls></video>
+  <video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 850px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);" controls></video>
+</p>
+
+<p align="center">
+  🎬 <a href="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4" target="_blank"><strong>[ 极速超清演示视频：点我直达新标签页流畅播放 ]</strong></a>
 </p>
 
 ---
