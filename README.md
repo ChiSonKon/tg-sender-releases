@@ -2,7 +2,7 @@
   <img src="./docs/logo.png" width="120" height="120" alt="白猫工作室" />
 </p>
 
-<h1 align="center"> 白猫 Telegram群发智能社群运营助手</h1>
+<h1 align="center">🐱 白猫 TG 社群运营助手</h1>
 
 <p align="center">
   <strong>White Cat Studio — Telegram 多账号管理 · 矩阵风控 · AI 智能社群运营平台</strong>
