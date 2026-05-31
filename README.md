@@ -41,8 +41,8 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><video src="https://github.com/user-attachments/assets/40a15874-2d27-4809-bc99-c31d990c888a"></video></td>
-<td align="center"><video src="https://github.com/user-attachments/assets/306a606f-11d3-4e2e-ae2c-6bcfe6cc2eed"></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/21fbcd23-70b9-4fe6-a4e8-162f9744e8a7"></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/0b868094-099e-4488-aeec-02616fc17060"></video></td>
 </tr>
 </tbody>
 </table>
