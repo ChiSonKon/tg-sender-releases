@@ -28,7 +28,9 @@
 
 ## 📺 视频演示 (Video Demo)
 
-> 🚀 **百闻不如一见，点击下方直接在线观看白猫 TG 助手的硬核功能演示：**
+> 🚀 
+
+**百闻不如一见，点击下方直接在线观看白猫 TG 助手的硬核功能演示：**
 
 <p align="center">
   <video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 850px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);" controls></video>
