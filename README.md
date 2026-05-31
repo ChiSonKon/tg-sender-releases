@@ -2,7 +2,7 @@
   <img src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/logo.png" width="120" height="120" alt="WhiteCat TG Bulk Assistant Logo" style="border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </p>
 
-<h1 align="center">🐱 白猫 TG群发与裂变营销控制台</h1>
+<h1 align="center"> 白猫 TG群发与裂变营销控制台</h1>
 
 <p align="center">
   <strong>全网最顶尖的 Telegram 私域流量获客与自动化营销控制台</strong>
