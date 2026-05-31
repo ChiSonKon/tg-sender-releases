@@ -28,23 +28,37 @@
 
 ## 📺 视频演示 (Video Demo)
 
-**百闻不如一见，点击下方直接在线观看白猫 TG 助手的硬核功能演示：**
+<table>
+<thead>
+<tr>
+<th align="center">▶️ 币安官方群自动化运营演示 (40秒极速全模块版)</th>
+<th align="center">▶️ OKX官方群 AI智能社群互动演示 (实战细节版)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+  <video src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 400px; border-radius: 8px;" controls></video>
+</td>
+<td align="center">
+  <video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_AI_Demo.mp4" width="100%" style="max-width: 400px; border-radius: 8px;" controls></video>
+</td>
+</tr>
+</tbody>
+</table>
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 🎥 演示一视频 (Binance) 完整涵盖以下核心模块实操：
+* **[账号管理]**：账号资产盘点、在线账号监测、Session 集中导入导出、秒级批量连通状态检测。
+* **[统一群发/爆群]**：灵活选择发信账号、消息参数自定义、图文/附件编辑、转发模式及目标群组自动推送。
+* **[私信触达]**：面向已授权客户列表的安全私信广播。
+* **[高精度成员采集]**：秒级整理群成员公开数据（包含群ID、用户名、名字、姓氏、手机号、在线状态），支持导出 Excel。
+* **[资料批量修改]**：一键同步所有营销矩阵账号的头像、昵称、个人简介。
+* **[批量举报安全阀]**：对违规竞争对手进行安全隔离，输入目标链接即可多账号智能轮替批量举报。
+* **[养号暖号引擎]**：模拟真人轨迹自动加群、刷阅读量，提升新账号权重。
+* **[安全与格式转换]**：内置 Session ↔ TData 协议格式双向转换。
+* **[AI 智能炒群]**：导入项目背景/FAQ、设定上下文记忆层，多账号智能分配角色，按比例自动发言讨论。
 
 ---
 
