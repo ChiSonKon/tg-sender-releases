@@ -28,7 +28,24 @@
 
 ## 📺 视频演示
 
-> ⏳ 视频演示即将上线，敬请期待！
+### 核心功能演示（币安 Binance 官方 TG 群实操）
+
+> 40 秒快速了解全部核心功能：账号管理、统一群发、成员采集、资料修改、批量举报、养号暖号、安全转换
+
+<table>
+<thead>
+<tr>
+<th align="center">▶️ 核心功能演示 · 币安官方群</th>
+<th align="center">▶️ AI 炒群演示 · OKX 官方群</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><video src="https://github.com/user-attachments/assets/40a15874-2d27-4809-bc99-c31d990c888a"></video></td>
+<td align="center"><video src="https://github.com/user-attachments/assets/306a606f-11d3-4e2e-ae2c-6bcfe6cc2eed"></video></td>
+</tr>
+</tbody>
+</table>
 
 
 ---
