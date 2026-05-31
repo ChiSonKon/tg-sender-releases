@@ -1,97 +1,102 @@
-# 🐱 WhiteCat TG Bulk Assistant (白猫工作室 Telegram 智能群发与裂变营销控制台)
+<p align="center">
+  <img src="https://github.com/ChiSonKon/tg-sender-releases/raw/main/docs/logo.png" width="120" height="120" alt="WhiteCat TG Bulk Assistant Logo" style="border-radius: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+</p>
 
-[![Version](https://img.shields.io/badge/Version-v1.0.0--stable-blue?style=for-the-badge&logo=telegram)](https://github.com/ChiSonKon/tg-sender-releases/releases)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](https://t.me/oxbaimao)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-brightgreen?style=for-the-badge&logo=windows)](https://github.com/ChiSonKon/tg-sender-releases/releases)
+<h1 align="center">🐱 白猫 TG群发与裂变营销控制台</h1>
 
-> **声明：** 本仓库为 **WhiteCat TG Bulk Assistant** 官方唯一发布与分发仓库。由于商业闭源保护，本仓库**仅托管已编译、经过 Cython 二进制加密及 PyInstaller 混淆保护的各平台分发包**，不包含产品源代码。下载安装包请直接前往 [Releases 页面](https://github.com/ChiSonKon/tg-sender-releases/releases)。
+<p align="center">
+  <strong>全网最顶尖的 Telegram 私域流量获客与自动化营销控制台</strong>
+</p>
 
----
+<p align="center">
+  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Release" src="https://img.shields.io/github/v/release/ChiSonKon/tg-sender-releases?style=flat-square&color=007acc"></a>
+  <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChiSonKon/tg-sender-releases/total?style=flat-square&color=22c55e"></a>
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-1677ff?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/Auth-Licensed%20Only-d9383a?style=flat-square">
+</p>
 
-## ⚡ 为什么选择 WhiteCat TG Bulk Assistant？
-
-在 Telegram 营销生态中，传统的群发工具往往面临 **“单账号效率低”、“极易被判定滥用封号”、“群组管理员秒删秒踢”** 以及 **“功能单一无法形成闭环”** 等痛点。
-
-**WhiteCat TG Bulk Assistant** 是一款革命性的、跨平台企业级 Telegram 营销与裂变自动化控制台。它不仅是一个群发工具，更是一个将 **多账号高并发管理、高精度成员采集、物理防封、防删撤回、安全格式转换以及 AI 智能炒群** 融为一体的终极营销武器。
-
-```
-                    ┌──────────────────────────────┐
-                    │  WhiteCat TG Bulk Assistant  │
-                    └──────────────┬───────────────┘
-                                   │
-         ┌─────────────────────────┼─────────────────────────┐
-         ▼                         ▼                         ▼
-   【高并发群发矩阵】         【防风控防删黑科技】       【精准引流与智能化】
-   - 多账号高并发连接         - 自动假消息替换机制       - 目标群组成员高精采集
-   - 独立代理绑定(SOCKS5)     - 自动消息延时撤回防留底   - 养号/暖号/模拟浏览
-   - 文本/HTML/图片/文件      - Session/TData格式互转   - AI 自动智能对话炒群
-```
+<p align="center">
+  <a href="#-视频演示-video-demo">视频演示</a> ·
+  <a href="#-系统核心优势-why-us">核心优势</a> ·
+  <a href="#-功能模块-modules">功能模块</a> ·
+  <a href="#-极速下载-downloads">下载通道</a> ·
+  <a href="#-macos-首次运行指引">macOS解锁</a> ·
+  <a href="#-商务合作--授权激活">授权激活</a>
+</p>
 
 ---
 
-## 🔥 核心震撼功能清单
+## 📺 视频演示 (Video Demo)
 
-### 1️⃣ 企业级多账号并发矩阵
-*   **无限账号载入**：支持同时导入、连接、管理成百上千个 Telegram 账号（支持 `.session` 及 `TData` 格式）。
-*   **独立代理绑定 (SOCKS5)**：每个账号均可绑定独立的代理 IP，支持批量自动轮询与分流，彻底规避因 IP 关联导致的成批封号。
-*   **可视化在线看板**：实时监控每一个账号的在线/离线/风控状态。
+> 🚀 **百闻不如一见，点击下方直接在线观看白猫 TG 助手的硬核功能演示：**
 
-### 2️⃣ 物理防封与防踢黑科技
-*   **假消息替换 (Fake Message Replacement)**：发送广告消息后，可自动将其替换为正常的问候或空白消息，规避群组内监测机器人的关键词自动封号。
-*   **定时自动撤回 (Auto Recall)**：发送消息后，在设定的几秒或几分钟内自动物理撤回，既保证了曝光率，又让群管理员无法留底举报。
-*   **高精度智能延时**：内置防指纹延时算法，模拟真人打字与发送间隔，强力对抗 Telegram 官方的风控机制。
-
-### 3️⃣ 高精度成员采集与精准提取
-*   **一键导出 CSV**：输入目标公开或私有群组链接，秒级提取出所有成员信息（用户名、ID、姓名、最后在线时间）。
-*   **活跃度筛选**：支持按“最近在线时间”过滤，只提取最近 24 小时或 3 天内活跃的真实用户，杜绝僵尸号。
-
-### 4️⃣ 安全与格式转换中心
-*   **TData ↔ Session 双向无损转换**：市面上首款完美兼容两端格式的转换工具。无需重新登录，即可将买来的 TData 格式账号转为 API 专用的 Session，或反向生成可在电脑端直接打开的 TData，保护您的账号资产。
-
-### 5️⃣ AI 炒群与养号暖号
-*   **AI 智能对话联动**：基于 AI 的群聊模拟，多账号在群内自动进行上下文关联的真实对话聊天，快速炒热群组氛围。
-*   **自动养号暖号**：模拟真人自动加入目标群组、浏览消息、点击按钮，极大提升新号的账号权重与抗封等级。
+<p align="center">
+  <video src="https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Demo.mp4" width="100%" style="max-width: 850px; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.2);" controls></video>
+</p>
 
 ---
 
-## 📊 三大版本功能对比矩阵
+## ⚡ 系统核心优势 (Why Us)
 
-| 功能模块 | 基础版 (Basic) | 进阶版 (Advanced) | 完全版 (Complete) |
-| :--- | :---: | :---: | :---: |
-| **多账号管理与 Session 导入** | ✅ | ✅ | ✅ |
-| **独立代理绑定与状态看板** | ✅ | ✅ | ✅ |
-| **统一群发 (群组/私信/对话)** | ✅ | ✅ | ✅ |
-| **高精成员采集 (导出 CSV)** | ✅ | ✅ | ✅ |
-| **账号资料批量修改** | ✅ | ✅ | ✅ |
-| **物理防封 (假消息替换/自动撤回)**| ✅ | ✅ | ✅ |
-| **批量自动举报 (商业对抗)** | ❌ | ✅ | ✅ |
-| **养号暖号机制 (加入/浏览)** | ❌ | ✅ | ✅ |
-| **TData / Session 格式安全互转**| ❌ | ✅ | ✅ |
-| **AI 智能炒群联动** | ❌ | ❌ | ✅ |
-| **多线程并发速度上限** | 中等 | 高 | 无限制 |
-| **安全防护级别** | 标准加密 | 高级二进制加密 | 高级二进制加密 |
+在 Telegram 流量营销生态中，传统的营销脚本往往面临 **“单账号效率极低”**、**“风控敏感极易封号”**、**“成员数据杂乱无法过滤”** 以及 **“功能单一无法形成流量闭环”** 等痛点。
+
+**白猫 TG 助手** 是一款革命性的、跨平台企业级 Telegram 裂变营销控制台。它不仅是一个群发工具，更是一个将 **多账号高并发管理**、**高精度成员采集**、**智能代理物理防封** 以及 **AI 智能炒群互动** 融为一体的终极营销利器。
+
+* **💎 账号矩阵生态**：集中管理数百个 Telegram 会话（Session），实时检测在线状态，多账号轮流自动切换，轻松承载百万级流量。
+* **🔥 高阶群发/爆群引擎**：支持向特定群组、频道或私信列表执行定时、定量的消息广播，内置智能延迟与防风控队列。
+* **👥 精准获客数据采集**：多线程极速采集任意公开群组的在线活跃成员，自动按发言活跃度与在线状态过滤，一键导出 Excel 报表。
+* **🧠 AI 仿真社群互动**：一键导入项目 FAQ 与定制人设背景，利用大语言模型让 AI 账号在目标群组中模拟真人自动活跃气氛、精准答疑。
+* **🔒 工业级安全防护**：核心采用 Cython 物理编译为 C 二进制链接库，外壳融入 AES-128-CTR 高强度字节码加密，杜绝二次破解。
 
 ---
 
-## 📥 安装与下载指引
+## 📂 功能模块 (Modules)
 
-1. 前往本仓库的 [Releases 页面](https://github.com/ChiSonKon/tg-sender-releases/releases) 下载适合您操作系统的最新版压缩包：
-   * **Windows 平台**：`WhiteCat_TG_Assistant_XXX_Windows.zip` (解压双击即可运行)
-   - **Linux 平台**：`WhiteCat_TG_Assistant_XXX_Linux.tar.gz`
-   - **macOS 平台**：`WhiteCat_TG_Assistant_XXX_Mac.zip`
-2. 解压下载的压缩包。
-3. 双击 `WhiteCat_TG_Assistant.exe`（Windows）或执行对应启动程序，软件将自动启动。
+| 🎯 模块名称 | ⚙️ 核心技术指标 / 功能详情 |
+| --- | --- |
+| **多账号矩阵管理** | 会话导入与集中连通状态核验、独立 IP 代理绑定、账号轮转保护机制 |
+| **群组统一群发** | 支持多媒体/图文/HTML格式，多账号轮流轰炸、自动消息退回重发保障 |
+| **精准私信触达** | 面向特定用户列表或导入的目标精准一对一通知，安全间隔调优 |
+| **高精度成员采集** | 过滤僵尸粉，精准筛选 1天/3天 内在线的真实活跃用户，多线程极速提取 |
+| **AI 仿真自动炒群** | 导入 FAQ、设定群内专业话术，AI 自动轮替扮演角色、引流炒作 |
+| **批量资料维护** | 集中修改所有营销账号的昵称、展示头像、个人简介，塑造统一商业形象 |
+| **全局代理管理** | 支持配置 SOCKS5 / HTTP 独享代理，实现一号一 IP，彻底隔绝关联封号 |
 
 ---
 
-## 🔑 激活与授权购买
+## 📦 极速下载 (Downloads)
 
-本软件启动时会根据您本地的硬件配置（CPU、主板 UUID）生成唯一的 **本地机器码（一机一码绑定）**。
+> 🚀 **全平台已全面升级，请直接选择您所需的版本下载：**
 
-请复制软件启动弹窗中的“机器码”，联系官方客服获取专属激活卡密。
+| 操作系统 (OS) | 🟢 基础版 (Basic) | 🔵 进阶版 (Advanced) | 🟣 完全版 (Complete) |
+|---|---|---|---|
+| 🪟 **Windows** | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_Windows.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_Windows.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_Windows.zip) |
+| 🍎 **macOS** *(全新)* | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_macOS.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_macOS.zip) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_macOS.zip) |
+| 🐧 **Linux** *(全新)* | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Basic_Linux.tar.gz) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Advanced_Linux.tar.gz) | [💾 立即下载](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v20260531/WhiteCat_TG_Assistant_Complete_Linux.tar.gz) |
 
-### 💬 唯一官方联络通道
-*   **Telegram 官方客服**: [https://t.me/oxbaimao](https://t.me/oxbaimao)
-*   **官方 Telegram Channel**: [@oxbaimao_channel](https://t.me/oxbaimao) (关注频道获取软件更新与营销技巧)
+---
 
-> **⚠️ 注意：** 官方客服绝对不会主动私聊您，请认准唯一用户名 `@oxbaimao`，谨防上当受骗！
+## 🛠️ macOS 首次运行指引
+
+由于 macOS 系统对非 App Store 签名的第三方软件实施了 Gatekeeper（门禁）安全校验，若您解压双击打开提示“**Apple 无法验证恶意软件**”，请复制并运行以下官方解锁指令：
+
+1. 打开 Mac 系统自带的 **“终端” (Terminal)**。
+2. 复制并输入以下解除隔离命令（**注意最后有一个空格**）：
+   ```bash
+   xattr -cr 
+   ```
+3. **把您解压出的整个 `WhiteCat_TG_Assistant_*` 文件夹拖入终端中**，回车执行。
+4. 继续复制并输入赋予执行权限命令（**最后也有空格**）：
+   ```bash
+   chmod +x 
+   ```
+5. **把文件夹内黑色图标的 `WhiteCat_TG_Assistant_*` 主程序拖入终端中**，回车执行即可。
+
+---
+
+## 🔑 商务合作 & 授权激活
+
+白猫工作室坚持**极致的商业精神**与**卓越的客户服务**，为行业提供最硬核的私域营销技术支撑。
+
+* **获取授权卡密、定制功能或咨询技术细节**，请联系我们的官方客服：
+  👉 **Telegram: [@oxbaimao](https://t.me/oxbaimao)**
