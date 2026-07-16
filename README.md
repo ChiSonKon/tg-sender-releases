@@ -70,7 +70,6 @@
 
 ### Windows 与 macOS 发布质量
 
-- Windows EXE 已恢复白猫品牌多尺寸图标。
 - macOS 分别在 Apple Silicon 与 Intel Runner 上原生构建，不使用 Windows 伪交叉编译包。
 - 两种 Mac 包均已通过自动测试、CPU 架构检查、签名检查和实际启动冒烟测试。
 
