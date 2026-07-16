@@ -35,15 +35,36 @@
 | macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-arm64.zip) |
 | macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-x86_64.zip) |
 
-### SHA-256 校验值
 
-| 文件 | SHA-256 |
-| --- | --- |
-| `WhiteCat-TG-Assistant-Commercial-v2.1-Windows.zip` | `81C29FFAFF5DCDFD586BE44ECF56DD587C2AFD30864D97B2E564D4D12D711EC3` |
-| `WhiteCat-TG-Assistant-Commercial-v2.1-macOS-arm64.zip` | `B06C7EFBD3630A0742770320DB0C9EC9BB82BAD607F7D1EBCD2EF69436E30B35` |
-| `WhiteCat-TG-Assistant-Commercial-v2.1-macOS-x86_64.zip` | `EE5E49264B57EE19B7C543DACF5BAD7CC5973DFFCCD5FB75570BDDEC846F86D9` |
-
-每个压缩包的校验文件也已附在 Release 中。Windows 可使用 `Get-FileHash`，macOS 可使用 `shasum -a 256` 复核下载文件。
+├─ 🤖 AI 社群运营
+│  ├─ 同时运营多个群组
+│  ├─ 每群独立记忆，不串内容
+│  └─ 克隆学习公开或授权群组资料
+│
+├─ 👤 访客机器人
+│  ├─ 无需加入每个目标群
+│  ├─ 自动回复客户咨询
+│  └─ 关键词触发与持续跟进
+│
+├─ 📡 多账号矩阵
+│  ├─ Session 批量管理
+│  ├─ 独立代理与状态检测
+│  └─ 关闭重启后账号仍然保留
+│
+├─ 📢 消息与获客
+│  ├─ 统一群发、私信群发
+│  ├─ 成员采集、线索监测
+│  └─ 频道克隆、内容迁移
+│
+├─ 💰 频道广告运营
+│  ├─ 广告展示与收益辅助
+│  ├─ 风险广告巡检
+│  └─ 收益数据观察
+│
+└─ 💻 多平台支持
+   ├─ Windows 10 / 11
+   ├─ macOS Intel
+   └─ Apple M1 / M2 / M3 / M4  
 
 ## v2.1 重点升级
 
