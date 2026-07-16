@@ -35,7 +35,11 @@
 | macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-arm64.zip) |
 | macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-x86_64.zip) |
 
+### 功能一览
 
+```text
+白猫 TG 自动获客助手｜商业版
+│
 ├─ 🤖 AI 社群运营
 │  ├─ 同时运营多个群组
 │  ├─ 每群独立记忆，不串内容
@@ -64,7 +68,8 @@
 └─ 💻 多平台支持
    ├─ Windows 10 / 11
    ├─ macOS Intel
-   └─ Apple M1 / M2 / M3 / M4  
+   └─ Apple M1 / M2 / M3 / M4
+```
 
 ## v2.1 重点升级
 
