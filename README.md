@@ -5,7 +5,7 @@
 <h1 align="center">白猫工作室 TG 自动获客助手 · 商业版</h1>
 
 <p align="center">
-  <strong>多账号管理、消息运营、线索处理与 AI 社群互动的一体化桌面工具</strong>
+  <strong>多账号管理、消息运营、线索采集与 AI 社群互动的一体化桌面工具</strong>
 </p>
 
 <p align="center">
@@ -14,115 +14,92 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
-<p align="center">
-  <a href="#下载-v21">下载</a> ·
-  <a href="#v21-重点升级">重点升级</a> ·
-  <a href="#功能模块">功能模块</a> ·
-  <a href="#安装与升级">安装升级</a> ·
-  <a href="#常见问题">常见问题</a> ·
-  <a href="#联系与反馈">联系反馈</a>
-</p>
+> 当前版本：**商业版 v2.3**。本仓库用于产品介绍、安装包发布和问题反馈，不公开商业版源代码。
 
-> 当前稳定版：**v2.1（2026-07-16）**。本仓库只用于产品介绍、安装包发布和问题反馈，不公开商业版源代码。
+## 私信群发与富文本演示
 
-## 下载 v2.1
+https://github.com/user-attachments/assets/d2d45e1f-58b2-499d-973b-a31c802ab19f
 
-请只从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载。旧版的 Basic、Advanced、Complete 与旧 Linux/macOS 包已停止维护，不建议继续使用。
+## AI 炒群与群组群发演示
+
+https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
+
+## 当前版本下载
+
+请从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载与设备匹配的版本。
 
 | 系统 | 适用设备 | 下载 |
 | --- | --- | --- |
-| Windows x64 | Windows 10 / 11 | [下载 Windows v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-Windows.zip) |
-| macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-arm64.zip) |
-| macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel v2.1](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.1-macOS-x86_64.zip) |
+| Windows x64 | Windows 10 / 11 | [下载 Windows](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.3-Windows.zip) |
+| macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.3-macOS-arm64.zip) |
+| macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v2.3-macOS-x86_64.zip) |
 
-### 功能一览
+## 本次新增
 
-```text
-白猫 TG 自动获客助手｜商业版
-│
-├─ 🤖 AI 社群运营
-│  ├─ 同时运营多个群组
-│  ├─ 每群独立记忆，不串内容
-│  └─ 克隆学习公开或授权群组资料
-│
-├─ 👤 访客机器人
-│  ├─ 无需加入每个目标群
-│  ├─ 自动回复客户咨询
-│  └─ 关键词触发与持续跟进
-│
-├─ 📡 多账号矩阵
-│  ├─ Session 批量管理
-│  ├─ 独立代理与状态检测
-│  └─ 关闭重启后账号仍然保留
-│
-├─ 📢 消息与获客
-│  ├─ 统一群发、私信群发
-│  ├─ 成员采集、线索监测
-│  └─ 频道克隆、内容迁移
-│
-├─ 💰 频道广告运营
-│  ├─ 广告展示与收益辅助
-│  ├─ 风险广告巡检
-│  └─ 收益数据观察
-│
-└─ 💻 多平台支持
-   ├─ Windows 10 / 11
-   ├─ macOS Intel
-   └─ Apple M1 / M2 / M3 / M4
-```
+### 场景贴纸库
 
-## v2.1 重点升级
+- 可按业务场景整理和调用贴纸素材。
+- 支持关键词匹配与目标群组策略，社群互动更自然。
+- 贴纸规则可与 AI 回复流程配合使用。
 
-### Session 重启后稳定保留
+### 最近发言人采集
 
-- Session、配置、数据库和日志改为保存在系统用户数据目录，不再依赖程序解压位置。
-- 启动时先读取本地 Session，再后台检查连接；断网或代理异常时账号仍会显示为“待连接”。
-- 导入、导出采用 SQLite 一致性快照，降低直接复制数据库时的损坏风险。
-- 支持从旧版目录迁移 Session；迁移只复制、不删除、不覆盖已有文件。
+- 可按最近活跃情况采集群组发言人。
+- 减少对长期不活跃成员的无效触达。
+- 采集结果可继续用于筛选、导出和后续任务。
 
-### 更适合笔记本的界面
+### 富文本与可点击超链接
 
-- 最低窗口尺寸降至 **880 × 560**。
-- 功能侧栏支持搜索、折叠，并在窄屏自动进入紧凑模式。
-- 运行日志可收起；密集页面支持滚动；账号列表会在窄屏隐藏次要字段。
+- 私信群发和群组群发支持富文本内容。
+- 支持可点击超链接，并保留常用文本样式。
+- 发送前可检查内容与链接效果，降低格式错误。
 
-### AI 炒群支持多群并发
+## 重点优化
 
-- 单个任务可同时运行最多 **20 个群组或频道**。
-- 每个目标独立维护上下文、记忆和任务状态，不会串群。
-- AI 请求并发可设置为 **1～10 路**；同一 Telegram 账号的发送操作会自动串行保护。
-- 多群任务表分别展示每个目标的状态、成功数与错误数。
-- 点击停止后，不再投递已生成但尚未发送的内容。
+### AI 社群互动
 
-### Windows 与 macOS 发布质量
+- 优化话题切换逻辑，减少连续回复中的内容重复。
+- 增加回复概率与引用概率控制，使互动节奏更接近真实社群。
+- 改进角色、目标群组与上下文管理，降低不同任务之间的内容干扰。
 
-- macOS 分别在 Apple Silicon 与 Intel Runner 上原生构建，不使用 Windows 伪交叉编译包。
-- 两种 Mac 包均已通过自动测试、CPU 架构检查、签名检查和实际启动冒烟测试。
+### 数据克隆反馈
 
-## 功能模块
+- 增强克隆过程的状态、进度与结果反馈。
+- 对失败原因提供更明确的提示，便于调整来源和任务配置。
 
-商业版目前提供以下桌面模块；最终可用范围以账号授权为准。
+### 代理验证与账号管理
 
-| 分类 | 模块与能力 |
+- 优化代理格式识别、连通性验证和状态提示。
+- 增强账号与代理绑定逻辑，降低配置错误。
+- 网络异常时保留账号信息，恢复连接后可重新检测。
+
+### 暖号并发
+
+- 优化多账号暖号任务的并发控制与运行状态展示。
+- 同一账号的发送操作采用顺序保护，减少并发冲突。
+- 停止任务时更及时地终止待发送内容。
+
+## 核心功能
+
+| 分类 | 功能 |
 | --- | --- |
-| 账号与环境 | 多账号管理、Session 导入导出、在线状态检查、账号资料修改、代理管理、安全与格式转换 |
-| 消息与触达 | 统一群发、私信群发、附件与转发、成员采集、获授权成员邀请 |
-| 社群自动化 | 养号暖号、私信自动回复、访客机器人、频道内容迁移、广告点击任务 |
-| AI 与线索 | AI 社群互动、多角色与上下文记忆、多群并发、社群线索监测与处理 |
-| 运营与治理 | 任务进度、逐目标统计、运行日志、内容与账号举报工具 |
-
-所有自动化任务都应先在自有测试账号和自有群组中验证。请勿将成员采集、邀请、发送或举报功能用于未经授权的对象。
+| 账号与环境 | 多账号管理、Session 导入导出、在线检测、资料修改、代理管理 |
+| 消息与触达 | 私信群发、群组群发、富文本、超链接、附件、转发 |
+| 成员与线索 | 成员采集、最近发言人采集、社群线索监测与处理 |
+| AI 社群运营 | 多群并发、独立上下文、角色策略、贴纸场景、回复与引用控制 |
+| 社群自动化 | 暖号养号、自动回复、访客机器人、频道内容迁移 |
+| 任务管理 | 逐目标进度、成功与失败统计、运行日志、任务停止控制 |
 
 ## 安装与升级
 
-### Windows 10 / 11
+### Windows
 
-1. 下载并解压 Windows ZIP 到一个**全新文件夹**。
-2. 双击目录中的商业版 EXE。
-3. 如 SmartScreen 提示未知发布者，请核对 SHA-256 后选择“更多信息”→“仍要运行”。
-4. 进入“账号管理”，导入 Session 或使用“迁移旧 Session”。
+1. 下载 Windows ZIP 并解压到一个全新文件夹。
+2. 双击 `TG自动获客助手_商业版_v2.3.exe`。
+3. 首次运行后进入账号管理，导入 Session 或迁移现有数据。
+4. 如果 SmartScreen 提示未知发布者，请先核对 SHA-256，再选择“更多信息”→“仍要运行”。
 
-Windows 客户数据固定保存在：
+Windows 数据目录：
 
 ```text
 %LOCALAPPDATA%\WhiteCat\TG自动获客助手\
@@ -132,20 +109,18 @@ Windows 客户数据固定保存在：
 └── 日志\
 ```
 
-### macOS 11 或更高版本
+### macOS
 
-1. 点击左上角  →“关于本机”，确认处理器类型。
-2. M1/M2/M3/M4 下载 `arm64`；Intel Mac 下载 `x86_64`。
-3. 解压 ZIP，将 `.app` 拖入“应用程序”文件夹。
-4. 首次启动时，在 Finder 中右键应用并选择“打开”。
-
-当前 v2.1 Mac 包已完成临时签名，但尚未使用 Apple Developer ID 公证。如果系统仍阻止启动，请先核对 SHA-256，然后在终端执行：
+1. 在“关于本机”中确认处理器类型：Apple 芯片下载 `arm64`，Intel Mac 下载 `x86_64`。
+2. 解压 ZIP，将应用拖入“应用程序”文件夹。
+3. 当前安装包采用临时签名，未完成 Apple 公证；首次启动请在 Finder 中右键应用并选择“打开”。
+4. 如系统仍阻止启动，请核对 SHA-256 后再执行：
 
 ```bash
 xattr -dr com.apple.quarantine "/Applications/TG自动获客助手_商业版.app"
 ```
 
-macOS 客户数据固定保存在：
+macOS 数据目录：
 
 ```text
 ~/Library/Application Support/WhiteCat/TG自动获客助手/
@@ -155,44 +130,32 @@ macOS 客户数据固定保存在：
 └── 日志/
 ```
 
-后续配置 Apple Developer ID 后，将提供正式签名和 Apple 公证版本，减少 Gatekeeper 首次运行提示。
+### 升级与数据继承
 
-### 从旧版安全升级
+1. 停止正在运行的任务并关闭软件。
+2. 备份当前数据目录和 Session。
+3. 将 v2.3 解压到全新目录，不要覆盖当前安装目录。
+4. 启动 v2.3 后导入 Session 或使用数据迁移功能。
+5. 先用少量账号和测试群验证代理、发送格式与任务配置，再恢复正式任务。
 
-1. 先停止任务并关闭旧版，确认 Session 已写盘。
-2. 保留旧版整个目录作为回退备份。
-3. 将 v2.1 解压到新文件夹，**不要覆盖旧版**。
-4. Windows 用户可在“账号管理”点击“迁移旧 Session”并选择旧版根目录。
-5. 先使用少量账号与测试群验证，再逐步恢复正式任务。
-
-v2.1 的数据目录与旧版发布目录相互隔离；迁移不会删除旧 Session，需要回退时可直接关闭 v2.1 后运行旧版。
-
-## AI 多群并发快速配置
-
-1. 在 AI 炒群页面选择可用账号。
-2. 在目标输入框中用逗号或分号填写多个群组/频道，最多 20 个。
-3. 为项目配置背景、FAQ、角色与互动规则。
-4. 根据 AI 接口额度设置 1～10 的并发上限；首次建议从 1～2 开始。
-5. 启动后在“多群任务”表观察各目标状态、成功数和错误信息。
-
-建议不同群组使用清晰、真实且不误导用户的互动规则，并遵守群组管理员要求。
+迁移采用复制方式，不会主动删除原数据。需要回退时，请先关闭 v2.3，再使用备份数据恢复。
 
 ## 常见问题
 
 <details>
-<summary><strong>为什么重新启动后账号显示“待连接”？</strong></summary>
+<summary><strong>为什么重启后账号显示“待连接”？</strong></summary>
 
-v2.1 会先展示本地 Session，再后台连接 Telegram。网络、代理或 Telegram 暂时不可用时，账号不会从列表消失，而是显示为待连接；恢复网络后可重新检测。
+软件会先读取本地 Session，再后台连接 Telegram。网络或代理暂时不可用时，账号仍会保留在列表中；恢复连接后可重新检测。
 </details>
 
 <details>
-<summary><strong>为什么不能直接覆盖旧版文件夹？</strong></summary>
+<summary><strong>如何确认富文本和链接发送正确？</strong></summary>
 
-新旧版本的数据位置和部分配置结构不同。解压到新文件夹并通过迁移功能导入 Session，既便于验证，也能随时回退。
+建议先向自有测试账号或测试群发送，确认加粗、链接和换行效果后，再逐步扩大任务范围。
 </details>
 
 <details>
-<summary><strong>我的 Mac 应该下载哪个版本？</strong></summary>
+<summary><strong>Apple 芯片和 Intel Mac 应该如何选择？</strong></summary>
 
 M1、M2、M3、M4 等 Apple 芯片下载 `arm64`；“关于本机”显示 Intel 的设备下载 `x86_64`。
 </details>
@@ -200,19 +163,13 @@ M1、M2、M3、M4 等 Apple 芯片下载 `arm64`；“关于本机”显示 Inte
 <details>
 <summary><strong>为什么 macOS 提示无法验证开发者？</strong></summary>
 
-当前包是临时签名、尚未 Apple 公证的首发测试版本。请只从本仓库下载、核对 SHA-256，然后使用 Finder 右键“打开”；仍被阻止时再使用上方 `xattr` 命令。
+当前安装包采用临时签名，未完成 Apple 公证。请只从本仓库下载、核对 SHA-256，并使用 Finder 右键“打开”。
 </details>
 
 <details>
-<summary><strong>AI 炒群是否需要单独的 API？</strong></summary>
+<summary><strong>AI 社群互动是否需要单独配置接口？</strong></summary>
 
-需要在软件中配置可用的 AI API。建议先使用测试群校验提示词、回复风格、额度和并发设置，再用于正式运营。
-</details>
-
-<details>
-<summary><strong>是否支持 Linux？</strong></summary>
-
-当前商业版 v2.1 只发布 Windows 与 macOS。旧 Linux 包已停止维护，不应作为当前版本使用。
+需要在软件中配置可用的 AI API。建议先在测试群验证回复风格、话题切换、额度和并发设置。
 </details>
 
 ## 联系与反馈
