@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 | macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v3.2-macOS-arm64.zip) |
 | macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v3.2-macOS-x86_64.zip) |
 
-> 🔧 **2026-08-14 更新**：Windows 包已重新构建，修复「授权到期 / 后台封禁需重启软件才生效」的问题（运行期每 5 分钟自动复查，到期或封禁后最迟 5 分钟自动退出）。下载链接不变。
+> 🔧 **2026-08-14 更新**：Windows、macOS（Apple Silicon / Intel）三平台包已重新构建，修复「授权到期 / 后台封禁需重启软件才生效」的问题（运行期每 5 分钟自动复查，到期或封禁后最迟 5 分钟自动退出）。下载链接不变。
 
 ## 本次新增
 
