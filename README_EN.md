@@ -44,7 +44,7 @@ Please download the latest WhiteCat Telegram Assistant Commercial Edition (v4.0)
 Once configured, instruct your AI Agent in natural language to orchestrate Telegram accounts and execute real campaigns:
 
 <p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP Service and Agent Dispatch Demo" width="95%" />
+  <img src="./docs/mcp_agent_demo_v4.png" alt="MCP Service and Agent Dispatch Demo" width="95%" />
 </p>
 
 ### 🧩 Automated Join Verification (Captcha) AI Solving Flow
@@ -52,7 +52,7 @@ Once configured, instruct your AI Agent in natural language to orchestrate Teleg
 When accounts join groups with anti-bot verification (`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot`, etc.), the engine captures challenges, evaluates math problems, clicks inline buttons, and lifts mutes automatically:
 
 <p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="Group Join Captcha Auto-Solving Sequence Diagram" width="95%" />
+  <img src="./docs/mcp_captcha_flow_v4.png" alt="Group Join Captcha Auto-Solving Sequence Diagram" width="95%" />
 </p>
 
 ---

@@ -44,7 +44,7 @@ GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最
 設定後、AI エージェントに自然言語で指示するだけで、自動でアカウントを切り替えて配信を実行します。
 
 <p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP サービスとエージェント連携画面" width="95%" />
+  <img src="./docs/mcp_agent_demo_v4.png" alt="MCP サービスとエージェント連携画面" width="95%" />
 </p>
 
 ### 🧩 グループ参加時ロボット認証（Captcha）の自動解除フロー
@@ -52,7 +52,7 @@ GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最
 Bot認証（`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot` 等）が有効なグループに参加した場合も、システムが即座に算術問題を計算し、インラインボタンを押してミュートを自動解除します。
 
 <p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="参加認証自動解除シーケンス図" width="95%" />
+  <img src="./docs/mcp_captcha_flow_v4.png" alt="参加認証自動解除シーケンス図" width="95%" />
 </p>
 
 ---

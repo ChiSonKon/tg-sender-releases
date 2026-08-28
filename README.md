@@ -44,7 +44,7 @@
 配置完成后，AI Agent 即可直接调度 Telegram 托管账号执行真实触达与消息分发：
 
 <p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
+  <img src="./docs/mcp_agent_demo_v4.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
 </p>
 
 ### 🧩 进群动态人机验证（Captcha）AI 协同自动破解流程
@@ -52,7 +52,7 @@
 当账号加入开启了防机器人验证（如 `@Shieldy`、`@go365_ai_bot`、`@WeGroupRobot` 等）的群组时，系统将毫秒级捕获私聊 Deep-Link 或群内挑战题目，自动求解数学题、点击确认按钮并解除禁言，全流程无需人工干预：
 
 <p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
+  <img src="./docs/mcp_captcha_flow_v4.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
 </p>
 
 ---
