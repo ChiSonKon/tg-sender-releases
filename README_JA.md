@@ -24,14 +24,41 @@
 
 ---
 
-## 🤖 MCP プロトコルと AI エージェント完全自動連携 (Agent Takeover)
+## 🤖 0ステップ超簡単導入：AIエージェントに自動ダウンロード＆設定をおまかせ
 
-TG 自動集客アシスタント v4.0 は、業界標準の **Model Context Protocol (MCP)** を標準搭載。ソフトウェア内の設定をコピーして外部 AI エージェント（**Google Antigravity、Cursor、Claude Desktop、Windsurf** 等）に貼り付けるだけで、AI が Telegram の集客・配信操作を全自動でコントロールします！
+手動でのダウンロードや設定は**一切不要**です！以下のプロンプトをそのまま AI エージェント（**Google Antigravity、Cursor、Claude Desktop、Windsurf** 等）に貼り付けて送信するだけです：
 
-### ⚡ クイックスタート：2 ステップで AI 自動集客
+```text
+GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最新の Telegram 集客アシスタント商用版 (v4.0) を自動ダウンロード・展開し、現在の MCP サーバー設定にフル権限で登録してください。完了後、利用可能な18種類の集客機能を報告してください。
+```
 
-1. **アプリ起動**：アプリを起動し、【設定】➔【MCP サービスと Agent 設定】を開きます。
-2. **設定をコピー**：【ワンクリック設定コピー】をクリックし、AI エージェントの `mcpServers` に貼り付けます。
+> 💡 **エージェントが自動で行うこと**:
+> 1. GitHub Releases よりお使いのOSに最適な最新版を自動取得・展開；
+> 2. 現在の AI 環境に MCP 集客サービスを自動登録；
+> 3. 準備完了！あとは「ターゲットにメッセージを送信して」「グループ参加認証を自動解除して」と日本語で指示するだけです。
+
+---
+
+### 📸 AI エージェント自動配信の実況画面
+
+設定後、AI エージェントに自然言語で指示するだけで、自動でアカウントを切り替えて配信を実行します。
+
+<p align="center">
+  <img src="./docs/mcp_agent_demo.png" alt="MCP サービスとエージェント連携画面" width="95%" />
+</p>
+
+### 🧩 グループ参加時ロボット認証（Captcha）の自動解除フロー
+
+Bot認証（`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot` 等）が有効なグループに参加した場合も、システムが即座に算術問題を計算し、インラインボタンを押してミュートを自動解除します。
+
+<p align="center">
+  <img src="./docs/mcp_captcha_flow.png" alt="参加認証自動解除シーケンス図" width="95%" />
+</p>
+
+---
+
+<details>
+<summary><strong>🛠️ 開発者向け：手動 MCP 設定（クリックして展開）</strong></summary>
 
 ```json
 {
@@ -52,22 +79,7 @@ TG 自動集客アシスタント v4.0 は、業界標準の **Model Context Pro
   }
 }
 ```
-
-### 📸 AI エージェント自動配信の実況画面
-
-設定後、AI エージェントに自然言語で指示するだけで（例：「*TG MCPを使って https://t.me/oxbaimao にメッセージ 1 を均等分散モードで送信*」）、自動でアカウントを切り替えて配信を実行します。
-
-<p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP サービスとエージェント連携画面" width="95%" />
-</p>
-
-### 🧩 グループ参加時ロボット認証（Captcha）の自動解除フロー
-
-Bot認証（`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot` 等）が有効なグループに参加した場合も、システムが即座に算術問題を計算し、インラインボタンを押してミュートを自動解除します。
-
-<p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="参加認証自動解除シーケンス図" width="95%" />
-</p>
+</details>
 
 ---
 

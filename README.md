@@ -24,14 +24,43 @@
 
 ---
 
-## 🤖 MCP 智能体协议与 AI 全自动接管 (Agent Takeover)
+## 🤖 0 步骤极简上手：让 AI Agent 帮你自动下载与配置（面向完全小白）
 
-TG 自动获客助手商业版 v4.0 原生深度融入 **Model Context Protocol (MCP)** 智能体标准协议。您无需编写复杂的代码，只需将软件内置的 MCP 配置复制给外部 AI Agent（如 **Google Antigravity、Cursor、Claude Desktop、Windsurf** 等），AI Agent 即可立即具备对 Telegram 获客全流程的**完全控制与调度能力**！
+您**无需手动下载安装包，也无需手动配置任何繁琐文件**！只需将下方这段【智能体提示词】直接复制发送给您的 AI Agent（支持 **Google Antigravity、Cursor、Claude Desktop、Windsurf** 等）：
 
-### ⚡ 极速开始：2 步实现 AI 智能体获客
+```text
+帮我从 GitHub 仓库 https://github.com/ChiSonKon/tg-sender-releases 自动下载最新的 Telegram 获客助手商业版（v4.0），解压并自动配置到当前系统的 MCP 服务中（开启全功能读写授权）。配置完成后，向我汇报你可以调度的 18 项 Telegram 自动化获客功能。
+```
 
-1. **下载并启动客户端**：打开软件进入【设置】➔【MCP 服务与 Agent 配置】；
-2. **复制配置给 Agent**：点击【一键复制配置】，将 JSON 代码粘贴到您 AI Agent 的 `mcpServers` 配置文件中即可：
+> 💡 **Agent 自动执行流程**：
+> 1. AI Agent 自动访问 GitHub Releases 下载适配您系统的最新版程序并解压；
+> 2. AI Agent 自动将 MCP 获客服务注册至当前环境；
+> 3. 配置就绪后，您只需向 Agent 发送自然语言指令（例如：*“帮我向目标用户/群组发信”*、*“帮我采集群成员并自动伪装”*、*“帮我加入群组并自动破解人机验证”*），Agent 将全自动调度执行！
+
+---
+
+### 📸 AI Agent 自动化调度发信实况演示
+
+配置完成后，AI Agent 即可直接调度 Telegram 托管账号执行真实触达与消息分发：
+
+<p align="center">
+  <img src="./docs/mcp_agent_demo.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
+</p>
+
+### 🧩 进群动态人机验证（Captcha）AI 协同自动破解流程
+
+当账号加入开启了防机器人验证（如 `@Shieldy`、`@go365_ai_bot`、`@WeGroupRobot` 等）的群组时，系统将毫秒级捕获私聊 Deep-Link 或群内挑战题目，自动求解数学题、点击确认按钮并解除禁言，全流程无需人工干预：
+
+<p align="center">
+  <img src="./docs/mcp_captcha_flow.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
+</p>
+
+---
+
+<details>
+<summary><strong>🛠️ 进阶开发者：手动配置 MCP 指南（点击展开）</strong></summary>
+
+如果您习惯手动配置，也可以手动下载解压后，将以下标准配置添加到 AI Agent 的 `mcpServers` 中：
 
 ```json
 {
@@ -52,22 +81,7 @@ TG 自动获客助手商业版 v4.0 原生深度融入 **Model Context Protocol 
   }
 }
 ```
-
-### 📸 AI Agent 自动化调度发信实况
-
-配置完成后，您只需在 AI Agent 中直接用自然语言下发获客指令（例如：*“使用TG获客 MCP发送消息：1给 https://t.me/oxbaimao 使用平均分配模式”*），Agent 将自动调度托管账号执行真实触达！
-
-<p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
-</p>
-
-### 🧩 进群动态人机验证（Captcha）AI 协同自动破解流程
-
-当账号加入开启了防机器人验证（如 `@Shieldy`、`@go365_ai_bot`、`@WeGroupRobot` 等）的群组时，系统将毫秒级捕获私聊 Deep-Link 或群内挑战题目，自动求解数学题、点击确认按钮并解除禁言，全流程无需人工干预：
-
-<p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
-</p>
+</details>
 
 ---
 

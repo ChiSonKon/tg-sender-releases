@@ -24,14 +24,41 @@
 
 ---
 
-## 🤖 Model Context Protocol (MCP) & AI Agent Full Takeover
+## 🤖 0-Step Quickstart: Let Your AI Agent Download & Configure Automatically
 
-WhiteCat TG Assistant v4.0 natively integrates the **Model Context Protocol (MCP)** standard. Without writing custom glue code, you can easily copy the pre-built MCP configuration to your AI Agents (such as **Google Antigravity, Cursor, Claude Desktop, Windsurf**, etc.). The Agent gains **full control and scheduling capabilities** over the entire Telegram marketing workflow!
+You **do not need to manually download zip files or edit config paths**! Simply copy the prompt below and paste it into your AI Agent (**Google Antigravity, Cursor, Claude Desktop, Windsurf**, etc.):
 
-### ⚡ Quickstart: 2 Steps to AI Agent Marketing
+```text
+Please download the latest WhiteCat Telegram Assistant Commercial Edition (v4.0) from GitHub repository https://github.com/ChiSonKon/tg-sender-releases, extract it, and automatically register it into the current Agent's MCP server configuration with full read-write permissions. After setup, report the 18 available Telegram marketing tools.
+```
 
-1. **Download & Launch**: Open the client and navigate to **Settings** ➔ **MCP Service & Agent Configuration**;
-2. **Copy Config to Agent**: Click **Copy Configuration** and paste the JSON snippet into your AI Agent's `mcpServers` configuration:
+> 💡 **What the AI Agent will do**:
+> 1. Auto-fetch the latest v4.0 release package from GitHub Releases and extract it;
+> 2. Auto-configure the MCP server in your Agent environment;
+> 3. Ready to go! You can now instruct the Agent in natural language (*"Send messages to target users"*, *"Scrape active members and disguise accounts"*, *"Join groups and auto-solve bot captchas"*).
+
+---
+
+### 📸 Live Agent Dispatch & Message Delivery
+
+Once configured, instruct your AI Agent in natural language to orchestrate Telegram accounts and execute real campaigns:
+
+<p align="center">
+  <img src="./docs/mcp_agent_demo.png" alt="MCP Service and Agent Dispatch Demo" width="95%" />
+</p>
+
+### 🧩 Automated Join Verification (Captcha) AI Solving Flow
+
+When accounts join groups with anti-bot verification (`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot`, etc.), the engine captures challenges, evaluates math problems, clicks inline buttons, and lifts mutes automatically:
+
+<p align="center">
+  <img src="./docs/mcp_captcha_flow.png" alt="Group Join Captcha Auto-Solving Sequence Diagram" width="95%" />
+</p>
+
+---
+
+<details>
+<summary><strong>🛠️ For Advanced Developers: Manual MCP Setup (Click to Expand)</strong></summary>
 
 ```json
 {
@@ -52,22 +79,7 @@ WhiteCat TG Assistant v4.0 natively integrates the **Model Context Protocol (MCP
   }
 }
 ```
-
-### 📸 Live Agent Dispatch & Message Delivery
-
-Once configured, instruct your AI Agent in natural language (e.g., *"Send message '1' to https://t.me/oxbaimao using average distribution mode via TG Assistant MCP"*). The Agent orchestrates active accounts and executes real Telegram deliveries instantly!
-
-<p align="center">
-  <img src="./docs/mcp_agent_demo.png" alt="MCP Service and Agent Dispatch Demo" width="95%" />
-</p>
-
-### 🧩 Automated Join Verification (Captcha) AI Solving Flow
-
-When accounts join groups with active anti-bot protection (`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot`, etc.), the engine captures deep-link verification challenges, evaluates math problems, clicks confirmation inline buttons, and lifts mutes without human intervention:
-
-<p align="center">
-  <img src="./docs/mcp_captcha_flow.png" alt="Group Join Captcha Auto-Solving Sequence Diagram" width="95%" />
-</p>
+</details>
 
 ---
 
