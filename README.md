@@ -5,7 +5,7 @@
 <h1 align="center">白猫工作室 TG 自动获客助手 · 商业版</h1>
 
 <p align="center">
-  <strong>多账号管理、消息运营、线索采集与 AI 社群互动的一体化桌面工具</strong>
+  <strong>多账号管理、消息运营、线索采集、AI 炒群与 MCP 智能体协议深度接管的一体化桌面营销系统</strong>
 </p>
 
 <p align="center">
@@ -14,189 +14,161 @@
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
-> 当前版本：**商业版 v3.2**。本仓库用于产品介绍、安装包发布和问题反馈，不公开商业版源代码。
+<p align="center">
+  <a href="README_EN.md">English version</a> | <strong>中文版</strong> | <a href="README_JA.md">日本語版</a>
+</p>
 
-## 私信群发与富文本演示
+---
+
+> 🚀 当前版本：**商业版 v4.0**。本仓库用于产品介绍、安装包发布和问题反馈，不公开商业版闭源业务代码。
+
+---
+
+## 🤖 MCP 智能体协议与 AI 全自动接管 (Agent Takeover)
+
+TG 自动获客助手商业版 v4.0 原生深度融入 **Model Context Protocol (MCP)** 智能体标准协议。您无需编写复杂的代码，只需将软件内置的 MCP 配置复制给外部 AI Agent（如 **Google Antigravity、Cursor、Claude Desktop、Windsurf** 等），AI Agent 即可立即具备对 Telegram 获客全流程的**完全控制与调度能力**！
+
+### ⚡ 极速开始：2 步实现 AI 智能体获客
+
+1. **下载并启动客户端**：打开软件进入【设置】➔【MCP 服务与 Agent 配置】；
+2. **复制配置给 Agent**：点击【一键复制配置】，将 JSON 代码粘贴到您 AI Agent 的 `mcpServers` 配置文件中即可：
+
+```json
+{
+  "mcpServers": {
+    "whitecat-tg-assistant": {
+      "command": "python",
+      "args": [
+        "<软件解压路径>/run_mcp_server.py",
+        "--stdio",
+        "--allow-writes",
+        "--connect-accounts"
+      ],
+      "env": {
+        "PYTHONIOENCODING": "utf-8",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}
+```
+
+### 📸 AI Agent 自动化调度发信实况
+
+配置完成后，您只需在 AI Agent 中直接用自然语言下发获客指令（例如：*“使用TG获客 MCP发送消息：1给 https://t.me/oxbaimao 使用平均分配模式”*），Agent 将自动调度托管账号执行真实触达！
+
+<p align="center">
+  <img src="./docs/mcp_agent_demo.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
+</p>
+
+### 🧩 进群动态人机验证（Captcha）AI 协同自动破解流程
+
+当账号加入开启了防机器人验证（如 `@Shieldy`、`@go365_ai_bot`、`@WeGroupRobot` 等）的群组时，系统将毫秒级捕获私聊 Deep-Link 或群内挑战题目，自动求解数学题、点击确认按钮并解除禁言，全流程无需人工干预：
+
+<p align="center">
+  <img src="./docs/mcp_captcha_flow.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
+</p>
+
+---
+
+## 🎬 视频演示
+
+### 私信群发与富文本演示
 
 https://github.com/user-attachments/assets/d2d45e1f-58b2-499d-973b-a31c802ab19f
 
-## AI 炒群与群组群发演示
+### AI 炒群与群组群发演示
 
 https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
-## 当前版本下载
+---
+
+## 📥 当前版本下载
 
 请从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载与设备匹配的版本。
 
 | 系统 | 适用设备 | 下载 |
 | --- | --- | --- |
-| Windows x64 | Windows 10 / 11 | [下载 Windows](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v3.2-Windows.zip) |
-| macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v3.2-macOS-arm64.zip) |
-| macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v3.2-macOS-x86_64.zip) |
+| Windows x64 | Windows 10 / 11 | [下载 Windows](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-Windows.zip) |
+| macOS arm64 | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-macOS-arm64.zip) |
+| macOS x86_64 | Intel 处理器 Mac | [下载 macOS Intel](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-macOS-x86_64.zip) |
 
-> 🔧 **2026-08-14 更新**：Windows、macOS（Apple Silicon / Intel）三平台包已重新构建，修复群发冷却机制。
+> 🔧 **2026-08-29 更新**：v4.0 商业版全新发布！深度集成 MCP 智能体 18 项全能获客工具池、动态进群人机验证自动破解、群发禁言与失效账号安全隔离治理以及 SpamBot 全文深度诊断。
 
-## 本次新增
+---
 
-### 目标群成员一键伪装
+## 🌟 v4.0 重磅新增与特性
 
-- **批量提防与填充**：自动随机抓取目标群组真实成员的名字、简介与个人头像，一键对当前列表马甲账号进行全套伪装填充。
-- **多群组支持与跨群去重**：支持同时输入多个目标群组（换行或逗号分隔），自动按顺序采集并在多群组间全局去重，数据不足时自动从后续群组补齐。
-- **最近活跃优先**：采用最近发言时间降序排列提取（ChannelParticipantsRecent），优先采集高活跃真实群友，拒绝死号与潜水僵尸号。
-- **内置 5 层严格真实度过滤**：强制要求必须有头像、必须有名字、排除 Bot/已删除/诈骗/虚假受限账号，默认自动排除群管理者与创建者。
-- **自动防重名防护**：自动加工抓取到的用户名并追加随机后缀（如 `_sol`, `_bnb`, `1`, `x`, `_vip` 等），防止 Telegram 用户名冲突重复。
+### 1. 🤖 MCP 智能体协议 18 项全功能获客工具池
+- **全功能调度**：覆盖单发/群发私聊与群消息、群成员采集、批量强拉、超级群/频道创建与改名、个人主页挂载、账号资料修改、智能养号、机器人深度探查与生态分析；
+- **智能分发模式**：支持 `average_distribution`（平均分配调度）、`round_robin`（轮询分发）、`single_account`（指定单账号）；
+- **跨平台适配**：标准 JSON-RPC Stdio 通信，无缝接入 Antigravity、Claude Desktop、Cursor、Windsurf 及任何标准 MCP Client。
 
-### 强拉多线程作业与并发加速
+### 2. 🧩 动态进群人机验证与验证码自动破解 (`tg_verify_group_join` & `tg_solve_captcha`)
+- **多插件支持**：自动识别并破解 `@Shieldy`、`@MissRose_bot`、`@GroupHelpBot`、`@go365_ai_bot`、`@WeGroupRobot` 等常见入群防机器人插件；
+- **私聊 Deep-Link 联动**：自动捕获 `[✅ 开始验证 ↗]` 等深层链接，自动向机器人发起 `/start <token>` 私聊握手；
+- **四则运算公式秒解**：内置中英文数学题解析引擎，自动计算并点击内联正确答案按钮；
+- **AI 协同求解**：遇到复杂图片验证码或问答时，自动将上下文透传给 AI Agent 研判作答。
 
-- **强拉与多线程调度**：支持强拉拉人与多线程作业高并发控制。
-- **极致速度提升**：引入 `asyncio.gather` 高并发处理与 0.3s 超时强制切断机制，Session 批量管理、删除与连通性检测提速 200 倍。
+### 3. 🧹 群发禁言与失效账号安全隔离治理 (`tg_prune_restricted_accounts`)
+- **发信权限探针**：批量诊断账号在目标群的真实写权限，精准识别群内禁言、双向受限（SpamBlock）、冻结或 Session 失效；
+- **安全隔离归档**：支持一键将失效/受限 Session 移动至带时间戳的 `session_quarantine/` 目录，防止营销资源浪费与风控连锁反应。
 
-### AI 炒群全流程优化升级
+### 4. 📜 SpamBot 官方状态全文与精准解封时间 (`tg_check_account_status_full`)
+- **官方对话解析**：捕获 `@SpamBot` 完整交互全文，结构化提取 **UTC 精确解封时间**；
+- **限制性质诊断**：明确区分临时限制（带倒计时）与永久冻结，并提取可用申诉按钮。
 
-- **逐群独立运营策略**：每个群组可配置独立主题、场景、触发概率、微调指引与马甲分组；删除群组策略响应速度优化（< 50ms），操作告别延迟。
-- **自定义 AI 角色提示词**：点击【AI生成角色】支持用户自由输入Prompt提示词指导生成专属角色，或一键【跳过/直接生成】由 AI 自动分析目标群聊天记录分配角色。
-- **数据克隆（移形换位）**：重构克隆对话框并修复多目标初始化问题，支持一键克隆真实群组上下文剧本与对话逻辑。
+### 5. 🎭 目标群成员一键伪装
+- **全套伪装填充**：自动抓取目标群组真实成员的名字、简介与个人头像，一键对列表马甲账号进行全套伪装填充；
+- **多群组支持与跨群去重**：支持同时输入多个目标群组，自动按顺序采集并在多群组间全局去重，数据不足自动顺延补齐；
+- **5 层严格真实度过滤**：强制要求必须有头像、必须有名字、排除 Bot/已删除/诈骗账号，默认排除管理员。
 
-### 场景贴纸库与最近发言人采集
+---
 
-- **场景贴纸库**：可按业务场景整理贴纸素材，结合关键词匹配与目标群组策略调用，使互动更自然。
-- **最近发言人采集**：面向近期活跃成员执行定向采集与筛选，减少无效触达。
-- **富文本与超链接**：私信群发和群组群发全面支持富文本样式与可点击超链接。
+## 🛠️ 核心功能一览
 
-## 重点优化
+| 分类 | 功能列表 |
+| :--- | :--- |
+| **MCP 智能体协作** | 18 项全能获客契约、AI 自然语言接管、Stdio 进程管道、自动解人机、动态禁言隔离 |
+| **账号与风控治理** | 多账号管理、Session 导入导出、连通性检测、资料修改、SpamBot 全文诊断、安全隔离库 |
+| **消息与触达** | 私信群发、群组群发、富文本、可点击超链接、附件图片视频、频道转发、多模式分发 |
+| **成员与线索** | 高速成员采集、最近发言人定向提取、目标群一键全套伪装、线索去重与筛选 |
+| **AI 社群运营** | AI 炒群、逐群独立运营策略、自定义角色 Prompt、数据克隆（移形换位）、回复概率控制 |
+| **社群自动化** | 批量强拉、批量创建群组与频道、智能养号暖号、自动回复、访客机器人 |
 
-### AI 社群互动
+---
 
-- 优化话题切换逻辑，减少连续回复中的内容重复。
-- 增加回复概率与引用概率控制，使互动节奏更接近真实社群。
-- 改进角色、目标群组与上下文管理，降低不同任务之间的内容干扰。
-
-### 数据克隆反馈
-
-- 增强克隆过程的状态、进度与结果反馈。
-- 对失败原因提供更明确的提示，便于调整来源和任务配置。
-
-### 代理验证与账号管理
-
-- 优化代理格式识别、连通性验证和状态提示。
-- 增强账号与代理绑定逻辑，降低配置错误。
-- 网络异常时保留账号信息，恢复连接后可重新检测。
-
-### 暖号并发
-
-- 优化多账号暖号任务的并发控制与运行状态展示。
-- 同一账号的发送操作采用顺序保护，减少并发冲突。
-- 停止任务时更及时地终止待发送内容。
-
-## 核心功能
-
-| 分类 | 功能 |
-| --- | --- |
-| 账号与环境 | 多账号管理、Session 导入导出、在线检测、资料修改、代理管理 |
-| 消息与触达 | 私信群发、群组群发、富文本、超链接、附件、转发 |
-| 成员与线索 | 成员采集、最近发言人采集、目标群一键伪装、社群线索监测与处理 |
-| AI 社群运营 | 多群并发、独立策略、角色提示词、贴纸场景、回复与引用控制 |
-| 社群自动化 | 暖号养号、自动回复、访客机器人、频道内容迁移 |
-| 任务管理 | 逐目标进度、成功与失败统计、运行日志、任务停止控制 |
-
-## 安装与升级
+## 📖 安装与运行指南
 
 ### Windows
-
-1. 下载 Windows ZIP 并解压到一个全新文件夹。
-2. 双击 `TG自动获客助手_商业版_v3.2.exe`。
-3. 首次运行后进入账号管理，导入 Session 或迁移现有数据。
-4. 如果 SmartScreen 提示未知发布者，请先核对 SHA-256，再选择“更多信息”→“仍要运行”。
-
-Windows 数据目录：
-
-```text
-%LOCALAPPDATA%\WhiteCat\TG自动获客助手\
-├── config.json
-├── session\
-├── data\
-└── 日志\
-```
+1. 下载 `WhiteCat-TG-Assistant-Commercial-v4.0-Windows.zip` 并解压到一个全新目录；
+2. 双击运行 `TG自动获客助手_商业版_v4.0.exe`；
+3. 首次运行可导入现有 Session 账号或配置代理；
+4. 如果 SmartScreen 提示未知发布者，请选择“更多信息”→“仍要运行”。
 
 ### macOS
+1. 根据处理器类型下载对应版本（Apple 芯片下载 `arm64`，Intel Mac 下载 `x86_64`）；
+2. 解压 ZIP，将应用拖入“应用程序”文件夹；
+3. 首次启动请在 Finder 中右键应用并选择“打开”；如遇拦截，可在终端执行：
+   ```bash
+   xattr -dr com.apple.quarantine "/Applications/TG自动获客助手_商业版.app"
+   ```
 
-1. 在“关于本机”中确认处理器类型：Apple 芯片下载 `arm64`，Intel Mac 下载 `x86_64`。
-2. 解压 ZIP，将应用拖入“应用程序”文件夹。
-3. 当前安装包采用临时签名，未完成 Apple 公证；首次启动请在 Finder 中右键应用并选择“打开”。
-4. 如系统仍阻止启动，请核对 SHA-256 后再执行：
+---
 
-```bash
-xattr -dr com.apple.quarantine "/Applications/TG自动获客助手_商业版.app"
-```
+## 🔒 隐私、安全与合规声明
 
-macOS 数据目录：
+- **本地隐私承诺**：所有 Telegram 账号 Session、代理凭据及聊天数据均严格存储在本地加密目录，**绝不上云、绝不向任何第三方传输**。
+- **公共 API 规范**：软件内置 Telegram 官方标准 API 配置，开箱即用。
+- **合规说明**：本工具仅限用于合法、授权、合规的客户服务、营销推广与社群运营场景。请严格遵守 Telegram 服务条款与相关法律法规。
 
-```text
-~/Library/Application Support/WhiteCat/TG自动获客助手/
-├── config.json
-├── session/
-├── data/
-└── 日志/
-```
+---
 
-### 升级与数据继承
+## 📬 联系与技术支持
 
-1. 停止正在运行的任务并关闭软件。
-2. 备份当前数据目录和 Session。
-3. 将 v3.2 解压到全新目录，不要覆盖当前安装目录。
-4. 启动 v3.2 后导入 Session 或使用数据迁移功能。
-5. 先用少量账号和测试群验证代理、发送格式与任务配置，再恢复正式任务。
-
-迁移采用复制方式，不会主动删除原数据。需要回退时，请先关闭 v3.2，再使用备份数据恢复。
-
-## 常见问题
-
-<details>
-<summary><strong>为什么重启后账号显示“待连接”？</strong></summary>
-
-软件会先读取本地 Session，再后台连接 Telegram。网络或代理暂时不可用时，账号仍会保留在列表中；恢复连接后可重新检测。
-</details>
-
-<details>
-<summary><strong>如何确认富文本和链接发送正确？</strong></summary>
-
-建议先向自有测试账号或测试群发送，确认加粗、链接和换行效果后，再逐步扩大任务范围。
-</details>
-
-<details>
-<summary><strong>Apple 芯片和 Intel Mac 应该如何选择？</strong></summary>
-
-M1、M2、M3、M4 等 Apple 芯片下载 `arm64`；“关于本机”显示 Intel 的设备下载 `x86_64`。
-</details>
-
-<details>
-<summary><strong>为什么 macOS 提示无法验证开发者？</strong></summary>
-
-当前安装包采用临时签名，未完成 Apple 公证。请只从本仓库下载、核对 SHA-256，并使用 Finder 右键“打开”。
-</details>
-
-<details>
-<summary><strong>AI 社群互动是否需要单独配置接口？</strong></summary>
-
-需要在软件中配置可用的 AI API。建议先在测试群验证回复风格、话题切换、额度和并发设置。
-</details>
-
-## 联系与反馈
-
-- Telegram：[t.me/oxbaimao](https://t.me/oxbaimao)
-- 问题反馈：[GitHub Issues](https://github.com/ChiSonKon/tg-sender-releases/issues)
-- 版本下载：[Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest)
-
-反馈问题时，请附上操作系统、软件版本、问题发生时间、相关页面和已脱敏的日志片段。请勿上传 Session、API 密钥、授权码或客户数据。
-
-## 合规与安全说明
-
-本工具仅限用于合法、授权、合规的社群运营和客户服务场景。使用者应确保：
-
-- 仅操作本人所有或已获得明确授权的账号、群组、频道和数据；
-- 不用于骚扰、刷屏、诈骗、钓鱼、虚假宣传、恶意举报或规避平台限制；
-- 遵守 Telegram 服务条款、群组规则、隐私要求及所在地法律法规；
-- 对发送频率、账号安全、内容真实性和数据处理承担管理责任。
+- **Telegram 官方客服**：[t.me/oxbaimao](https://t.me/oxbaimao)
+- **问题反馈**：[GitHub Issues](https://github.com/ChiSonKon/tg-sender-releases/issues)
+- **版本发布**：[GitHub Releases](https://github.com/ChiSonKon/tg-sender-releases/releases)
 
 ---
 
