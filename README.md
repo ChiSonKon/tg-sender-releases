@@ -24,9 +24,30 @@
 
 ---
 
-## 🤖 0 步骤极简上手：让 AI Agent 帮你自动下载与配置（面向完全小白）
+## ⚡ 极速上手：本地 AI Agent 一键全自动配置（告别 Agent 拒绝，100% 成功）
 
-您**无需手动下载安装包，也无需手动配置任何繁琐文件**！只需将下方这段【智能体提示词】直接复制发送给您的 AI Agent（支持 **Google Antigravity、Cursor、Claude Desktop、Windsurf** 等）：
+### 方案 A（强烈推荐 · 双击即用）：解压后一键配置脚本
+客户下载并解压软件包后，**直接双击运行目录下的配置脚本**：
+- **Windows 用户**：双击运行 `一键配置本机所有AI_Agent.bat`
+- **macOS 用户**：双击运行 `一键配置本机所有AI_Agent.command`
+
+> 🚀 **全自动检测与注入**：
+> - 脚本将**免 Python 依赖、全自动探测**本机所有已安装的主流 Agent（包括 **OpenAI Codex、Claude Desktop、Cursor、Google Antigravity、Windsurf、VS Code Cline / Roo-Code**）；
+> - 自动安全合并写入对应的 MCP 配置文件并自动备份旧配置；
+> - **彻底绕开**“向 Codex / Claude 等 Agent 发送提示词时被拒绝修改系统配置”的问题，双击即搞定！
+
+---
+
+### 方案 B（软件内配置）：在客户端界面一键注入
+若您已经打开了获客助手主程序：
+1. 切换至【**设置**】➔【**🔌 MCP 服务与 Agent 配置**】页面；
+2. 点击大号高亮按钮：【**⚡ 一键自动扫描并配置本机所有 Agent**】；
+3. 弹出窗口将直观显示检测到的 Agent 及配置路径，重启或刷新对应 Agent 即可直接调度 18 项获客工具！
+
+---
+
+### 方案 C（备用提示词）：如果您的 Agent 具备完备的文件读写与终端权限
+若您的 Agent 具备终端执行与本地文件写入权限，亦可将下方提示词直接复制发送给 Agent 自动下载配置：
 
 ```text
 帮我从 GitHub 仓库 https://github.com/ChiSonKon/tg-sender-releases 自动下载最新的 Telegram 获客助手商业版（v4.0），解压并自动配置到当前系统的 MCP 服务中（开启全功能读写授权）。配置完成后，向我汇报你可以调度的 18 项 Telegram 自动化获客功能。

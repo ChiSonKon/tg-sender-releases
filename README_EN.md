@@ -24,9 +24,30 @@
 
 ---
 
-## 🤖 0-Step Quickstart: Let Your AI Agent Download & Configure Automatically
+## ⚡ Fast Setup: One-Click Local AI Agent Auto-Configuration (100% Reliable, No Agent Refusals)
 
-You **do not need to manually download zip files or edit config paths**! Simply copy the prompt below and paste it into your AI Agent (**Google Antigravity, Cursor, Claude Desktop, Windsurf**, etc.):
+### Method A (Highly Recommended · Double-Click to Run): Bundled Setup Script
+After downloading and extracting the release package, **simply double-click the setup script in the folder**:
+- **Windows**: Double-click `一键配置本机所有AI_Agent.bat`
+- **macOS**: Double-click `一键配置本机所有AI_Agent.command`
+
+> 🚀 **Automated Discovery & Safe Merging**:
+> - Zero Python dependency required; the script **automatically scans** your system for installed AI Agents (**OpenAI Codex, Claude Desktop, Cursor, Google Antigravity, Windsurf, VS Code Cline / Roo-Code**);
+> - Directly injects and non-destructively merges the MCP configuration while automatically backing up existing settings;
+> - **Bypasses the common issue where Agents like Codex refuse prompt instructions to modify local system configuration!**
+
+---
+
+### Method B (In-App GUI Setup): Inject Directly from Settings
+If you already launched the WhiteCat TG Assistant GUI:
+1. Open 【**Settings**】➔【**🔌 MCP Server & Agent Configuration**】;
+2. Click the primary button: 【**⚡ Auto-Scan & Configure All Local AI Agents**】;
+3. A popup will confirm detected Agents and written paths. Restart or refresh your Agent to unlock all 18 marketing capabilities immediately!
+
+---
+
+### Method C (Prompt-Based Fallback): If Your Agent Has Full Terminal & File Permissions
+If your AI Agent environment supports terminal commands and file system manipulation, you can also paste this prompt directly:
 
 ```text
 Please download the latest WhiteCat Telegram Assistant Commercial Edition (v4.0) from GitHub repository https://github.com/ChiSonKon/tg-sender-releases, extract it, and automatically register it into the current Agent's MCP server configuration with full read-write permissions. After setup, report the 18 available Telegram marketing tools.
