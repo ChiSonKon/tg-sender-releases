@@ -20,7 +20,7 @@
 
 ---
 
-> 🚀 現在のバージョン：**コマーシャル版 v4.0**。本リポジトリは製品案内、リリース配布、フィードバック専用です。ソースコードは非公開です。
+> 🚀 現在のバージョン：**コマーシャル版 v4.1**。本リポジトリは製品案内、リリース配布、フィードバック専用です。ソースコードは非公開です。
 
 ---
 
@@ -42,7 +42,7 @@
 獲客アシスタント本体をすでに起動している場合：
 1. 【**設定**】➔【**🔌 MCP サービスと Agent 設定**】タブを開きます；
 2. 【**⚡ ローカルの全 AI エージェントを一括自動検出・設定**】ボタンをクリック；
-3. ポップアップで検出結果と設定パスを確認できます。対象エージェントを再起動またはリロードすれば、18 種類の自動化ツールが即座に使用可能になります！
+3. ポップアップで検出結果と設定パスを確認できます。対象エージェントを再起動またはリロードすれば、41 種類の自動化・コミュニティ統治ツールが即座に使用可能になります！
 
 ---
 
@@ -50,13 +50,13 @@
 ご利用のエージェントがローカルファイルの編集やダウンロードに対応している場合は、以下のプロンプトをそのまま送信することも可能です：
 
 ```text
-GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最新の Telegram 集客アシスタント商用版 (v4.0) を自動ダウンロード・展開し、現在の MCP サーバー設定にフル権限で登録してください。完了後、利用可能な18種類の集客機能を報告してください。
+GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最新の Telegram 集客アシスタント商用版 (v4.1) を自動ダウンロード・展開し、現在の MCP サーバー設定にフル権限で登録してください。完了後、利用可能な41種類の集客・コミュニティ統治機能を報告してください。
 ```
 
 > 💡 **エージェントが自動で行うこと**:
 > 1. GitHub Releases よりお使いのOSに最適な最新版を自動取得・展開；
 > 2. 現在の AI 環境に MCP 集客サービスを自動登録；
-> 3. 準備完了！あとは「ターゲットにメッセージを送信して」「グループ参加認証を自動解除して」と指示するだけです。
+> 3. 準備完了！あとは「ターゲットにメッセージを送信して」「グループ参加認証を自動解除して」「キーワード監視を開始して」と指示するだけです。
 
 ---
 
@@ -120,11 +120,33 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) よりお使いのOSに合ったパッケージをダウンロードしてください。
 
-| OS | 対象デバイス | ダウンロード |
-| --- | --- | --- |
-| Windows x64 | Windows 10 / 11 | [Windows 版](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-Windows.zip) |
-| macOS arm64 | Apple Silicon: M1 / M2 / M3 / M4 | [macOS Apple Silicon 版](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-macOS-arm64.zip) |
-| macOS x86_64 | Intel Mac | [macOS Intel 版](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.0-macOS-x86_64.zip) |
+| OS | 対象デバイス | ダウンロード | SHA-256 チェックサム |
+| :--- | :--- | :--- | :--- |
+| **Windows x64** | Windows 10 / 11 64bit | [Windows 完全版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip)<br>[ポータブル単一実行ファイル (.exe)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/TG自动获客助手_商业版_v4.1.exe) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f`<br>`517b297805f9875030b7af89ed90348c17eddcb7051cae102f86962076f19f04` |
+| **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [macOS Apple Silicon 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
+| **macOS x86_64** | Intel Mac | [macOS Intel 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
+
+---
+
+## 🌟 v4.1 主なアップデート内容
+
+1. **41種類の全機能 MCP ツールを完全網羅**:
+   - メッセージ配信、グループ一斉送信、アクティブメンバー抽出、強制招待、チャンネル作成、自動返信エンジン、AIグループ活性化、チャンネル複製、キーワード監視、リスクブラックリスト管理、プロキシプール、セッション変換など業務を100%完全制御。
+   - `一键配置本机所有AI_Agent.bat` またはアプリ内ワンクリックで OpenAI Codex、Claude Desktop、Cursor、Google Antigravity、Windsurf、VS Code Roo-Code に即時登録可能。
+2. **商談信用検証＆ホワイトリスト安全抽出（業界初）**:
+   - キーワード監視で「ホワイトリストのみ抽出（高リスク除外）」を新搭載。ミリ秒単位でブラックリストと照合し、悪質ユーザーや詐欺師を自動除外。
+3. **API クレデンシャルの自動修復と暗号化**:
+   - 商用版専用の Telegram API 設定を内包し、PC 移行時の未設定エラーを完全解消。端末指紋の変化を検知して自動修復・再暗号化。
+4. **指定保証グループメンバー即時判定**:
+   - 未知の送信者が指定グループの正規メンバーかを非同期検証し、なりすまし詐欺を防止。
+5. **グループ参加ロボット認証（Captcha）の自動解除**:
+   - Shieldy、MissRose、GroupHelp、Go365、WeGroupRobot の算術問題や Deep-Link 認証を完全自動化。
+6. **発信権限プローブと無効アカウントの隔離アーカイブ**:
+   - 送信権限を診断し、制限されたセッションを `session_quarantine/` へ安全退避。
+7. **SpamBot 制限状態と正確な解除日時（UTC）の解析**:
+   - `@SpamBot` の対話全文から解除日時を構造化抽出。
+8. **監視アカウントのオンラインハートビート維持**:
+   - 定期的なアクティブ更新により意図しない切断を防止。
 
 ---
 
