@@ -122,7 +122,7 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
 | OS | 対象デバイス | ダウンロード | SHA-256 チェックサム |
 | :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 64bit | [Windows 完全版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip)<br>[ポータブル単一実行ファイル (.exe)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/TG自动获客助手_商业版_v4.1.exe) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f`<br>`517b297805f9875030b7af89ed90348c17eddcb7051cae102f86962076f19f04` |
+| **Windows x64** | Windows 10 / 11 64bit | [Windows 完全版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
 | **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [macOS Apple Silicon 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
 | **macOS x86_64** | Intel Mac | [macOS Intel 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
 
