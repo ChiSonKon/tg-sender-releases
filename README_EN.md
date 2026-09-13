@@ -22,6 +22,51 @@
 
 > 🚀 Current Version: **Commercial v4.1**. This repository is for product introduction, releases, and issue tracking. Commercial source code is proprietary.
 
+> 📱 **Looking for Mobile / Smartphone Client?**
+> A dedicated Telegram bot for on-the-go marketing is online: **[@wchjbot](https://t.me/wchjbot)** (Click to activate directly inside Telegram — no desktop install needed, generate leads anytime from your phone!).
+
+---
+
+## 🎬 Live Field Demo & AI Agent Orchestration (2m 52s Full Walkthrough)
+
+> 💡 **Included in Demo**: Scraping 5,300+ real members from supergroups in seconds ➔ Real-time keyword lead capture & local risk reputation check (Anti-Scam / Anti-Ban) ➔ Natural language prompt orchestrating MCP to 1:1 clone target profile.
+
+https://raw.githubusercontent.com/ChiSonKon/tg-sender-releases/main/docs/WhiteCat_TG_Assistant_Demo.mp4
+
+---
+
+## 📸 3 Essential Growth Workflows (Visual Guide)
+
+To help you get started immediately, here is how high-converting marketing campaigns actually run:
+
+### Scenario 01: High-Speed Member Scraping & Cleansing from 10k+ Supergroups
+- **Pain Point**: Where do I find massive, targeted, active prospects in my niche?
+- **Action**: Paste any public or private group link. The multi-threaded engine scrapes 5,300+ active members in seconds, filters out stale accounts (3+ months inactive), and exports a clean CSV lead list!
+
+<p align="center">
+  <img src="./docs/screenshot_1_member_scraping.png" alt="High-Speed Supergroup Member Scraping and Cleansing" width="98%" />
+</p>
+
+---
+
+### Scenario 02: Real-Time Keyword Interception × Risk Reputation Verification
+- **Pain Point**: Too many active groups to watch manually? Worried about dealing with scammers or dead accounts?
+- **Action**: Set intent keywords (e.g., purchase intents, product names). When a user asks in any monitored group, the engine intercepts the lead with 0-second latency, cross-checks against the local risk blacklist, and lets you copy the qualified prospect with one click!
+
+<p align="center">
+  <img src="./docs/screenshot_2_keyword_reputation.png" alt="Real-Time Keyword Monitoring and Reputation Verification" width="98%" />
+</p>
+
+---
+
+### Scenario 03: 41 MCP Tools Full Takeover · 1:1 Target Profile Clone
+- **Pain Point**: Don't want to click around complex dashboards? Need fast persona disguising?
+- **Action**: Simply prompt your AI Agent (Antigravity / Codex / Claude): *"Use MCP to clone profile of @target_user"*. The Agent automatically replicates original avatar, username alias, display name, and bio signature in milliseconds!
+
+<p align="center">
+  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
+</p>
+
 ---
 
 ## ⚡ Fast Setup: One-Click Local AI Agent Auto-Configuration (100% Reliable, No Agent Refusals)
@@ -168,7 +213,13 @@ Please download the build matching your operating system from [Latest Release](h
 
 ---
 
+## 🔍 SEO Keywords & Topics
+> `Telegram Marketing Bot` · `Telegram Scraper` · `Telegram Mass DM` · `TG Auto Sender` · `Telegram Member Scraper` · `Telegram Lead Generation` · `Telegram MCP Protocol` · `TG Group Monitor` · `Telegram Captcha Solver` · `Telegram AI Growth Engine` · `Telegram Marketing Software`
+
+---
+
 <p align="center">
   <strong>White Cat Studio</strong><br>
   <sub>© 2024–2026 White Cat Studio. All rights reserved.</sub>
 </p>
+

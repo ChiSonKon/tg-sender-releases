@@ -22,6 +22,51 @@
 
 > 🚀 当前版本：**商业版 v4.1**。本仓库用于产品介绍、安装包发布和问题反馈，不公开商业版闭源业务代码。
 
+> 📱 **有手机端/移动端获客需求？**
+> 专为手机随时随地获客打造的独立机器人项目已稳定上线：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机端随时随地自动引流拓客！）。
+
+---
+
+## 🎬 真实获客实战与 AI 调度全流程演示（2分52秒高清实录）
+
+> 💡 **实测演示内容**：从 5,300+ 万人群秒级采集 ➔ 关键词商机实时监控与本地风控信誉核验（防封防骗）➔ 自然语言一句话调度 MCP 智能体 1:1 毫秒级克隆伪装目标主页。
+
+https://raw.githubusercontent.com/ChiSonKon/tg-sender-releases/main/docs/WhiteCat_TG_Assistant_Demo.mp4
+
+---
+
+## 📸 3大实战获客场景·极简操作指南（看图即懂）
+
+为了让您直观了解“如何真正用起来”，系统将核心商业获客流程高度凝练为 3 个典型场景：
+
+### 场景 01：万人大群精准成员秒级高速采集与清洗
+- **解决痛点**：去哪里找大量精准的垂直行业真实潜客？
+- **实战操作**：直接贴入行业公开群或私密大群链接，系统 2 线程高并发极速抓取，自动过滤 3 个月未上线的死号僵尸号，一键导出 CSV 纯净客户名单！
+
+<p align="center">
+  <img src="./docs/screenshot_1_member_scraping.png" alt="万人群精准成员秒级高速采集与清洗" width="98%" />
+</p>
+
+---
+
+### 场景 02：实时商机秒级截流 × 独家风控信誉核验（防封防骗）
+- **解决痛点**：群内消息太多刷屏看不过来？害怕遇到同行骗子或老赖？
+- **实战操作**：设定关键词（如求购、产品名），群内有人发言系统 0 延迟毫秒级截获！独家联动本地风控黑名单毫秒级筛查信誉，自动剔除高危恶意号，一键复制真实客户直接触达！
+
+<p align="center">
+  <img src="./docs/screenshot_2_keyword_reputation.png" alt="实时商机秒级监控与独家风控信誉核验" width="98%" />
+</p>
+
+---
+
+### 场景 03：41 项全功能 MCP 智能体深度接管 · 目标画像 1:1 毫秒级克隆
+- **解决痛点**：后台功能太多不想动手点击？需要快速高仿行业领袖或大号矩阵？
+- **实战操作**：直接在 AI Agent（如 Google Antigravity / OpenAI Codex / Claude）中发送一句话自然语言指令：“*运用MCP 将账号伪装成 @目标大佬*”，AI 将全自动抓取原图头像、高仿用户名、昵称和 Bio 签名全套替换，全流程无需人工干预！
+
+<p align="center">
+  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41项 MCP 智能体深度接管与 1:1 自动克隆伪装" width="98%" />
+</p>
+
 ---
 
 ## ⚡ 极速上手：本地 AI Agent 一键全自动配置（告别 Agent 拒绝，100% 成功）
@@ -52,69 +97,6 @@
 ```text
 帮我从 GitHub 仓库 https://github.com/ChiSonKon/tg-sender-releases 自动下载最新的 Telegram 获客助手商业版（v4.1），解压并自动配置到当前系统的 MCP 服务中（开启全功能读写授权）。配置完成后，向我汇报你可以调度的 41 项 Telegram 自动化获客与社群治理功能。
 ```
-
-> 💡 **Agent 自动执行流程**：
-> 1. AI Agent 自动访问 GitHub Releases 下载适配您系统的最新版程序并解压；
-> 2. AI Agent 自动将 MCP 获客服务注册至当前环境；
-> 3. 配置就绪后，您只需向 Agent 发送自然语言指令（例如：*“帮我向目标用户/群组发信”*、*“帮我采集群成员并自动伪装”*、*“帮我加入群组并自动破解人机验证”*、*“帮我监控商机群并过滤高危黑名单”*），Agent 将全自动调度执行！
-
----
-
-### 📸 AI Agent 自动化调度发信实况演示
-
-配置完成后，AI Agent 即可直接调度 Telegram 托管账号执行真实触达与消息分发：
-
-<p align="center">
-  <img src="./docs/mcp_agent_demo_v4.png" alt="MCP 服务与 Agent 调度发信实况" width="95%" />
-</p>
-
-### 🧩 进群动态人机验证（Captcha）AI 协同自动破解流程
-
-当账号加入开启了防机器人验证（如 `@Shieldy`、`@go365_ai_bot`、`@WeGroupRobot` 等）的群组时，系统将毫秒级捕获私聊 Deep-Link 或群内挑战题目，自动求解数学题、点击确认按钮并解除禁言，全流程无需人工干预：
-
-<p align="center">
-  <img src="./docs/mcp_captcha_flow_v4.png" alt="进群动态验证与人机验证破解时序图" width="95%" />
-</p>
-
----
-
-<details>
-<summary><strong>🛠️ 进阶开发者：手动配置 MCP 指南（点击展开）</strong></summary>
-
-如果您习惯手动配置，也可以手动下载解压后，将以下标准配置添加到 AI Agent 的 `mcpServers` 中：
-
-```json
-{
-  "mcpServers": {
-    "whitecat-tg-assistant": {
-      "command": "python",
-      "args": [
-        "<软件解压路径>/run_mcp_server.py",
-        "--stdio",
-        "--allow-writes",
-        "--connect-accounts"
-      ],
-      "env": {
-        "PYTHONIOENCODING": "utf-8",
-        "PYTHONDONTWRITEBYTECODE": "1"
-      }
-    }
-  }
-}
-```
-</details>
-
----
-
-## 🎬 视频演示
-
-### 私信群发与富文本演示
-
-https://github.com/user-attachments/assets/d2d45e1f-58b2-499d-973b-a31c802ab19f
-
-### AI 炒群与群组群发演示
-
-https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
 ---
 
@@ -238,7 +220,13 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
 ---
 
+## 🔍 热门搜索关联词 (SEO Keywords)
+> `Telegram 获客助手` · `Telegram 营销系统` · `Telegram 群发软件` · `TG 采集群成员` · `TG 关键词群监控` · `Telegram AI 炒群` · `Telegram MCP 协议` · `TG 防封养号` · `Telegram Captcha 破解` · `Telegram 批量拉群` · `Telegram Marketing Tool` · `TG Scraper` · `Telegram Auto DM` · `TG Member Scraper` · `Telegram Lead Generation`
+
+---
+
 <p align="center">
   <strong>White Cat Studio · 白猫工作室</strong><br>
   <sub>© 2024–2026 White Cat Studio. All rights reserved.</sub>
 </p>
+
