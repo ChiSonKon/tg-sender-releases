@@ -11,11 +11,12 @@
 <p align="center">
   <a href="https://github.com/ChiSonKon/tg-sender-releases/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/ChiSonKon/tg-sender-releases?display_name=release&style=for-the-badge&color=1677ff"></a>
   <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChiSonKon/tg-sender-releases/total?style=for-the-badge&color=22a06b"></a>
+  <a href="./docs/USER_MANUAL.md"><img alt="User Manual" src="https://img.shields.io/badge/Docs-22_Modules_Manual-orange?style=for-the-badge&logo=gitbook"></a>
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
 <p align="center">
-  <a href="README_EN.md">English version</a> | <strong>中文版</strong> | <a href="README_JA.md">日本語版</a>
+  <a href="README_EN.md">English version</a> | <strong>中文版</strong> | <a href="README_JA.md">日本語版</a> | <a href="./docs/USER_MANUAL.md"><strong>📖 官方全功能图文实战手册 (22 模块)</strong></a>
 </p>
 
 ---
