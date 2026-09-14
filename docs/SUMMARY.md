@@ -1,10 +1,23 @@
 # Summary
 
-## 白猫获客助手官方实战手册
-* [系统概述与总览](README.md)
-* [完整全功能通读版](USER_MANUAL.md)
+* [🏠 首页概览](README.md)
 
-### 第一篇：底座与环境设置
+## 🚀 快速上手 (Quick Start)
+* [双端矩阵与获客生态架构](getting_started/architecture.md)
+* [电脑端快速下载与安装](getting_started/desktop_install.md)
+* [手机端获客机器人一键唤醒](getting_started/mobile_bot_start.md)
+
+## 📱 手机端获客机器人 (@wchjbot)
+* [01. 获客中枢与群组大盘](mobile_bot/01_overview.md)
+* [02. 关键词商机监听与高级调优](mobile_bot/02_keyword_monitor.md)
+* [03. 一键全网群发广播中心](mobile_bot/03_broadcast.md)
+* [04. 资产充值与多账号月卡订阅](mobile_bot/04_membership.md)
+* [05. 真实客户实战拉群与盈利战报](mobile_bot/05_case_studies.md)
+
+## 💻 电脑端全功能实战手册 (22 大核心实战卡)
+* [📖 通读全功能实战汇编版](USER_MANUAL.md)
+
+### 第一篇：账号与网络基石
 * [01. 账号管理](manual/01_account.md)
 * [02. 代理管理](manual/02_proxy.md)
 * [03. 安全与格式转换](manual/03_convert.md)
@@ -31,3 +44,11 @@
 * [20. 自动广告点击](manual/20_ad_clicker.md)
 * [21. 批量建群建频道](manual/21_batch_create.md)
 * [22. 运营模式分析](manual/22_operation_analysis.md)
+
+## 🤖 MCP 智能体协议与 AI 调度 (41 项全接管)
+* [一键全自动配置本地所有 AI Agent](mcp/01_quickstart.md)
+* [41 项自然语言提示词库与实战案例](mcp/02_prompts.md)
+
+## 🛡️ 安全防封与常见问题 (FAQ)
+* [工业级防风控与账号养号秘籍](faq/01_anti_ban.md)
+* [常见问题排查与官方支持](faq/02_troubleshooting.md)\n
