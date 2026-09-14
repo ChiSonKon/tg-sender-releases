@@ -27,11 +27,21 @@
 
 ---
 
-## 🎬 真实获客实战与 AI 调度全流程演示（2分52秒高清实录）
+## 🎬 真实获客实战与 AI 调度全流程演示（YouTube 1080P 高清实录 · 带中文字幕）
 
 > 💡 **实测演示内容**：从 5,300+ 万人群秒级采集 ➔ 关键词商机实时监控与本地风控信誉核验（防封防骗）➔ 自然语言一句话调度 MCP 智能体 1:1 毫秒级克隆伪装目标主页。
+> 点击下方视频封面或链接，直接跳转 YouTube 观看高清实战演示：
 
-https://raw.githubusercontent.com/ChiSonKon/tg-sender-releases/main/docs/WhiteCat_TG_Assistant_Demo.mp4
+[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+📺 **YouTube 直达观看**：[https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+### ⏱️ 演示核心节点导航（Chapters）：
+- **00:00**｜**引言**：喷气引擎般的获客效率颠覆，传统获客向 AI 协同营销的全面代际进化
+- **00:28**｜**场景一 · 极速采集**：Telegram 超级大群秒级提取 **5300+ 活跃客户**，自动剔除 3 个月未上线死号
+- **00:51**｜**场景二 · 意向监控**：**0 秒级**关键词实时拦截，本地风控信誉过滤，沉淀高纯度买家白名单
+- **01:20**｜**场景三 · MCP 接管**：41 项 MCP 工具全面挂载，AI 毫秒级 **1:1 克隆目标人设**（头像/昵称/简介/防封覆写）
+- **02:06**｜**场景四 · 批量迁移**：拟真人高信任批量私信，**2800+ 群成员**无缝迁移至新社群，多智能体协同闭环
 
 ---
 

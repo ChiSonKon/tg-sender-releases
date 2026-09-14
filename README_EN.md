@@ -27,11 +27,21 @@
 
 ---
 
-## 🎬 Live Field Demo & AI Agent Orchestration (2m 52s Full Walkthrough)
+## 🎬 Live Field Demo & AI Agent Orchestration (YouTube 1080P Walkthrough)
 
 > 💡 **Included in Demo**: Scraping 5,300+ real members from supergroups in seconds ➔ Real-time keyword lead capture & local risk reputation check (Anti-Scam / Anti-Ban) ➔ Natural language prompt orchestrating MCP to 1:1 clone target profile.
+> Click the preview image below or the link to watch the full demo on YouTube (with Chinese subtitles):
 
-https://raw.githubusercontent.com/ChiSonKon/tg-sender-releases/main/docs/WhiteCat_TG_Assistant_Demo.mp4
+[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+📺 **Watch on YouTube**: [https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+### ⏱️ Video Chapters & Milestones:
+- **00:00** | **Introduction**: Jet-engine speed and scale overhaul in Telegram growth marketing.
+- **00:28** | **Scene 1 · High-Speed Scraping**: Scraping **5,300+ active leads** from Telegram supergroups in seconds with automatic filtering of inactive accounts (> 3 months).
+- **00:51** | **Scene 2 · Real-Time Monitoring**: **Zero-second latency** keyword interception with local risk reputation filtering for a 100% clean buyer whitelist.
+- **01:20** | **Scene 3 · MCP Takeover & Identity Cloning**: 41 MCP tools enable Claude / Codex to **clone target profile 1-to-1 in milliseconds** (avatar, name, bio, alias).
+- **02:06** | **Scene 4 · Mass Migration**: High-trust persona messaging seamlessly migrating **2,800 group members** to a brand new community destination.
 
 ---
 
