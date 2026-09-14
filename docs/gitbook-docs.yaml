@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: 白猫全域获客与社群治理官方文档
+  structure:
+    - type: space
+      key: tg-assistant
+      title: 白猫获客助手
+      path: docs
+      default: true
+      content:
+        directory: ./
