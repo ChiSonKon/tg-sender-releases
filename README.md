@@ -28,24 +28,6 @@
 
 ---
 
-## 🎬 真实获客实战与 AI 调度全流程演示（YouTube 1080P 高清实录 · 带中文字幕）
-
-> 💡 **实测演示内容**：从 5,300+ 万人群秒级采集 ➔ 关键词商机实时监控与本地风控信誉核验（防封防骗）➔ 自然语言一句话调度 MCP 智能体 1:1 毫秒级克隆伪装目标主页。
-> 点击下方视频封面或链接，直接跳转 YouTube 观看高清实战演示：
-
-[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-📺 **YouTube 直达观看**：[https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-### ⏱️ 演示核心节点导航（Chapters）：
-- **00:00**｜**引言**：喷气引擎般的获客效率颠覆，传统获客向 AI 协同营销的全面代际进化
-- **00:28**｜**场景一 · 极速采集**：Telegram 超级大群秒级提取 **5300+ 活跃客户**，自动剔除 3 个月未上线死号
-- **00:51**｜**场景二 · 意向监控**：**0 秒级**关键词实时拦截，本地风控信誉过滤，沉淀高纯度买家白名单
-- **01:20**｜**场景三 · MCP 接管**：41 项 MCP 工具全面挂载，AI 毫秒级 **1:1 克隆目标人设**（头像/昵称/简介/防封覆写）
-- **02:06**｜**场景四 · 批量迁移**：拟真人高信任批量私信，**2800+ 群成员**无缝迁移至新社群，多智能体协同闭环
-
----
-
 ## 📸 3大实战获客场景·极简操作指南（看图即懂）
 
 为了让您直观了解“如何真正用起来”，系统将核心商业获客流程高度凝练为 3 个典型场景：
@@ -80,6 +62,38 @@
 
 ---
 
+## 📥 当前版本下载
+
+请从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载与设备匹配的版本。
+
+| 系统 | 适用设备 | 下载 | SHA-256 校验和 |
+| --- | --- | --- | --- |
+| **Windows x64** | Windows 10 / 11 64位 | [下载 Windows 完整包 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
+| **macOS arm64** | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
+| **macOS x86_64** | Intel 处理器 Mac | [下载 macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
+
+> 🔧 **2026-09-11 更新**：v4.1 商业版全新发布！深度扩展至 **全量 41 项 MCP 获客与社群治理工具池**（涵盖关键词群监听、风控黑名单、间谍获客、自动回复、AI炒群、频道克隆、批量举报、广告点击、代理池、会话转换等）、**商机信誉核验与白名单纯净获客**（毫秒级比对剔除高危老赖数据）、**API 凭证跨机器安全保底与失效自愈重加密**、以及**监控账号在线心跳维持**。
+
+---
+
+## 🎬 真实获客实战与 AI 调度全流程演示（YouTube 1080P 高清实录 · 带中文字幕）
+
+> 💡 **实测演示内容**：从 5,300+ 万人群秒级采集 ➔ 关键词商机实时监控与本地风控信誉核验（防封防骗）➔ 自然语言一句话调度 MCP 智能体 1:1 毫秒级克隆伪装目标主页。
+> 点击下方视频封面或链接，直接跳转 YouTube 观看高清实战演示：
+
+[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+📺 **YouTube 直达观看**：[https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+### ⏱️ 演示核心节点导航（Chapters）：
+- **00:00**｜**引言**：喷气引擎般的获客效率颠覆，传统获客向 AI 协同营销的全面代际进化
+- **00:28**｜**场景一 · 极速采集**：Telegram 超级大群秒级提取 **5300+ 活跃客户**，自动剔除 3 个月未上线死号
+- **00:51**｜**场景二 · 意向监控**：**0 秒级**关键词实时拦截，本地风控信誉过滤，沉淀高纯度买家白名单
+- **01:20**｜**场景三 · MCP 接管**：41 项 MCP 工具全面挂载，AI 毫秒级 **1:1 克隆目标人设**（头像/昵称/简介/防封覆写）
+- **02:06**｜**场景四 · 批量迁移**：拟真人高信任批量私信，**2800+ 群成员**无缝迁移至新社群，多智能体协同闭环
+
+---
+
 ## ⚡ 极速上手：本地 AI Agent 一键全自动配置（告别 Agent 拒绝，100% 成功）
 
 ### 方案 A（强烈推荐 · 双击即用）：解压后一键配置脚本
@@ -108,20 +122,6 @@
 ```text
 帮我从 GitHub 仓库 https://github.com/ChiSonKon/tg-sender-releases 自动下载最新的 Telegram 获客助手商业版（v4.1），解压并自动配置到当前系统的 MCP 服务中（开启全功能读写授权）。配置完成后，向我汇报你可以调度的 41 项 Telegram 自动化获客与社群治理功能。
 ```
-
----
-
-## 📥 当前版本下载
-
-请从 [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载与设备匹配的版本。
-
-| 系统 | 适用设备 | 下载 | SHA-256 校验和 |
-| --- | --- | --- | --- |
-| **Windows x64** | Windows 10 / 11 64位 | [下载 Windows 完整包 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
-| **macOS arm64** | Apple Silicon：M1 / M2 / M3 / M4 | [下载 macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
-| **macOS x86_64** | Intel 处理器 Mac | [下载 macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
-
-> 🔧 **2026-09-11 更新**：v4.1 商业版全新发布！深度扩展至 **全量 41 项 MCP 获客与社群治理工具池**（涵盖关键词群监听、风控黑名单、间谍获客、自动回复、AI炒群、频道克隆、批量举报、广告点击、代理池、会话转换等）、**商机信誉核验与白名单纯净获客**（毫秒级比对剔除高危老赖数据）、**API 凭证跨机器安全保底与失效自愈重加密**、以及**监控账号在线心跳维持**。
 
 ---
 

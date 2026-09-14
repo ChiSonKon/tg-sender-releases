@@ -28,24 +28,6 @@
 
 ---
 
-## 🎬 Live Field Demo & AI Agent Orchestration (YouTube 1080P Walkthrough)
-
-> 💡 **Included in Demo**: Scraping 5,300+ real members from supergroups in seconds ➔ Real-time keyword lead capture & local risk reputation check (Anti-Scam / Anti-Ban) ➔ Natural language prompt orchestrating MCP to 1:1 clone target profile.
-> Click the preview image below or the link to watch the full demo on YouTube (with Chinese subtitles):
-
-[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-📺 **Watch on YouTube**: [https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-### ⏱️ Video Chapters & Milestones:
-- **00:00** | **Introduction**: Jet-engine speed and scale overhaul in Telegram growth marketing.
-- **00:28** | **Scene 1 · High-Speed Scraping**: Scraping **5,300+ active leads** from Telegram supergroups in seconds with automatic filtering of inactive accounts (> 3 months).
-- **00:51** | **Scene 2 · Real-Time Monitoring**: **Zero-second latency** keyword interception with local risk reputation filtering for a 100% clean buyer whitelist.
-- **01:20** | **Scene 3 · MCP Takeover & Identity Cloning**: 41 MCP tools enable Claude / Codex to **clone target profile 1-to-1 in milliseconds** (avatar, name, bio, alias).
-- **02:06** | **Scene 4 · Mass Migration**: High-trust persona messaging seamlessly migrating **2,800 group members** to a brand new community destination.
-
----
-
 ## 📸 3 Essential Growth Workflows (Visual Guide)
 
 To help you get started immediately, here is how high-converting marketing campaigns actually run:
@@ -77,6 +59,36 @@ To help you get started immediately, here is how high-converting marketing campa
 <p align="center">
   <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
 </p>
+
+---
+
+## 📥 Download Current Version
+
+Please download the build matching your operating system from [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest).
+
+| OS | Supported Devices | Download | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **Windows x64** | Windows 10 / 11 64-bit | [Download Windows (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
+| **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [Download macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
+| **macOS x86_64** | Intel Processor Mac | [Download macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
+
+---
+
+## 🎬 Live Field Demo & AI Agent Orchestration (YouTube 1080P Walkthrough)
+
+> 💡 **Included in Demo**: Scraping 5,300+ real members from supergroups in seconds ➔ Real-time keyword lead capture & local risk reputation check (Anti-Scam / Anti-Ban) ➔ Natural language prompt orchestrating MCP to 1:1 clone target profile.
+> Click the preview image below or the link to watch the full demo on YouTube (with Chinese subtitles):
+
+[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+📺 **Watch on YouTube**: [https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+
+### ⏱️ Video Chapters & Milestones:
+- **00:00** | **Introduction**: Jet-engine speed and scale overhaul in Telegram growth marketing.
+- **00:28** | **Scene 1 · High-Speed Scraping**: Scraping **5,300+ active leads** from Telegram supergroups in seconds with automatic filtering of inactive accounts (> 3 months).
+- **00:51** | **Scene 2 · Real-Time Monitoring**: **Zero-second latency** keyword interception with local risk reputation filtering for a 100% clean buyer whitelist.
+- **01:20** | **Scene 3 · MCP Takeover & Identity Cloning**: 41 MCP tools enable Claude / Codex to **clone target profile 1-to-1 in milliseconds** (avatar, name, bio, alias).
+- **02:06** | **Scene 4 · Mass Migration**: High-trust persona messaging seamlessly migrating **2,800 group members** to a brand new community destination.
 
 ---
 
@@ -169,18 +181,6 @@ https://github.com/user-attachments/assets/d2d45e1f-58b2-499d-973b-a31c802ab19f
 ### AI Group Warming & Bulk Group Messaging Demo
 
 https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
-
----
-
-## 📥 Download Current Version
-
-Please download the build matching your operating system from [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest).
-
-| OS | Supported Devices | Download | SHA-256 Checksum |
-| :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 64-bit | [Download Windows (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
-| **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [Download macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
-| **macOS x86_64** | Intel Processor Mac | [Download macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
 
 ---
 
