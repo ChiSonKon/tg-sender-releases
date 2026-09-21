@@ -4,8 +4,8 @@
   <a href="https://github.com/ChiSonKon/tg-sender-releases">
     <img src="https://img.shields.io/badge/WhiteCat-TG_Assistant_v4.1-blue.svg?style=for-the-badge" alt="Version">
   </a>
-  <a href="https://www.youtube.com/watch?v=V9ciJB9Pxcw">
-    <img src="https://img.shields.io/badge/YouTube-Video_Demo-red.svg?style=for-the-badge&logo=youtube" alt="YouTube Demo">
+  <a href="https://bai-mao.gitbook.io/bai-mao-docs/">
+    <img src="https://img.shields.io/badge/GitBook-官方在线文档-orange.svg?style=for-the-badge&logo=gitbook" alt="GitBook Docs">
   </a>
   <img src="https://img.shields.io/badge/Modules-22_Full_Features-success.svg?style=for-the-badge" alt="Modules">
   <img src="https://img.shields.io/badge/Protocol-MCP_41_Tools-orange.svg?style=for-the-badge" alt="MCP 41 Tools">

@@ -5,227 +5,159 @@
 <h1 align="center">WhiteCat TG Assistant · Commercial Edition</h1>
 
 <p align="center">
-  <strong>All-in-One Desktop Telegram Growth System with Multi-Account Management, Campaign Automation, Lead Scraping, AI Group Warming & Full MCP Agent Takeover</strong>
+  <strong>Industrial-Grade All-in-One Growth Platform for Telegram Lead Generation, Keyword Interception, Outreach Automation & AI Matrix Group Warming</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/ChiSonKon/tg-sender-releases/releases/latest"><img alt="Latest Release" src="https://img.shields.io/github/v/release/ChiSonKon/tg-sender-releases?display_name=release&style=for-the-badge&color=1677ff"></a>
   <a href="https://github.com/ChiSonKon/tg-sender-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ChiSonKon/tg-sender-releases/total?style=for-the-badge&color=22a06b"></a>
-  <a href="./docs/USER_MANUAL.md"><img alt="User Manual" src="https://img.shields.io/badge/Docs-22_Modules_Manual-orange?style=for-the-badge&logo=gitbook"></a>
+  <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><img alt="GitBook Docs" src="https://img.shields.io/badge/GitBook-Official_Docs-orange?style=for-the-badge&logo=gitbook"></a>
   <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-7c3aed?style=for-the-badge">
 </p>
 
 <p align="center">
-  <strong>English version</strong> | <a href="README.md">中文版</a> | <a href="README_JA.md">日本語版</a> | <a href="./docs/USER_MANUAL.md"><strong>📖 Full User Manual (22 Modules)</strong></a>
+  <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><strong>📖 Official GitBook Manual</strong></a> | <a href="https://t.me/oxbaimao"><strong>💬 Telegram Support (@oxbaimao)</strong></a> | <a href="https://t.me/wchjbot"><strong>📱 Mobile Bot (@wchjbot)</strong></a> | <a href="README.md"><strong>中文版</strong></a>
 </p>
 
 ---
 
-> 🚀 Current Version: **Commercial v4.1**. This repository is for product introduction, releases, and issue tracking. Commercial source code is proprietary.
-
+> 🚀 **Current Version: Commercial v4.1**. Ready to use out of the box with embedded enterprise Telegram API credentials and cross-machine self-healing encryption. No complex setup required!
+> 
 > 📱 **Looking for Mobile / Smartphone Client?**
-> A dedicated Telegram bot for on-the-go marketing is online: **[@wchjbot](https://t.me/wchjbot)** (Click to activate directly inside Telegram — no desktop install needed, generate leads anytime from your phone!).
+> A dedicated Telegram bot for 24/7 on-the-go marketing is online: **[@wchjbot](https://t.me/wchjbot)** (Click to activate directly inside Telegram — no desktop install needed, generate leads anytime from your phone!).
 
 ---
 
-## 📸 3 Essential Growth Workflows (Visual Guide)
+## 📥 Downloads (Official Clean Builds)
 
-To help you get started immediately, here is how high-converting marketing campaigns actually run:
+Download the package matching your operating system architecture. Extract and double-click to launch:
 
-### Scenario 01: High-Speed Member Scraping & Cleansing from 10k+ Supergroups
-- **Pain Point**: Where do I find massive, targeted, active prospects in my niche?
-- **Action**: Paste any public or private group link. The multi-threaded engine scrapes 5,300+ active members in seconds, filters out stale accounts (3+ months inactive), and exports a clean CSV lead list!
+| Operating System | Architecture / Devices | Download Package | SHA-256 Checksum |
+| :--- | :--- | :--- | :--- |
+| **Windows x64** | Windows 10 / 11 (64-bit) | [📦 Download Windows Package (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `d3fff8d6632493701bc6c207b0f17e0ca532981f3895cf0fab8c22581610f625` |
+| **macOS Apple Silicon** | M1 / M2 / M3 / M4 (arm64) | [🍏 Download macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `1e5967e8ce07b16faaed505f2faa1c731624110fc2051ad663ce57669792ccd7` |
+| **macOS Intel** | Intel Processor Mac (x86_64) | [🍏 Download macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `713650b774dbb06f2d7bd224c3d551f913bd8174b5d78ae5ae1903ac5f4c729f` |
+
+> 💡 **Quick Launch Tips**:
+> - **Windows**: Extract the ZIP file and double-click `TG自动获客助手_商业版_v4.1.exe`. To orchestrate with local AI Agents (Claude, Cursor, Antigravity, Codex), double-click `一键配置本机所有AI_Agent.bat` for instant MCP injection.
+> - **macOS**: Extract and drag the application into your `/Applications` folder. If blocked by Gatekeeper on first launch, run `sudo xattr -rd com.apple.quarantine /Applications/TG自动获客助手_商业版.app` in Terminal.
+
+---
+
+## 🎯 Core Engine 1: Real-Time Keyword Monitoring × Risk Reputation Verification
+
+Solve the biggest marketing challenge: **"Missed real-time public group inquiries due to chat flooding? Worried about dealing with scammers or dead accounts?"**
+
+The system provides 24/7 autonomous monitoring. When any user in monitored public or private groups mentions your target keywords, the lead is captured in milliseconds with risk-screening protection:
+
+<p align="center">
+  <img src="./docs/screenshot_2_keyword_reputation.png" alt="Real-Time Keyword Monitoring and Local Risk Reputation Verification" width="98%" />
+</p>
+
+### ✨ Key Features:
+1. **0-Second Latency Keyword Interception**: Configure multiple monitoring rules and keyword triggers (e.g., "looking for", "buy", "quote", "exchange", "OTC"). Inquiries pop up instantly.
+2. **Local Risk Blacklist Verification**: Cross-references every sender against the built-in risk blacklist database in milliseconds. Senders with suspicious or fraud records are flagged with bold warnings (e.g. `⚠️ [Scam Blacklist] User`).
+3. **🛡️ Export Whitelist Only (Filter High-Risk)**: Export captured leads with one click while automatically filtering out high-risk, banned, or blacklisted accounts, leaving only 100% verified prospects.
+4. **Escrow / Guarantee Group Membership Probe**: Asynchronously verifies whether unknown senders belong to authoritative escrow/guarantee groups to prevent impersonation scams.
+5. **Monitoring Heartbeat Maintenance**: Automatically sustains online active status during message streaming to ensure uninterrupted listening.
+
+---
+
+## 🚀 Core Engine 2: 10K+ Supergroup Member Scraping × Bulk Outreach & DM
+
+Solve the lead acquisition challenge: **"Where do I find massive targeted active prospects? Manual DMing is too slow and triggers account bans?"**
+
+The system delivers a streamlined pipeline combining high-depth prospect discovery with human-like multi-account outreach:
 
 <p align="center">
   <img src="./docs/screenshot_1_member_scraping.png" alt="High-Speed Supergroup Member Scraping and Cleansing" width="98%" />
 </p>
 
+### ✨ Key Features:
+1. **High-Speed Supergroup Scraping**: Input any public or private group link to scrape thousands of members in seconds. Filters out inactive accounts (> 3 months inactive) and bots to export clean CSV / TXT lead lists.
+2. **Recent Active Speaker定向 Extraction**: In addition to member lists, extract users who actually sent messages recently in reverse chronological order for dramatically higher conversion rates.
+3. **Dual-Track Outreach (Bulk DM & Group Broadcasting)**: Dispatch campaigns via multi-account pools for parallel 1-on-1 private messaging or scheduled group announcements.
+4. **Rich Text Formatting & Media Attachments**: Supports HTML hyperlinks, mixed text and images, video clips, and document attachments, as well as native channel forward broadcasting.
+5. **Anti-Ban Architecture**:
+   - Random send delays and batch cooldown breaks to mimic human behavioral patterns;
+   - Real-time permission probing to detect group mutes, dual-direction restrictions (SpamBlock), and expired sessions;
+   - Automated `@SpamBot` appeal integration with precise UTC unban time parsing;
+   - Auto-reply engine that responds to customer replies instantly without manual intervention.
+
 ---
 
-### Scenario 02: Real-Time Keyword Interception × Risk Reputation Verification
-- **Pain Point**: Too many active groups to watch manually? Worried about dealing with scammers or dead accounts?
-- **Action**: Set intent keywords (e.g., purchase intents, product names). When a user asks in any monitored group, the engine intercepts the lead with 0-second latency, cross-checks against the local risk blacklist, and lets you copy the qualified prospect with one click!
+## 🤖 Core Engine 3: AI Matrix Group Warming × Community Growth & Conversion
 
-<p align="center">
-  <img src="./docs/screenshot_2_keyword_reputation.png" alt="Real-Time Keyword Monitoring and Reputation Verification" width="98%" />
-</p>
+Solve community cold-start challenges: **"New groups are lifeless and inactive? Pushy advertising lacks trust and social proof?"**
 
----
-
-### Scenario 03: 41 MCP Tools Full Takeover · 1:1 Target Profile Clone
-- **Pain Point**: Don't want to click around complex dashboards? Need fast persona disguising?
-- **Action**: Simply prompt your AI Agent (Antigravity / Codex / Claude): *"Use MCP to clone profile of @target_user"*. The Agent automatically replicates original avatar, username alias, display name, and bio signature in milliseconds!
+Powered by our proprietary AI matrix engine, multiple persona accounts automatically collaborate according to industry scenarios to warm up groups, role-play discussions, and guide prospects toward conversion:
 
 <p align="center">
   <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
 </p>
 
----
-
-## 📥 Download Current Version
-
-Please download the build matching your operating system from [Latest Release](https://github.com/ChiSonKon/tg-sender-releases/releases/latest).
-
-| OS | Supported Devices | Download | SHA-256 Checksum |
-| :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 64-bit | [Download Windows (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
-| **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [Download macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
-| **macOS x86_64** | Intel Processor Mac | [Download macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
+### ✨ Key Features:
+1. **Community Profile Analysis**: AI models analyze group context and product positioning to generate natural conversational scripts and multi-character role definitions.
+2. **Multi-Account Realistic Dialogues & Reactions**: Persona accounts take on roles as industry experts, repeat customers, and inquisitive buyers, maintaining coordinated discussions and Emoji reactions.
+3. **Contextual Memory & Live Lead Engagement**: The system retains historical topic context. When a real prospect joins the conversation, AI personas naturally steer inquiries toward closing.
+4. **1:1 Millisecond Profile Clone**: Replicate target community or influencer avatars, nicknames, bios, and handles onto matrix accounts with one click.
+5. **41 Full-Featured MCP Tools for AI Agents**: Full support for the Anthropic Model Context Protocol. Hand over your growth operations to Claude, Cursor, or Google Antigravity with simple natural language prompts!
 
 ---
 
-## 🎬 Live Field Demo & AI Agent Orchestration (YouTube 1080P Walkthrough)
+## 📚 22 Comprehensive Modules & Official Online Documentation
 
-> 💡 **Included in Demo**: Scraping 5,300+ real members from supergroups in seconds ➔ Real-time keyword lead capture & local risk reputation check (Anti-Scam / Anti-Ban) ➔ Natural language prompt orchestrating MCP to 1:1 clone target profile.
-> Click the preview image below or the link to watch the full demo on YouTube (with Chinese subtitles):
+Beyond the three core engines above, WhiteCat TG Assistant Commercial Edition integrates **22 industrial-grade modules**:
 
-[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-📺 **Watch on YouTube**: [https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-### ⏱️ Video Chapters & Milestones:
-- **00:00** | **Introduction**: Jet-engine speed and scale overhaul in Telegram growth marketing.
-- **00:28** | **Scene 1 · High-Speed Scraping**: Scraping **5,300+ active leads** from Telegram supergroups in seconds with automatic filtering of inactive accounts (> 3 months).
-- **00:51** | **Scene 2 · Real-Time Monitoring**: **Zero-second latency** keyword interception with local risk reputation filtering for a 100% clean buyer whitelist.
-- **01:20** | **Scene 3 · MCP Takeover & Identity Cloning**: 41 MCP tools enable Claude / Codex to **clone target profile 1-to-1 in milliseconds** (avatar, name, bio, alias).
-- **02:06** | **Scene 4 · Mass Migration**: High-trust persona messaging seamlessly migrating **2,800 group members** to a brand new community destination.
+| Category | Deep Commercial Capabilities |
+| :--- | :--- |
+| **Agents & Automation** | 41 MCP marketing and governance tools, natural language control, one-click agent setup, stdio communication |
+| **Account & Core Ops** | Account matrix pooling, self-healing API encryption, SpamBot UTC diagnosis, send permission probes, one-click cleanup |
+| **Outreach & Expansion** | 1:1 profile cloning, bulk member force-inviting, automated supergroup & channel creation, channel forward cloning |
+| **Anti-Risk & Anti-Ban** | Dynamic captcha solving (Shieldy, Rose, math problems, buttons), bulk reporting, sponsored ad clicker, dynamic proxy pool, Session converter |
 
 ---
 
-## ⚡ Fast Setup: One-Click Local AI Agent Auto-Configuration (100% Reliable, No Agent Refusals)
+### 📖 Read the Full 22-Module Field Guide on GitBook
 
-### Method A (Highly Recommended · Double-Click to Run): Bundled Setup Script
-After downloading and extracting the release package, **simply double-click the setup script in the folder**:
-- **Windows**: Double-click `一键配置本机所有AI_Agent.bat`
-- **macOS**: Double-click `一键配置本机所有AI_Agent.command`
-
-> 🚀 **Automated Discovery & Safe Merging**:
-> - Zero Python dependency required; the script **automatically scans** your system for installed AI Agents (**OpenAI Codex, Claude Desktop, Cursor, Google Antigravity, Windsurf, VS Code Cline / Roo-Code**);
-> - Directly injects and non-destructively merges the MCP configuration while automatically backing up existing settings;
-> - **Bypasses the common issue where Agents like Codex refuse prompt instructions to modify local system configuration!**
-
----
-
-### Method B (In-App GUI Setup): Inject Directly from Settings
-If you already launched the WhiteCat TG Assistant GUI:
-1. Open 【**Settings**】➔【**🔌 MCP Server & Agent Configuration**】;
-2. Click the primary button: 【**⚡ Auto-Scan & Configure All Local AI Agents**】;
-3. A popup will confirm detected Agents and written paths. Restart or refresh your Agent to unlock all 41 marketing and governance capabilities immediately!
-
----
-
-### Method C (Prompt-Based Fallback): If Your Agent Has Full Terminal & File Permissions
-If your AI Agent environment supports terminal commands and file system manipulation, you can also paste this prompt directly:
-
-```text
-Please download the latest WhiteCat Telegram Assistant Commercial Edition (v4.1) from GitHub repository https://github.com/ChiSonKon/tg-sender-releases, extract it, and automatically register it into the current Agent's MCP server configuration with full read-write permissions. After setup, report the 41 available Telegram marketing and governance tools.
-```
-
-> 💡 **What the AI Agent will do**:
-> 1. Auto-fetch the latest v4.1 release package from GitHub Releases and extract it;
-> 2. Auto-configure the MCP server in your Agent environment;
-> 3. Ready to go! You can now instruct the Agent in natural language (*"Send messages to target users"*, *"Scrape active members and disguise accounts"*, *"Join groups and auto-solve bot captchas"*, *"Monitor keywords and filter high-risk blacklist targets"*).
-
----
-
-### 📸 Live Agent Dispatch & Message Delivery
-
-Once configured, instruct your AI Agent in natural language to orchestrate Telegram accounts and execute real campaigns:
+For step-by-step UI guides, parameter tuning tips, and advanced growth playbooks for every single module, visit our official GitBook documentation:
 
 <p align="center">
-  <img src="./docs/mcp_agent_demo_v4.png" alt="MCP Service and Agent Dispatch Demo" width="95%" />
+  <a href="https://bai-mao.gitbook.io/bai-mao-docs/">
+    <img src="https://img.shields.io/badge/Read_Online-Official_GitBook_Documentation-blue?style=for-the-badge&logo=gitbook" alt="Read Official GitBook Documentation">
+  </a>
 </p>
 
-### 🧩 Automated Join Verification (Captcha) AI Solving Flow
-
-When accounts join groups with anti-bot verification (`@Shieldy`, `@go365_ai_bot`, `@WeGroupRobot`, etc.), the engine captures challenges, evaluates math problems, clicks inline buttons, and lifts mutes automatically:
-
-<p align="center">
-  <img src="./docs/mcp_captcha_flow_v4.png" alt="Group Join Captcha Auto-Solving Sequence Diagram" width="95%" />
-</p>
+👉 **Direct Online Documentation**: **[https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)**
 
 ---
 
-<details>
-<summary><strong>🛠️ For Advanced Developers: Manual MCP Setup (Click to Expand)</strong></summary>
+## ⚡ One-Click Local AI Agent Setup (MCP Protocol)
 
-```json
-{
-  "mcpServers": {
-    "whitecat-tg-assistant": {
-      "command": "python",
-      "args": [
-        "<app_directory>/run_mcp_server.py",
-        "--stdio",
-        "--allow-writes",
-        "--connect-accounts"
-      ],
-      "env": {
-        "PYTHONIOENCODING": "utf-8",
-        "PYTHONDONTWRITEBYTECODE": "1"
-      }
-    }
-  }
-}
-```
-</details>
+To let local AI Agents (Claude Desktop, Cursor, OpenAI Codex, Antigravity, Windsurf) autonomously operate WhiteCat TG Assistant:
+
+1. Extract the release package;
+2. Run the bundled script:
+   - **Windows**: Double-click `一键配置本机所有AI_Agent.bat`
+   - **macOS**: Double-click `一键配置本机所有AI_Agent.command`
+3. The script automatically detects installed AI agents, merges the 41 MCP tools into their configs, and backs up existing settings non-destructively.
 
 ---
 
-## 🎬 Video Demonstrations
+## 🔒 Privacy, Security & Compliance
 
-### Direct Messaging & Rich Text Demo
-
-https://github.com/user-attachments/assets/d2d45e1f-58b2-499d-973b-a31c802ab19f
-
-### AI Group Warming & Bulk Group Messaging Demo
-
-https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
-
----
-
-## 🌟 v4.1 Major Highlights
-
-1. **41 Full-Featured MCP Marketing & Community Governance Tools**:
-   - Complete 100% operational takeover: direct messaging, bulk campaign broadcasts, full/active member scraping, force invites, group/channel creation & renaming, auto-reply engine, AI matrix warming, channel cloning, keyword group monitoring, risk blacklist management, proxy pooling, session format conversion, and task scheduling.
-   - Built-in one-click setup script (`一键配置本机所有AI_Agent.bat`) and in-app scanner supporting OpenAI Codex, Claude Desktop, Cursor, Google Antigravity, Windsurf, and VS Code Roo-Code.
-2. **Lead Reputation Verification & Whitelist Clean Export**:
-   - New "Export Whitelist Only (Filter High-Risk)" feature in keyword monitor automatically cross-checks local risk blacklist in milliseconds to eliminate scammers, spammers, and defaulters.
-   - Built-in Risk Blacklist Database with batch import/export and real-time high-risk badge highlights.
-3. **API Credential Safety Fallbacks & Self-Healing Re-Encryption**:
-   - Embedded commercial Telegram API credentials eliminate "API ID or Hash cannot be empty" errors across device migrations.
-   - Automatic cross-machine fingerprint recovery and local AES re-encryption.
-   - Password masking with reveal/hide eye toggle in Settings.
-4. **Designated Guarantee Group Member Instant Verification**:
-   - Asynchronously probes whether unknown senders belong to specified escrow/guarantee groups, preventing impostor scams.
-5. **Dynamic Group Join Captcha Solver**:
-   - Auto-handles Shieldy, MissRose, GroupHelp, Go365, WeGroupRobot, deep-link handshakes, and arithmetic formulas.
-6. **Muted & Inactive Account Quarantine**:
-   - Probes send permissions, detects SpamBlocks, and safely archives expired sessions into `session_quarantine/`.
-7. **SpamBot Full-Text Diagnostics**:
-   - Captures raw dialogs from `@SpamBot` and extracts exact UTC release timestamps.
-8. **Online Heartbeat & Background Performance**:
-   - Active status updates keep monitoring accounts alive and prevent unexpected disconnects.
-
----
-
-## 🔒 Privacy & Safety Statement
-
-- **100% Local Storage**: All Telegram sessions, proxy credentials, and data remain strictly on your local machine. No cloud uploads.
-- **Compliance**: For legitimate, authorized customer outreach and community management only.
+- **100% Local Storage**: All Telegram sessions, proxy credentials, and lead databases remain strictly on your local machine. No data is ever uploaded to external servers.
+- **Official API Standards**: Built-in standard Telegram API parameters, ready to use out of the box.
+- **Compliance**: For legitimate customer support, marketing, and community management only. Users must comply with Telegram Terms of Service and local regulations.
 
 ---
 
 ## 📬 Contact & Support
 
 - **Telegram Support**: [t.me/oxbaimao](https://t.me/oxbaimao)
-- **Bug Reports**: [GitHub Issues](https://github.com/ChiSonKon/tg-sender-releases/issues)
-- **Releases**: [GitHub Releases](https://github.com/ChiSonKon/tg-sender-releases/releases)
-
----
-
-## 🔍 SEO Keywords & Topics
-> `Telegram Marketing Bot` · `Telegram Scraper` · `Telegram Mass DM` · `TG Auto Sender` · `Telegram Member Scraper` · `Telegram Lead Generation` · `Telegram MCP Protocol` · `TG Group Monitor` · `Telegram Captcha Solver` · `Telegram AI Growth Engine` · `Telegram Marketing Software`
+- **Mobile Outreach Bot**: [t.me/wchjbot](https://t.me/wchjbot)
+- **Official GitBook Manual**: [https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)
+- **Releases & Downloads**: [GitHub Releases](https://github.com/ChiSonKon/tg-sender-releases/releases)
 
 ---
 
@@ -233,4 +165,3 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
   <strong>White Cat Studio</strong><br>
   <sub>© 2024–2026 White Cat Studio. All rights reserved.</sub>
 </p>
-

@@ -55,13 +55,11 @@
 
 ---
 
-## 🎬 官方超清实战演示录屏（带章节导航）
+## 📖 官方完整实战手册 (GitBook 在线文档)
 
-点击下方视频封面或链接，前往 YouTube 观看 1080P 超清全流程实战演示：
+请直接访问我们全新打造的官方 GitBook 在线手册查阅 22 模块图文教程与防封实战：
 
-[![WhiteCat TG Assistant v4.1 Demo Video](https://img.youtube.com/vi/V9ciJB9Pxcw/maxresdefault.jpg)](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
-
-📺 **YouTube 直达观看**：[https://www.youtube.com/watch?v=V9ciJB9Pxcw](https://www.youtube.com/watch?v=V9ciJB9Pxcw)
+👉 **[https://bai-mao.gitbook.io/bai-mao-docs/](https://bai-mao.gitbook.io/bai-mao-docs/)**
 
 ---
 
