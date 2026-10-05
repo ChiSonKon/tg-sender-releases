@@ -20,7 +20,7 @@
 
 ---
 
-> 🚀 現在のバージョン：**コマーシャル版 v4.1**。本リポジトリは製品案内、リリース配布、フィードバック専用です。ソースコードは非公開です。
+> 🚀 現在のバージョン：**コマーシャル版 v5.0.0**（ネイティブコンパイル・新ライセンス/決済・新UI・MCP 45 ツール・macOS 対応・インストーラー版とポータブル版）。新しい端末には約 3 時間の無料トライアルが付きます。詳細は [v5.0 リリースノート](./docs/getting_started/whats_new_5_0.md)（中国語）。
 
 ---
 
@@ -42,7 +42,7 @@
 獲客アシスタント本体をすでに起動している場合：
 1. 【**設定**】➔【**🔌 MCP サービスと Agent 設定**】タブを開きます；
 2. 【**⚡ ローカルの全 AI エージェントを一括自動検出・設定**】ボタンをクリック；
-3. ポップアップで検出結果と設定パスを確認できます。対象エージェントを再起動またはリロードすれば、41 種類の自動化・コミュニティ統治ツールが即座に使用可能になります！
+3. ポップアップで検出結果と設定パスを確認できます。対象エージェントを再起動またはリロードすれば、45 種類の自動化・コミュニティ統治ツールが即座に使用可能になります！
 
 ---
 
@@ -50,7 +50,7 @@
 ご利用のエージェントがローカルファイルの編集やダウンロードに対応している場合は、以下のプロンプトをそのまま送信することも可能です：
 
 ```text
-GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最新の Telegram 集客アシスタント商用版 (v4.1) を自動ダウンロード・展開し、現在の MCP サーバー設定にフル権限で登録してください。完了後、利用可能な41種類の集客・コミュニティ統治機能を報告してください。
+GitHub リポジトリ https://github.com/ChiSonKon/tg-sender-releases から最新の Telegram 集客アシスタント商用版 (v5.0) を自動ダウンロード・展開し、現在の MCP サーバー設定にフル権限で登録してください。完了後、利用可能な45種類の集客・コミュニティ統治機能を報告してください。
 ```
 
 > 💡 **エージェントが自動で行うこと**:
@@ -122,15 +122,18 @@ https://github.com/user-attachments/assets/da417416-df93-4988-9e72-e530873dd4b2
 
 | OS | 対象デバイス | ダウンロード | SHA-256 チェックサム |
 | :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 64bit | [Windows 完全版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `f572ae66ad7c674b9939b910b7dd0b24977abef89223b8e1b8df8d30d3e9ed9f` |
-| **macOS arm64** | Apple Silicon: M1 / M2 / M3 / M4 | [macOS Apple Silicon 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `be2bdbf2d001dea1d227264835c5402a408110969972b7da561a1ca70c8b4313` |
-| **macOS x86_64** | Intel Mac | [macOS Intel 版 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `9301a5b869fa51b928f59aa3afc4b16d793b6d01cd43f0a563ba1a1d5a599fda` |
+| **Windows x64** · インストーラー（推奨） | [WhiteCat-TG-Assistant-5.0.0-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Setup.exe) | `e20f7627ce518e0f4d266a7c442e5939d8fc2ec366d7ffe8a5e40f1ba2abf9d0` |
+| **Windows x64** · ポータブル | [WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip) | `9e4a0c7a377d27649c0d51b9246489d6884445d5877e9cf29547713d4cc7709e` |
+| **macOS Apple Silicon** · DMG（推奨） | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg) | `2a43fa8e2508a0425e4a72fa1e4df413372459fb98b421e5dcd68a806a9b3ffa` |
+| **macOS Apple Silicon** · ポータブル | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip) | `c03e446345039f94a82bfcad4d1c58c98fb8d2eb89d26e3e2bf60f0a8b7dad31` |
+| **macOS Intel** · DMG（推奨） | [WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg) | `83390ade3c6de253dfa9f721bb954ccb12e2619f6b4bba8722136f25aa519a98` |
+| **macOS Intel** · ポータブル | [WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip) | `a0af3ffe9123b09291d7a3c23f597c260377998694435ae79af0b11f3cff232d` |
 
 ---
 
 ## 🌟 v4.1 主なアップデート内容
 
-1. **41種類の全機能 MCP ツールを完全網羅**:
+1. **45種類の全機能 MCP ツールを完全網羅**:
    - メッセージ配信、グループ一斉送信、アクティブメンバー抽出、強制招待、チャンネル作成、自動返信エンジン、AIグループ活性化、チャンネル複製、キーワード監視、リスクブラックリスト管理、プロキシプール、セッション変換など業務を100%完全制御。
    - `一键配置本机所有AI_Agent.bat` またはアプリ内ワンクリックで OpenAI Codex、Claude Desktop、Cursor、Google Antigravity、Windsurf、VS Code Roo-Code に即時登録可能。
 2. **商談信用検証＆ホワイトリスト安全抽出（業界初）**:

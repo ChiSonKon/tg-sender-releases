@@ -1,6 +1,7 @@
 # 🤖 MCP 智能体协议 · 一键全自动配置
 
-> 💡 **核心定位**：全网首创通过 **Model Context Protocol (MCP)** 协议，将 Telegram 商业获客全部 41 项功能完全开放给外部主流 AI 智能体（Agent）。
+> 💡 **核心定位**：全网首创通过 **Model Context Protocol (MCP)** 协议，将 Telegram 商业获客全部 45 项功能完全开放给外部主流 AI 智能体（Agent）。
+> v5.0 起工具数为 **45 项**（新增账号健康、流水线状态 / 控制、线索台四个工具），并会检测、修复指向已失效路径的旧配置。
 > 彻底告别“向 Agent 发提示词修改配置被拒绝”的烦恼！
 
 ---
@@ -19,6 +20,7 @@
    - **Cursor**
    - **Google Antigravity**
    - **Windsurf**
+   - **Claude Code**、**Gemini CLI**、**VS Code（Copilot 原生 MCP）**（v5.0 新增）
    - **VS Code Cline / Roo-Code**
 3. **安全合并备份**：自动备份现有配置文件，以非覆盖的安全 Merge 方式追加 `whitecat-tg-assistant` 工具链。
 

@@ -21,26 +21,31 @@
 
 ---
 
-> 🚀 **最新版本：商业版 v4.1**。开箱即用，已内置商业版专属 Telegram API 凭证与自愈重加密保护，免配置复杂参数！
+> 🚀 **最新版本：商业版 v5.0.0**（原生编译 · 全新授权与收银台 · 全新界面 · 45 项 MCP 工具 · 补齐 macOS 版本 · 提供安装版与免安装版）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
 > 
 > 📱 **有手机端/移动端引流需求？**
 > 专为手机随时随地获客打造的独立机器人项目已同步稳定运行：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机随时随地自动引流拓客！）。
 
 ---
 
-## 📥 软件安装包下载（官方正版 · 绿色纯净）
+## 📥 软件下载（官方正版 · v5.0.0）
 
-请根据您的操作系统架构下载对应安装包，解压后双击即可直接运行：
+每个平台都提供 **安装版**（推荐，自带自动更新）和 **免安装版**（解压即用）。请只从本页面 / [Releases](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载并核对校验和。
 
-| 系统平台 | 适用设备 / 架构 | 官方发布包下载 | SHA-256 校验和 |
-| :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 64位 | [📦 下载 Windows 完整包 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `d3fff8d6632493701bc6c207b0f17e0ca532981f3895cf0fab8c22581610f625` |
-| **macOS Apple Silicon** | M1 / M2 / M3 / M4 (arm64) | [🍏 下载 macOS Apple Silicon 包 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `1e5967e8ce07b16faaed505f2faa1c731624110fc2051ad663ce57669792ccd7` |
-| **macOS Intel** | Intel 处理器 Mac (x86_64) | [🍏 下载 macOS Intel 包 (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `713650b774dbb06f2d7bd224c3d551f913bd8174b5d78ae5ae1903ac5f4c729f` |
+| 系统 / 形式 | 下载 | SHA-256 |
+| :--- | :--- | :--- |
+| **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.0-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Setup.exe) | `e20f7627ce518e0f4d266a7c442e5939d8fc2ec366d7ffe8a5e40f1ba2abf9d0` |
+| **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip) | `9e4a0c7a377d27649c0d51b9246489d6884445d5877e9cf29547713d4cc7709e` |
+| **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg) | `2a43fa8e2508a0425e4a72fa1e4df413372459fb98b421e5dcd68a806a9b3ffa` |
+| **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip) | `c03e446345039f94a82bfcad4d1c58c98fb8d2eb89d26e3e2bf60f0a8b7dad31` |
+| **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg) | `83390ade3c6de253dfa9f721bb954ccb12e2619f6b4bba8722136f25aa519a98` |
+| **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip) | `a0af3ffe9123b09291d7a3c23f597c260377998694435ae79af0b11f3cff232d` |
 
-> 💡 **快速启动说明**：
-> - **Windows**：解压 ZIP 包后双击 `TG自动获客助手_商业版_v4.1.exe` 即可启动。如需与本机 AI Agent（Claude、Cursor、Antigravity、Codex 等）联动，直接双击 `一键配置本机所有AI_Agent.bat` 即可一键注入 MCP 协议；
-> - **macOS**：解压后将应用拖入“应用程序”目录。首次启动若遇安全拦截，可在终端执行 `sudo xattr -rd com.apple.quarantine /Applications/TG自动获客助手_商业版.app`。
+> 💡 **快速开始**：
+> - **Windows**：运行 `Setup.exe`（或解压便携版）。首次出现「Windows 已保护你的电脑」→ 点 **更多信息 → 仍要运行**（软件暂未购买代码签名证书，不代表有病毒）；
+> - **macOS**：dmg 拖入「应用程序」（或解压便携版）。首次被拦截：macOS 14 及更早 **右键 → 打开**；macOS 15 及更新 **系统设置 → 隐私与安全性 → 仍要打开**；
+> - **新设备自带约 3 小时免费试用**；购买与激活见 [试用、购买与激活](./docs/getting_started/activation_and_trial.md)，完整安装步骤见 [安装指南](./docs/getting_started/desktop_install.md)。
+> - 与本机 AI Agent（Claude Code、Claude Desktop、Cursor、Codex、Antigravity、Gemini CLI 等）联动：设置页点「一键配置本机所有 Agent」，或双击包内的 `一键配置本机所有AI_Agent` 脚本。
 
 ---
 
@@ -93,7 +98,7 @@
 系统搭载了自研 AI 矩阵炒群引擎，联动多马甲账号根据行业场景自动暖群、抛砖引玉、角色扮演与好评烘托，把公域引流进来的客户快速促成转化！
 
 <p align="center">
-  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41项 MCP 智能体深度接管与 1:1 自动克隆伪装" width="98%" />
+  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="45项 MCP 智能体深度接管与 1:1 自动克隆伪装" width="98%" />
 </p>
 
 ### ✨ 核心功能亮点：
@@ -101,7 +106,7 @@
 2. **多账号拟真人对话与表情互动**：多马甲账号分工扮演行业专家、新老顾客、询价买家等角色，自动有序跟帖探讨，配合 Emoji Reaction 表情点赞互动；
 3. **热启动记忆提炼与上下文承接**：系统自动沉淀群内历史话题记忆，真实潜客一旦在群内插话提问，AI 马甲自然承接引导，毫无生硬违和感；
 4. **目标群画像 1:1 毫秒级克隆伪装**：一键抓取目标群或行业领袖的真实头像、个性昵称、个人简介，全自动同步至矩阵马甲账号；
-5. **41 项全功能 MCP 智能体接管**：率先全面支持 Anthropic Model Context Protocol。不管是 Claude、Cursor 还是 Google Antigravity，发送一句话即可由 AI 接管获客！
+5. **45 项全功能 MCP 智能体接管**：率先全面支持 Anthropic Model Context Protocol。不管是 Claude、Cursor 还是 Google Antigravity，发送一句话即可由 AI 接管获客！
 
 ---
 
@@ -111,7 +116,7 @@
 
 | 模块大类 | 包含的深度商业功能 |
 | :--- | :--- |
-| **智能体与自动化** | 全量 41 项获客与治理 MCP 工具池、AI 自然语言接管、一键配置本机所有 Agent、Stdio 管道通信 |
+| **智能体与自动化** | 全量 45 项获客与治理 MCP 工具池、AI 自然语言接管、一键配置本机所有 Agent、Stdio 管道通信 |
 | **账号与底层运维** | 矩阵账号池管理、跨机器 API 凭证自愈加密、SpamBot UTC 解封诊断、群写权限探针、失效账号一键清理 |
 | **引流与线索裂变** | 目标群全套伪装克隆、批量强制拉人进群、批量全自动创建超级群与频道、频道内容一键克隆搬运 |
 | **风控反制与合规** | 动态进群人机验证破解 (Shieldy/Rose 等四则运算/按钮秒解)、批量违规举报、赞助广告点击、动态代理池绑定、Session 双向格式互转 |

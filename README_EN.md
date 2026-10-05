@@ -21,7 +21,7 @@
 
 ---
 
-> 🚀 **Current Version: Commercial v4.1**. Ready to use out of the box with embedded enterprise Telegram API credentials and cross-machine self-healing encryption. No complex setup required!
+> 🚀 **Current Version: Commercial v5.0.0** — natively compiled, new licensing & in-app cashier, redesigned UI, 45 MCP tools, macOS builds, installer and portable packages. New devices include a free trial (about 3 hours). See the [v5.0 release notes](./docs/getting_started/whats_new_5_0.md) (Chinese).
 > 
 > 📱 **Looking for Mobile / Smartphone Client?**
 > A dedicated Telegram bot for 24/7 on-the-go marketing is online: **[@wchjbot](https://t.me/wchjbot)** (Click to activate directly inside Telegram — no desktop install needed, generate leads anytime from your phone!).
@@ -30,17 +30,21 @@
 
 ## 📥 Downloads (Official Clean Builds)
 
-Download the package matching your operating system architecture. Extract and double-click to launch:
+Each platform ships an **installer** (recommended, auto-update) and a **portable** build (unzip and run):
 
 | Operating System | Architecture / Devices | Download Package | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- |
-| **Windows x64** | Windows 10 / 11 (64-bit) | [📦 Download Windows Package (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-Windows.zip) | `d3fff8d6632493701bc6c207b0f17e0ca532981f3895cf0fab8c22581610f625` |
-| **macOS Apple Silicon** | M1 / M2 / M3 / M4 (arm64) | [🍏 Download macOS Apple Silicon (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-arm64.zip) | `1e5967e8ce07b16faaed505f2faa1c731624110fc2051ad663ce57669792ccd7` |
-| **macOS Intel** | Intel Processor Mac (x86_64) | [🍏 Download macOS Intel (.zip)](https://github.com/ChiSonKon/tg-sender-releases/releases/latest/download/WhiteCat-TG-Assistant-Commercial-v4.1-macOS-x86_64.zip) | `713650b774dbb06f2d7bd224c3d551f913bd8174b5d78ae5ae1903ac5f4c729f` |
+| **Windows x64** · Installer (recommended) | [WhiteCat-TG-Assistant-5.0.0-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Setup.exe) | `e20f7627ce518e0f4d266a7c442e5939d8fc2ec366d7ffe8a5e40f1ba2abf9d0` |
+| **Windows x64** · Portable | [WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-Windows-x64-Portable.zip) | `9e4a0c7a377d27649c0d51b9246489d6884445d5877e9cf29547713d4cc7709e` |
+| **macOS Apple Silicon (M1–M4)** · DMG (recommended) | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64.dmg) | `2a43fa8e2508a0425e4a72fa1e4df413372459fb98b421e5dcd68a806a9b3ffa` |
+| **macOS Apple Silicon** · Portable | [WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-arm64-Portable.zip) | `c03e446345039f94a82bfcad4d1c58c98fb8d2eb89d26e3e2bf60f0a8b7dad31` |
+| **macOS Intel** · DMG (recommended) | [WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64.dmg) | `83390ade3c6de253dfa9f721bb954ccb12e2619f6b4bba8722136f25aa519a98` |
+| **macOS Intel** · Portable | [WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.0/WhiteCat-TG-Assistant-5.0.0-macOS-x64-Portable.zip) | `a0af3ffe9123b09291d7a3c23f597c260377998694435ae79af0b11f3cff232d` |
 
 > 💡 **Quick Launch Tips**:
-> - **Windows**: Extract the ZIP file and double-click `TG自动获客助手_商业版_v4.1.exe`. To orchestrate with local AI Agents (Claude, Cursor, Antigravity, Codex), double-click `一键配置本机所有AI_Agent.bat` for instant MCP injection.
-> - **macOS**: Extract and drag the application into your `/Applications` folder. If blocked by Gatekeeper on first launch, run `sudo xattr -rd com.apple.quarantine /Applications/TG自动获客助手_商业版.app` in Terminal.
+> - **Windows**: Run `Setup.exe` (or unzip the portable build). If you see "Windows protected your PC", click **More info -> Run anyway** (the app is not code-signed yet; this does not mean it is malware).
+> - **macOS**: Drag the app from the DMG into `/Applications` (or unzip the portable build). First launch is blocked by Gatekeeper: on macOS 14 and earlier use **right-click -> Open**; on macOS 15+ use **System Settings -> Privacy & Security -> Open Anyway**.
+> - New devices include a free trial (about 3 hours). See the [activation guide](./docs/getting_started/activation_and_trial.md) (Chinese).
 
 ---
 
@@ -93,7 +97,7 @@ Solve community cold-start challenges: **"New groups are lifeless and inactive? 
 Powered by our proprietary AI matrix engine, multiple persona accounts automatically collaborate according to industry scenarios to warm up groups, role-play discussions, and guide prospects toward conversion:
 
 <p align="center">
-  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="41 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
+  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="45 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -101,7 +105,7 @@ Powered by our proprietary AI matrix engine, multiple persona accounts automatic
 2. **Multi-Account Realistic Dialogues & Reactions**: Persona accounts take on roles as industry experts, repeat customers, and inquisitive buyers, maintaining coordinated discussions and Emoji reactions.
 3. **Contextual Memory & Live Lead Engagement**: The system retains historical topic context. When a real prospect joins the conversation, AI personas naturally steer inquiries toward closing.
 4. **1:1 Millisecond Profile Clone**: Replicate target community or influencer avatars, nicknames, bios, and handles onto matrix accounts with one click.
-5. **41 Full-Featured MCP Tools for AI Agents**: Full support for the Anthropic Model Context Protocol. Hand over your growth operations to Claude, Cursor, or Google Antigravity with simple natural language prompts!
+5. **45 Full-Featured MCP Tools for AI Agents**: Full support for the Anthropic Model Context Protocol. Hand over your growth operations to Claude, Cursor, or Google Antigravity with simple natural language prompts!
 
 ---
 
@@ -111,7 +115,7 @@ Beyond the three core engines above, WhiteCat TG Assistant Commercial Edition in
 
 | Category | Deep Commercial Capabilities |
 | :--- | :--- |
-| **Agents & Automation** | 41 MCP marketing and governance tools, natural language control, one-click agent setup, stdio communication |
+| **Agents & Automation** | 45 MCP marketing and governance tools, natural language control, one-click agent setup, stdio communication |
 | **Account & Core Ops** | Account matrix pooling, self-healing API encryption, SpamBot UTC diagnosis, send permission probes, one-click cleanup |
 | **Outreach & Expansion** | 1:1 profile cloning, bulk member force-inviting, automated supergroup & channel creation, channel forward cloning |
 | **Anti-Risk & Anti-Ban** | Dynamic captcha solving (Shieldy, Rose, math problems, buttons), bulk reporting, sponsored ad clicker, dynamic proxy pool, Session converter |
@@ -140,7 +144,7 @@ To let local AI Agents (Claude Desktop, Cursor, OpenAI Codex, Antigravity, Winds
 2. Run the bundled script:
    - **Windows**: Double-click `一键配置本机所有AI_Agent.bat`
    - **macOS**: Double-click `一键配置本机所有AI_Agent.command`
-3. The script automatically detects installed AI agents, merges the 41 MCP tools into their configs, and backs up existing settings non-destructively.
+3. The script automatically detects installed AI agents, merges the 45 MCP tools into their configs, and backs up existing settings non-destructively.
 
 ---
 

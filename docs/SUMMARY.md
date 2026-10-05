@@ -4,7 +4,9 @@
 
 ## 🚀 快速上手 (Quick Start)
 * [双端矩阵与获客生态架构](getting_started/architecture.md)
-* [电脑端快速下载与安装](getting_started/desktop_install.md)
+* [v5.0 更新说明](getting_started/whats_new_5_0.md)
+* [电脑端下载与安装（安装版 / 免安装版）](getting_started/desktop_install.md)
+* [试用、购买与激活（卡密）](getting_started/activation_and_trial.md)
 * [手机端获客机器人一键唤醒](getting_started/mobile_bot_start.md)
 
 ## 📱 手机端获客机器人 (@wchjbot)
