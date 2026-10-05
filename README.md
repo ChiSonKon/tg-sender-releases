@@ -56,7 +56,7 @@
 系统提供 7×24 小时无人值守实时监控，一旦目标公开群或私密群内有人发布指定业务关键词，毫秒级捕获并自动完成信誉风险初筛！
 
 <p align="center">
-  <img src="./docs/screenshot_2_keyword_reputation.png" alt="实时商机秒级监控与独家风控信誉核验" width="98%" />
+  <img src="./docs/promo/02_lead_monitor.png" alt="实时商机监控：命中词高亮、风控黑名单标签与转化流水线（演示数据）" width="98%" />
 </p>
 
 ### ✨ 核心功能亮点：
@@ -75,7 +75,7 @@
 系统打造了集“大群活跃潜客深度挖掘”与“多账号拟真人并发触达”于一体的流水线引擎：
 
 <p align="center">
-  <img src="./docs/screenshot_1_member_scraping.png" alt="万人群精准成员秒级高速采集与清洗" width="98%" />
+  <img src="./docs/promo/03_voice_outreach.png" alt="私信触达：电话唤醒、原生语音条与发送队列（演示数据）" width="98%" />
 </p>
 
 ### ✨ 核心功能亮点：
@@ -98,7 +98,7 @@
 系统搭载了自研 AI 矩阵炒群引擎，联动多马甲账号根据行业场景自动暖群、抛砖引玉、角色扮演与好评烘托，把公域引流进来的客户快速促成转化！
 
 <p align="center">
-  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="45项 MCP 智能体深度接管与 1:1 自动克隆伪装" width="98%" />
+  <img src="./docs/promo/01_account_matrix.png" alt="15 账号矩阵并发在线与号龄分级风控（演示数据）" width="98%" />
 </p>
 
 ### ✨ 核心功能亮点：
@@ -107,6 +107,23 @@
 3. **热启动记忆提炼与上下文承接**：系统自动沉淀群内历史话题记忆，真实潜客一旦在群内插话提问，AI 马甲自然承接引导，毫无生硬违和感；
 4. **目标群画像 1:1 毫秒级克隆伪装**：一键抓取目标群或行业领袖的真实头像、个性昵称、个人简介，全自动同步至矩阵马甲账号；
 5. **45 项全功能 MCP 智能体接管**：率先全面支持 Anthropic Model Context Protocol。不管是 Claude、Cursor 还是 Google Antigravity，发送一句话即可由 AI 接管获客！
+
+---
+
+## 🖼️ v5.0 真实界面一览
+
+> 以下均为 v5.0 **真实软件界面**截图（4K 原图在 [`docs/promo/`](./docs/promo)），数据为**演示数据**，不代表真实业务量。
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/promo/01_account_matrix.png" alt="账号矩阵" /><br><sub><b>账号矩阵</b> · 多账号并发在线、号龄分级风控</sub></td>
+    <td width="50%"><img src="./docs/promo/02_lead_monitor.png" alt="商机监听" /><br><sub><b>商机监听</b> · 命中词高亮、黑名单比对、转化流水线</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./docs/promo/03_voice_outreach.png" alt="私信触达" /><br><sub><b>私信触达</b> · 电话唤醒 → 原生语音条 → 文字</sub></td>
+    <td width="50%"><img src="./docs/promo/04_channel_clone.png" alt="频道克隆" /><br><sub><b>频道克隆</b> · 多通道并行搬运、自动清理广告</sub></td>
+  </tr>
+</table>
 
 ---
 

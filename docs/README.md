@@ -32,7 +32,7 @@
 贴入公开或私密大群链接，多线程高速并发抓取，自动过滤 3 个月未上线的死号僵尸号，一键导出纯净 CSV 潜客名单：
 
 <p align="center">
-  <img src="./screenshot_1_member_scraping.png" alt="万人群精准成员秒级高速采集与清洗" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
+  <img src="./promo/03_voice_outreach.png" alt="私信触达：电话唤醒、原生语音条与发送队列（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
 </p>
 
 ---
@@ -41,7 +41,7 @@
 全网多群实时监听求购关键词，0 延迟毫秒级捕获；独创联动本地风控黑名单过滤老赖与恶意号，一键触达真实买家：
 
 <p align="center">
-  <img src="./screenshot_2_keyword_reputation.png" alt="实时商机秒级监控与独家风控信誉核验" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
+  <img src="./promo/02_lead_monitor.png" alt="实时商机监控：命中词高亮、风控黑名单标签与转化流水线（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
 </p>
 
 ---
@@ -50,7 +50,7 @@
 无需手动点击后台，直接在 OpenAI Codex / Claude / Cursor / Antigravity 等 AI Agent 中自然语言指令，AI 全自动调度 41 项工具闭环操作：
 
 <p align="center">
-  <img src="./screenshot_3_mcp_ai_takeover.png" alt="41项 MCP 智能体深度接管与 1:1 自动克隆伪装" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
+  <img src="./promo/01_account_matrix.png" alt="账号矩阵并发在线与号龄分级风控（演示数据）" width="96%" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.3);" />
 </p>
 
 ---

@@ -55,7 +55,7 @@ Solve the biggest marketing challenge: **"Missed real-time public group inquirie
 The system provides 24/7 autonomous monitoring. When any user in monitored public or private groups mentions your target keywords, the lead is captured in milliseconds with risk-screening protection:
 
 <p align="center">
-  <img src="./docs/screenshot_2_keyword_reputation.png" alt="Real-Time Keyword Monitoring and Local Risk Reputation Verification" width="98%" />
+  <img src="./docs/promo/02_lead_monitor.png" alt="Lead monitoring with keyword highlights, blacklist tags and pipeline (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -74,7 +74,7 @@ Solve the lead acquisition challenge: **"Where do I find massive targeted active
 The system delivers a streamlined pipeline combining high-depth prospect discovery with human-like multi-account outreach:
 
 <p align="center">
-  <img src="./docs/screenshot_1_member_scraping.png" alt="High-Speed Supergroup Member Scraping and Cleansing" width="98%" />
+  <img src="./docs/promo/03_voice_outreach.png" alt="Outreach: ring, native voice note and send queue (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -97,7 +97,7 @@ Solve community cold-start challenges: **"New groups are lifeless and inactive? 
 Powered by our proprietary AI matrix engine, multiple persona accounts automatically collaborate according to industry scenarios to warm up groups, role-play discussions, and guide prospects toward conversion:
 
 <p align="center">
-  <img src="./docs/screenshot_3_mcp_ai_takeover.png" alt="45 MCP Tools Full Takeover and 1:1 Profile Clone" width="98%" />
+  <img src="./docs/promo/01_account_matrix.png" alt="Account matrix online with age-tiered risk control (demo data)" width="98%" />
 </p>
 
 ### ✨ Key Features:
@@ -106,6 +106,23 @@ Powered by our proprietary AI matrix engine, multiple persona accounts automatic
 3. **Contextual Memory & Live Lead Engagement**: The system retains historical topic context. When a real prospect joins the conversation, AI personas naturally steer inquiries toward closing.
 4. **1:1 Millisecond Profile Clone**: Replicate target community or influencer avatars, nicknames, bios, and handles onto matrix accounts with one click.
 5. **45 Full-Featured MCP Tools for AI Agents**: Full support for the Anthropic Model Context Protocol. Hand over your growth operations to Claude, Cursor, or Google Antigravity with simple natural language prompts!
+
+---
+
+## 🖼️ v5.0 Real UI Gallery
+
+> Real v5.0 screenshots (4K originals in [`docs/promo/`](./docs/promo)). **All data shown is demo data** and does not represent real business volume.
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/promo/01_account_matrix.png" alt="Account matrix" /><br><sub><b>Account matrix</b> · concurrent online accounts, age-tiered risk control</sub></td>
+    <td width="50%"><img src="./docs/promo/02_lead_monitor.png" alt="Lead monitoring" /><br><sub><b>Lead monitoring</b> · keyword highlights, blacklist check, pipeline</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./docs/promo/03_voice_outreach.png" alt="Outreach" /><br><sub><b>Outreach</b> · ring → native voice note → text</sub></td>
+    <td width="50%"><img src="./docs/promo/04_channel_clone.png" alt="Channel clone" /><br><sub><b>Channel clone</b> · parallel channels, ad cleanup</sub></td>
+  </tr>
+</table>
 
 ---
 
