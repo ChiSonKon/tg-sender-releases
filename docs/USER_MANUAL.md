@@ -142,7 +142,7 @@
 
 ## 04. 底座 · 系统配置与 MCP 智能体
 
-> 📌 **核心定位**：系统核心参数配置，以及全行业首创的 41 项 MCP (Model Context Protocol) 智能体调度控制台。
+> 📌 **核心定位**：系统核心参数配置，以及全行业首创的 53 项 MCP (Model Context Protocol) 智能体调度控制台。
 
 ### 💡 解决的核心商业痛点
 配置繁琐、无法与现代前沿大模型协同，传统脚本只能机械运行无法根据实时反馈自适应调整策略。
@@ -156,7 +156,7 @@
 - API 凭据配置：自定义配置官方 Telegram API ID 与 API Hash
 - 内置前置全局网络探测隧道，无需开启全局 VPN TUN 模式即可直连
 - 一键配置本机所有主流 AI Agent（Claude Desktop、Cursor、Codex、Antigravity、Windsurf）
-- 41 项 MCP 协议工具实时就绪，支持 AI 自然语言全自动接管获客系统
+- 53 项 MCP 协议工具实时就绪，支持 AI 自然语言全自动接管获客系统
 
 ### 🛠️ 标准实战操作流程
 1. 填入您申请的 Telegram API ID 与 Hash（亦可使用内置商业默认高速通道）；

@@ -21,7 +21,7 @@
 
 ---
 
-> 🚀 **Current Version: Commercial v5.0.0** — natively compiled, new licensing & in-app cashier, redesigned UI, 45 MCP tools, macOS builds, installer and portable packages. New devices include a free trial (about 3 hours). See the [v5.0 release notes](./docs/getting_started/whats_new_5_0.md) (Chinese).
+> 🚀 **Current Version: Commercial v5.0.0** — natively compiled, new licensing & in-app cashier, redesigned UI, 45 MCP tools (52 from v5.0.1, coming soon — see the [v5.0.1 notes](./docs/getting_started/whats_new_5_0_1.md), Chinese), macOS builds, installer and portable packages. New devices include a free trial (about 3 hours). See the [v5.0 release notes](./docs/getting_started/whats_new_5_0.md) (Chinese).
 > 
 > 📱 **Looking for Mobile / Smartphone Client?**
 > A dedicated Telegram bot for 24/7 on-the-go marketing is online: **[@wchjbot](https://t.me/wchjbot)** (Click to activate directly inside Telegram — no desktop install needed, generate leads anytime from your phone!).
@@ -132,7 +132,7 @@ Beyond the three core engines above, WhiteCat TG Assistant Commercial Edition in
 
 | Category | Deep Commercial Capabilities |
 | :--- | :--- |
-| **Agents & Automation** | 45 MCP marketing and governance tools, natural language control, one-click agent setup, stdio communication |
+| **Agents & Automation** | 53 MCP marketing and governance tools (v5.0.1; v5.0.0 has 45), natural language control, one-click agent setup, stdio communication |
 | **Account & Core Ops** | Account matrix pooling, self-healing API encryption, SpamBot UTC diagnosis, send permission probes, one-click cleanup |
 | **Outreach & Expansion** | 1:1 profile cloning, bulk member force-inviting, automated supergroup & channel creation, channel forward cloning |
 | **Anti-Risk & Anti-Ban** | Dynamic captcha solving (Shieldy, Rose, math problems, buttons), bulk reporting, sponsored ad clicker, dynamic proxy pool, Session converter |
@@ -161,7 +161,7 @@ To let local AI Agents (Claude Desktop, Cursor, OpenAI Codex, Antigravity, Winds
 2. Run the bundled script:
    - **Windows**: Double-click `一键配置本机所有AI_Agent.bat`
    - **macOS**: Double-click `一键配置本机所有AI_Agent.command`
-3. The script automatically detects installed AI agents, merges the 45 MCP tools into their configs, and backs up existing settings non-destructively.
+3. The script automatically detects installed AI agents, merges the MCP tools (45 in v5.0.0, 52 from v5.0.1) into their configs, and backs up existing settings non-destructively.
 
 ---
 

@@ -29,7 +29,7 @@ graph TD
 1. **大批量资产管理**：导入数十到上百个 Session/TData，批量绑定代理与硬件指纹伪装；
 2. **重度内容加工**：配置复杂的 Markdown/HTML 富文本模板、图文视频附件与投票组件；
 3. **深度社群治理**：批量自动化建群、频道克隆搬运、AI 剧本式炒群、SpamBot 解封诊断；
-4. **41 项 MCP 智能体调度**：本地联动 OpenAI Codex、Claude Desktop、Cursor、Antigravity 等大模型，用自然语言一键操控全局。
+4. **53 项 MCP 智能体调度**：本地联动 OpenAI Codex、Claude Desktop、Cursor、Antigravity 等大模型，用自然语言一键操控全局。
 
 ### 📱 手机端机器人 @wchjbot（适合全天候 24H 随时随地操作）：
 1. **全天候商机截流**：云端 24H 监听 1.6 万个高活跃大群，手机收到推送弹窗，1 秒内直接触达客户；

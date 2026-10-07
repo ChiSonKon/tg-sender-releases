@@ -47,9 +47,11 @@
 * [21. 批量建群建频道](manual/21_batch_create.md)
 * [22. 运营模式分析](manual/22_operation_analysis.md)
 
-## 🤖 MCP 智能体协议与 AI 调度 (41 项全接管)
+## 🤖 MCP 智能体协议与 AI 调度 (53 项)
 * [一键全自动配置本地所有 AI Agent](mcp/01_quickstart.md)
-* [41 项自然语言提示词库与实战案例](mcp/02_prompts.md)
+* [53 项 MCP 工具参考](mcp/03_tools_reference.md)
+* [自然语言提示词库与实战案例](mcp/02_prompts.md)
+* [v5.0.1 更新说明（即将发布）](getting_started/whats_new_5_0_1.md)
 
 ## 🛡️ 安全防封与常见问题 (FAQ)
 * [工业级防风控与账号养号秘籍](faq/01_anti_ban.md)
