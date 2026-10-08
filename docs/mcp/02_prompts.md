@@ -12,7 +12,7 @@
 ```
 
 **AI 智能体自动执行链**：
-1. 调用 `tg_probe_bot_features` 或抓取目标公开 Profile；
+1. 抓取目标公开 Profile（昵称 / 简介 / 头像）；
 2. 下载目标头像并调用 `tg_update_account_profile` 更换头像；
 3. 提取简介并替换商业引流链接，覆写昵称；
 4. 汇报：“已成功将账号伪装完成，主页克隆度 99.8%！”
@@ -46,6 +46,36 @@
 2. 调用 `tg_start_monitor` 开启监听；
 3. 调用 `tg_manage_risk_blacklist` 毫秒级核验发言人信誉；
 4. 调用 `tg_send_message` 将纯净买家白名单实时推送到您的私聊窗口。
+
+---
+
+## 5.0.1 新增场景 10：先混脸熟，再私信（对方的动态 + 触达顺序）
+
+**用户输入提示词**：
+```text
+请先用 tg_unified_send 预览（dry_run）：对 targets.txt 里的用户，用账号 +85212345678 按「先混脸熟」顺序触达——先浏览对方的动态，再点赞，停几秒后发这段文字：「你好，看到你在做……」。对方没有动态的直接发私信。预览没问题再告诉我，我确认后再正式发送。
+```
+
+**AI 智能体自动执行链**：
+1. 调用 `tg_unified_send`，`contact_sequence="warm_then_text"`、`story_fallback_dm=true`、`dry_run=true`，汇报预览（目标数、预计耗时、账号额度）；
+2. 你确认后以 `dry_run=false` 执行，后台运行；
+3. 用 `tg_get_task_status` / `tg_smart_broadcast` 的 status 查看进度，日志里会写明每个目标浏览 / 点赞 / 发送的结果与没有动态的目标。
+
+> 提示：想自己定顺序时传 `contact_sequence_steps`，例如 `["story_view","story_like","pause","image","text"]`；图片可传 `image_paths` 一次发多张（相册）。
+
+---
+
+## 5.0.1 新增场景 11：探查一个机器人（群管类用群模式）
+
+**用户输入提示词**：
+```text
+帮我探查 @some_bot 的功能，整理成菜单树和可复现的提示词。默认的安全规则不要改。如果它是需要拉进群才能完整探查的机器人，先给我看群模式的 dry_run 预览，我确认后再执行。
+```
+
+**AI 智能体自动执行链**：
+1. 调用 `tg_probe_bot_features(bot_username="@some_bot")`（只读安全：跳过购买 / 支付 / 删除类按钮，外链 / 分享手机号等始终不点）；
+2. 看结果里的 `group_context.likely`：为 `true` 时私聊结果不完整，按 `recommended_next_step` 先 `dry_run` 预览 `group_mode={"create_test_group": true}`，把「会创建临时测试群、拉入机器人并设为管理员、结束后删除群」告诉你并等确认；
+3. 你确认后 `dry_run=false` 执行，汇报菜单树、`skipped_buttons`、`group_probe.cleanup` 与复现提示词。
 
 ---
 
