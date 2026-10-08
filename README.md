@@ -21,7 +21,7 @@
 
 ---
 
-> 🚀 **最新版本：商业版 v5.0.2**（修复电脑名 / 网卡变化后授权丢失、免费体验更规范；功能更新见 [v5.0.1 更新说明](./docs/getting_started/whats_new_5_0_1.md)）。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
+> 🚀 **最新版本：商业版 v5.0.2**（稳定性与兼容性改进；功能更新见 [v5.0.1 更新说明](./docs/getting_started/whats_new_5_0_1.md)）。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
 > 
 > 📱 **有手机端/移动端引流需求？**
 > 专为手机随时随地获客打造的独立机器人项目已同步稳定运行：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机随时随地自动引流拓客！）。
@@ -41,7 +41,7 @@
 | **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg) | `71676934052ad1a1016fd2dce555e1caea632d5082bf7d74122979a9d9e7c58e` |
 | **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip) | `c59fa9680d6a392f934c3aa12a107c1c1eca6e1d906871884266bb236deff504` |
 
-> ℹ️ **macOS Intel 本次没有 v5.0.2 的新包**，上表 Intel 两行仍是 v5.0.1（可正常使用，只是暂时没有「电脑名变化后认回授权」的改进，后续补发）。
+> ℹ️ **macOS Intel 本次没有 v5.0.2 的新包**，上表 Intel 两行仍是 v5.0.1（可正常使用，后续补发）。
 
 > 💡 **快速开始**：
 > - **Windows**：运行 `Setup.exe`（或解压便携版）。首次出现「Windows 已保护你的电脑」→ 点 **更多信息 → 仍要运行**（软件暂未购买代码签名证书，不代表有病毒）；
