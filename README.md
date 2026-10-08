@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><strong>📖 官方 GitBook 完整实战文档</strong></a> | <a href="https://t.me/oxbaimao"><strong>💬 官方在线客服 (@oxbaimao)</strong></a> | <a href="https://t.me/wchjbot"><strong>📱 移动端免客户端机器人 (@wchjbot)</strong></a>
+  <a href="https://tg.web3baimao.com"><strong>🌐 官方网站</strong></a> | <a href="https://bai-mao.gitbook.io/bai-mao-docs/"><strong>📖 官方 GitBook 完整实战文档</strong></a> | <a href="https://t.me/oxbaimao"><strong>💬 官方在线客服 (@oxbaimao)</strong></a> | <a href="https://t.me/wchjbot"><strong>📱 移动端免客户端机器人 (@wchjbot)</strong></a>
 </p>
 
 ---
