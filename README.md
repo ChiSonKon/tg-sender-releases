@@ -21,30 +21,30 @@
 
 ---
 
-> 🚀 **最新版本：商业版 v5.0.2**（稳定性与兼容性改进；功能更新见 [v5.0.1 更新说明](./docs/getting_started/whats_new_5_0_1.md)）。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
+> 🚀 **最新版本：商业版 v5.0.3**（Windows；首页流程做完一步会问下一步并可带上结果 · 代理名额可释放 · 炒群新增「预设剧本回放」· 54 项 MCP 工具，见 [v5.0.3 更新说明](./docs/getting_started/whats_new_5_0_3.md)）。**macOS 版本目前为 v5.0.2**（本次暂无 Mac 新包）。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
 > 
 > 📱 **有手机端/移动端引流需求？**
 > 专为手机随时随地获客打造的独立机器人项目已同步稳定运行：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机随时随地自动引流拓客！）。
 
 ---
 
-## 📥 软件下载（官方正版 · v5.0.2）
+## 📥 软件下载（官方正版 · Windows v5.0.3 / macOS v5.0.2）
 
 每个平台都提供 **安装版**（推荐，自带自动更新）和 **免安装版**（解压即用）。请只从本页面 / [Releases](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载并核对校验和。
 
 | 系统 / 形式 | 下载 | SHA-256 |
 | :--- | :--- | :--- |
-| **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.2-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-Setup.exe) | `16600505f5a8bf7c2b218e4737b8c6d86f97d7c011ad4a6e3ea164d159c575b6` |
-| **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.2-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-Windows-x64-Portable.zip) | `515f59023c420a0cd5ad1cac6515d04499ab01d3e5b731f4e8d319fb00cc77ce` |
+| **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.3-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-Setup.exe) | `aad1791ab649b9343d765ba863895b2fa8970f9effd6708e0d1a44ff3bb7d83b` |
+| **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.3-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-Windows-x64-Portable.zip) | `c1e572acb3969ebfc2b6fecb33e53ce8b7d9324b9e99a16ba8ab0925cae09cfd` |
 | **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.2-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-macOS-arm64.dmg) | `b7ca92c3a356c7061b921d9dab8e24f64369105955401cbaaa6dd17f2a923841` |
 | **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.2-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-macOS-arm64-Portable.zip) | `236b4864e83d1468c64f91534c9a26edc0a2a65d940bbcec47f9705770cc77a1` |
 | **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg) | `71676934052ad1a1016fd2dce555e1caea632d5082bf7d74122979a9d9e7c58e` |
 | **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip) | `c59fa9680d6a392f934c3aa12a107c1c1eca6e1d906871884266bb236deff504` |
 
-> ℹ️ **macOS Intel 本次没有 v5.0.2 的新包**，上表 Intel 两行仍是 v5.0.1（可正常使用，后续补发）。
+> ℹ️ **macOS 本次没有 v5.0.3 的新包**：上表 Apple Silicon 两行仍是 v5.0.2，Intel 两行仍是 v5.0.1，均可正常使用，后续补发；Mac 用户不会收到 5.0.3 的更新提示。
 
 > 💡 **快速开始**：
-> - **Windows**：运行 `Setup.exe`（或解压便携版）。首次出现「Windows 已保护你的电脑」→ 点 **更多信息 → 仍要运行**（软件暂未购买代码签名证书，不代表有病毒）；
+> - **Windows**：运行 `Setup.exe`（或解压便携版，双击里面的 `双击启动.bat`）。首次出现「Windows 已保护你的电脑」→ 点 **更多信息 → 仍要运行**（软件暂未购买代码签名证书，不代表有病毒）；
 > - **macOS**：dmg 拖入「应用程序」（或解压便携版）。首次被拦截：macOS 14 及更早 **右键 → 打开**；macOS 15 及更新 **系统设置 → 隐私与安全性 → 仍要打开**；
 > - **新设备自带约 3 小时免费试用**；购买与激活见 [试用、购买与激活](./docs/getting_started/activation_and_trial.md)，完整安装步骤见 [安装指南](./docs/getting_started/desktop_install.md)。
 > - 与本机 AI Agent（Claude Code、Claude Desktop、Cursor、Codex、Antigravity、Gemini CLI 等）联动：设置页点「一键配置本机所有 Agent」，或双击包内的 `一键配置本机所有AI_Agent` 脚本。
