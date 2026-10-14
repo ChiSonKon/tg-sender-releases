@@ -1,7 +1,7 @@
 
 # 💻 电脑端下载与安装指南（v5.0）
 
-> 🚀 当前版本：Windows **v5.0.3**；macOS Apple Silicon 为 v5.0.2、Intel 为 v5.0.1（本次暂无 Mac 新包，可正常使用）。支持 **Windows 10 / 11（64 位）**，以及 **macOS（Apple Silicon M1–M4 / Intel）**。
+> 🚀 当前版本：**v5.0.3**（Windows 与 macOS Apple Silicon）；macOS Intel 本次暂无新包，仍为 v5.0.1。支持 **Windows 10 / 11（64 位）**，以及 **macOS（Apple Silicon M1–M4 / Intel）**。
 > 每个平台都提供两种形式：**安装版**（推荐，自带自动更新）和**免安装版**（解压即用，适合不想安装、放在移动硬盘或多开的场景）。
 
 ---
@@ -14,8 +14,8 @@
 | :--- | :--- | :--- | :--- |
 | **Windows x64** | 安装版 ⭐ | `WhiteCat-TG-Assistant-5.0.3-Setup.exe` | 双击安装，免管理员权限，装在你自己的用户目录 |
 | **Windows x64** | 免安装版 | `WhiteCat-TG-Assistant-5.0.3-Windows-x64-Portable.zip` | 解压后双击里面的 `双击启动.bat`（程序文件都在 `app` 文件夹里，请不要删除） |
-| **macOS Apple Silicon** | 安装版 ⭐ | `WhiteCat-TG-Assistant-5.0.2-macOS-arm64.dmg` | M1 / M2 / M3 / M4，拖进「应用程序」 |
-| **macOS Apple Silicon** | 免安装版 | `WhiteCat-TG-Assistant-5.0.2-macOS-arm64-Portable.zip` | 解压得到 `.app`，放哪都能运行 |
+| **macOS Apple Silicon** | 安装版 ⭐ | `WhiteCat-TG-Assistant-5.0.3-macOS-arm64.dmg` | M1 / M2 / M3 / M4，拖进「应用程序」 |
+| **macOS Apple Silicon** | 免安装版 | `WhiteCat-TG-Assistant-5.0.3-macOS-arm64-Portable.zip` | 解压得到 `.app`，放哪都能运行 |
 | **macOS Intel** | 安装版 ⭐ | `WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg` | Intel 处理器的 Mac |
 | **macOS Intel** | 免安装版 | `WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip` | 解压得到 `.app` |
 

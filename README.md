@@ -21,14 +21,14 @@
 
 ---
 
-> 🚀 **最新版本：商业版 v5.0.3**（Windows；首页流程做完一步会问下一步并可带上结果 · 代理名额可释放 · 炒群新增「预设剧本回放」· 54 项 MCP 工具，见 [v5.0.3 更新说明](./docs/getting_started/whats_new_5_0_3.md)）。**macOS 版本目前为 v5.0.2**（本次暂无 Mac 新包）。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
+> 🚀 **最新版本：商业版 v5.0.3**（Windows + macOS Apple 芯片；首页流程做完一步会问下一步并可带上结果 · 代理名额可释放 · 炒群新增「预设剧本回放」· 54 项 MCP 工具，见 [v5.0.3 更新说明](./docs/getting_started/whats_new_5_0_3.md)）。**macOS Intel 本次没有新包**，仍为 v5.0.1。**v5.0.1**（账号检测更准 · 私信新增对方动态 · 圆形视频与多图相册 · 群聊群发重构并回读核实 · 53 项 MCP 工具 · 提供安装版与免安装版，Windows / macOS 双平台；[更新说明](./docs/getting_started/whats_new_5_0_1.md)）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
 > 
 > 📱 **有手机端/移动端引流需求？**
 > 专为手机随时随地获客打造的独立机器人项目已同步稳定运行：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机随时随地自动引流拓客！）。
 
 ---
 
-## 📥 软件下载（官方正版 · Windows v5.0.3 / macOS v5.0.2）
+## 📥 软件下载（官方正版 · v5.0.3）
 
 每个平台都提供 **安装版**（推荐，自带自动更新）和 **免安装版**（解压即用）。请只从本页面 / [Releases](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载并核对校验和。
 
@@ -36,12 +36,12 @@
 | :--- | :--- | :--- |
 | **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.3-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-Setup.exe) | `aad1791ab649b9343d765ba863895b2fa8970f9effd6708e0d1a44ff3bb7d83b` |
 | **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.3-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-Windows-x64-Portable.zip) | `c1e572acb3969ebfc2b6fecb33e53ce8b7d9324b9e99a16ba8ab0925cae09cfd` |
-| **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.2-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-macOS-arm64.dmg) | `b7ca92c3a356c7061b921d9dab8e24f64369105955401cbaaa6dd17f2a923841` |
-| **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.2-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.2/WhiteCat-TG-Assistant-5.0.2-macOS-arm64-Portable.zip) | `236b4864e83d1468c64f91534c9a26edc0a2a65d940bbcec47f9705770cc77a1` |
+| **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.3-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-macOS-arm64.dmg) | `4cf19a60001e081c8759f20d18ae12c0fbe7874b42097e30e2cc6fa2515f23a0` |
+| **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.3-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.3/WhiteCat-TG-Assistant-5.0.3-macOS-arm64-Portable.zip) | `a0e9cb1e946c55e2ba6c5a9d41d9040d7a7a6b1b07b75b28556bf1dfa10ad141` |
 | **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64.dmg) | `71676934052ad1a1016fd2dce555e1caea632d5082bf7d74122979a9d9e7c58e` |
 | **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.1/WhiteCat-TG-Assistant-5.0.1-macOS-x64-Portable.zip) | `c59fa9680d6a392f934c3aa12a107c1c1eca6e1d906871884266bb236deff504` |
 
-> ℹ️ **macOS 本次没有 v5.0.3 的新包**：上表 Apple Silicon 两行仍是 v5.0.2，Intel 两行仍是 v5.0.1，均可正常使用，后续补发；Mac 用户不会收到 5.0.3 的更新提示。
+> ℹ️ **macOS Intel 本次没有 v5.0.3 的新包**，上表 Intel 两行仍是 v5.0.1（可正常使用，后续补发）。
 
 > 💡 **快速开始**：
 > - **Windows**：运行 `Setup.exe`（或解压便携版，双击里面的 `双击启动.bat`）。首次出现「Windows 已保护你的电脑」→ 点 **更多信息 → 仍要运行**（软件暂未购买代码签名证书，不代表有病毒）；
