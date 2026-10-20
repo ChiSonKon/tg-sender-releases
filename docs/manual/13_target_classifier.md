@@ -42,3 +42,7 @@
 <p align="center">
   <a href="../USER_MANUAL.md">⬅️ 返回总目录</a> | <a href="https://github.com/ChiSonKon/tg-sender-releases">🏠 返回项目首页</a>
 </p>
+
+## 并发解析（5.0.6）
+
+「开始分类」旁可设「N 个账号同时解析」（1~100，默认 5）。每个账号同一时刻只解析一条；账号被限流会冷却，其余账号接手；结果边出边显示。真实 Telegram 下的提速未验证。
