@@ -32,11 +32,14 @@
 
 <table align="center">
   <tr>
-    <td align="center" valign="middle">
-      <a href="./docs/promo/brand/whitecat-promo-landscape.mp4"><img src="./docs/promo/brand/whitecat-promo-landscape.webp" width="640" alt="WhiteCat 宣传片（横版）：多账号管理、关键词商机监听、拟真私信触达、频道搬运、AI Agent 联动" /></a>
-      <br /><sub>▶ 横版（点击观看完整视频，带音乐）</sub>
-    </td>
-    <td align="center" valign="middle">
+    <td width="64%" align="center" valign="middle">
+
+https://github.com/user-attachments/assets/82576320-7e19-4259-9a6a-d29c59a15e08
+
+<sub>横版（带音乐，点击播放）</sub>
+
+</td>
+    <td width="36%" align="center" valign="middle">
       <a href="./docs/promo/brand/whitecat-promo-portrait.mp4"><img src="./docs/promo/brand/whitecat-promo-portrait.webp" width="230" alt="WhiteCat 宣传片（竖版）" /></a>
       <br /><sub>▶ 竖版（点击观看完整视频，带音乐）</sub>
     </td>
