@@ -71,7 +71,7 @@
 |---|---|
 | `tg_verify_group_join` | 针对指定群组进行入群人机验证扫描与自动挑战求解（支持 Shieldy、MissRose、数学运算、内联按钮点击等）。 |
 | `tg_solve_captcha` | 向进群验证挑战或人机验证码提交解答（支持通过按钮索引点击指定答案，或向群组/私聊发送计算文本答案）。 |
-| `tg_spambot_appeal` 🆕 | 与官方 @SpamBot 逐步对话，用于处理「双向限制 / 受限 / 封禁」的申诉。每次只做一步并原样返回 SpamBot 的回复与按钮：start=发 /start 查看当前状态；click=点某个按钮（button 为按钮文字，可部分匹配）；reply=发送一段文字；read=只读最近一条。重要：本工具不会替你编造任何资料。SpamBot 问到的情况（用途、怎么使用 Telegram 等）请如实回答；申诉文字请如实说明。遇到人机验证（验证码 / 图片题）会标记 human_verification=true，请人工在手机上完成，不要让 Agent 代做。 |
+| `tg_spambot_appeal` 🆕 | 与官方 @SpamBot 逐步对话，用于处理「双向限制 / 受限 / 封禁」的申诉。 |
 | `tg_check_target_safety` | 对指定 Telegram 用户做风险信号检查（检测受限状态、查询历史曾用名）。 |
 | `tg_classify_targets` | 批量识别并分类目标类型（群组 Group / 超级群 Supergroup / 频道 Channel / 机器人 Bot / 普通用户 User）。 |
 | `tg_probe_bot_features` | 真实探查一个 Telegram 机器人：发 /start、读取它声明的指令与简介，逐层点击菜单按钮，返回菜单树与「复现提示词」（有 AI 时由 AI 整理）。默认只读安全模式：跳过购买 / 支付 / 充值 / 提现 / 确认 / 删除类按钮（可用 skip_risky_buttons=false 在用户授权后放开），外链、小程序、支付发票、分享手机号 / 位置按钮无论如何都不点（skipped_buttons 列出原因）。 |

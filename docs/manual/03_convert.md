@@ -42,3 +42,7 @@
 <p align="center">
   <a href="../USER_MANUAL.md">⬅️ 返回总目录</a> | <a href="https://github.com/ChiSonKon/tg-sender-releases">🏠 返回项目首页</a>
 </p>
+
+## 5.0.7 新增
+
+- **批量踢出其他设备**：「已登录设备」页下方新增「批量踢出所有在线账号的其他设备（只保留本软件）」，一次处理所有在线账号，踢完回读设备列表核实；没连接的账号跳过；刚登录不满 24 小时的账号 Telegram 不允许踢，会写明原因。
