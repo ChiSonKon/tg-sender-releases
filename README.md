@@ -28,6 +28,23 @@
 
 ---
 
+## 🎬 30 秒看懂 WhiteCat
+
+<table align="center">
+  <tr>
+    <td align="center" valign="middle">
+      <a href="./docs/promo/brand/whitecat-promo-landscape.mp4"><img src="./docs/promo/brand/whitecat-promo-landscape.webp" width="640" alt="WhiteCat 宣传片（横版）：多账号管理、关键词商机监听、拟真私信触达、频道搬运、AI Agent 联动" /></a>
+      <br /><sub>▶ 横版（点击观看完整视频，带音乐）</sub>
+    </td>
+    <td align="center" valign="middle">
+      <a href="./docs/promo/brand/whitecat-promo-portrait.mp4"><img src="./docs/promo/brand/whitecat-promo-portrait.webp" width="230" alt="WhiteCat 宣传片（竖版）" /></a>
+      <br /><sub>▶ 竖版（点击观看完整视频，带音乐）</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>界面为真实软件截图，数据为演示数据；AI Agent 一段为示意动画。</sub></p>
+
 ## 📥 软件下载（官方正版 · v5.0.8）
 
 每个平台都提供 **安装版**（推荐，自带自动更新）和 **免安装版**（解压即用）。请只从本页面 / [Releases](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载并核对校验和。
