@@ -21,27 +21,27 @@
 
 ---
 
-> 🚀 **最新版本：商业版 v5.0.7**（Windows + macOS Apple 芯片 + macOS Intel；申诉全自动、人机验证自动处理 · 发送中可暂停 / 排除账号 · 受限账号只跳过不自动申诉 · 自动回复不重复回复老客户 · 批量踢出其他设备 · Mac 包签名与打包修复）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
+> 🚀 **最新版本：商业版 v5.0.8**（Windows + macOS Apple 芯片 + macOS Intel；启动更快更顺 · 全新图标 · 申诉填写更贴近真实账号，遇到没有申诉入口的限制会如实提示）。开箱即用，新设备自带免费试用。[**查看 v5.0 更新说明**](./docs/getting_started/whats_new_5_0.md)
 > 
 > 📱 **有手机端/移动端引流需求？**
 > 专为手机随时随地获客打造的独立机器人项目已同步稳定运行：**[@wchjbot](https://t.me/wchjbot)**（点击可直接在 Telegram 唤醒使用，无需安装电脑客户端，手机随时随地自动引流拓客！）。
 
 ---
 
-## 📥 软件下载（官方正版 · v5.0.7）
+## 📥 软件下载（官方正版 · v5.0.8）
 
 每个平台都提供 **安装版**（推荐，自带自动更新）和 **免安装版**（解压即用）。请只从本页面 / [Releases](https://github.com/ChiSonKon/tg-sender-releases/releases/latest) 下载并核对校验和。
 
 | 系统 / 形式 | 下载 | SHA-256 |
 | :--- | :--- | :--- |
-| **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.7-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-Setup.exe) | `0b284f6c7966eab1efe3f7ad36978bb8c4f55a316088069ec643b9e736af607b` |
-| **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.7-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-Windows-x64-Portable.zip) | `287a68a4b4c7664428b2b3d7e2d0e0fafe30e491aa71ea90e8bb70aff6610d08` |
-| **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.7-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-macOS-arm64.dmg) | `291028e1393a5a0e4c0b4f48a6b01bfbaf4b3d5b0a194e414649ab5378942ab4` |
-| **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.7-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-macOS-arm64-Portable.zip) | `88e1cfaa562d0a93e80d6f1bcb6a9f96145386bd39b695e4c6c9336ffd98fb48` |
-| **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.7-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-macOS-x64.dmg) | `2c4b3233dd71af90a4480311849d43be815feb8f0981605ceac7042786f948f9` |
-| **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.7-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.7/WhiteCat-TG-Assistant-5.0.7-macOS-x64-Portable.zip) | `e8fe2e5e993c48deb9bb4857ad1cd70f6a1936c77b1d71959660414c84497bb4` |
+| **Windows x64** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.8-Setup.exe](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-Setup.exe) | `09a78f8c4c2d2582ec4ba0708efadfa98340fbcaacf813178409ee09548026a0` |
+| **Windows x64** · 免安装版 | [WhiteCat-TG-Assistant-5.0.8-Windows-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-Windows-x64-Portable.zip) | `b8ddc40f0fda59b6af1e393cd18e3eb6d48951b25ed0f1c1578efa1110841587` |
+| **macOS Apple Silicon (M1–M4)** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.8-macOS-arm64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-arm64.dmg) | `2d8f2fe16e5ec7dfe682a753927ddfaa0a381833ac2fefb509e9f20acd4d0c4d` |
+| **macOS Apple Silicon (M1–M4)** · 免安装版 | [WhiteCat-TG-Assistant-5.0.8-macOS-arm64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-arm64-Portable.zip) | `1c63b69b9723f2d29ac3378c185b23e5f9a2648246691f8ec107415a7dc2ea3a` |
+| **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.8-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-x64.dmg) | `566110dcc4fb8c025535e241c8ad3b9ec17207ab123be510eb0724bc71a90873` |
+| **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.8-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-x64-Portable.zip) | `42b20edbc595759926aba0d7495a3342cacb0ab900fd56a18e77f8e145203468` |
 
-> ℹ️ **macOS 提示「已损坏，无法打开」**：v5.0.7 重做了 Mac 包的签名与打包（之前复制进 dmg 的 App 签名会失效，个别 Intel Mac 因此打不开），请重新下载本页 v5.0.7 的包。仍是未购买 Apple 开发者证书的 Ad-hoc 签名，首次打开需「右键 → 打开」或到「系统设置 → 隐私与安全性」放行；旧包可在终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"` 与 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"` 补救。**Mac 包尚未在真实 Mac 上验证，请反馈系统版本与芯片。**
+> ℹ️ **macOS 提示「已损坏，无法打开」**：v5.0.7 重做了 Mac 包的签名与打包（之前复制进 dmg 的 App 签名会失效，个别 Intel Mac 因此打不开），请重新下载本页 v5.0.8 的包。仍是未购买 Apple 开发者证书的 Ad-hoc 签名，首次打开需「右键 → 打开」或到「系统设置 → 隐私与安全性」放行；旧包可在终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"` 与 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"` 补救。**Mac 包尚未在真实 Mac 上验证，请反馈系统版本与芯片。**
 > ℹ️ **v5.0.1 的 Intel 版用户**：旧版在部分 Intel Mac 上启动即报「找不到 libssl.3.dylib」，无法靠应用内更新修复，请直接下载上表的 Intel 安装包覆盖安装（数据目录不受影响）。
 
 > 💡 **快速开始**：
