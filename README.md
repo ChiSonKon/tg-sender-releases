@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/82576320-7e19-4259-9a6a-d29c59a15e08
 | **macOS Intel** · 安装版（推荐） | [WhiteCat-TG-Assistant-5.0.8-macOS-x64.dmg](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-x64.dmg) | `566110dcc4fb8c025535e241c8ad3b9ec17207ab123be510eb0724bc71a90873` |
 | **macOS Intel** · 免安装版 | [WhiteCat-TG-Assistant-5.0.8-macOS-x64-Portable.zip](https://github.com/ChiSonKon/tg-sender-releases/releases/download/v5.0.8/WhiteCat-TG-Assistant-5.0.8-macOS-x64-Portable.zip) | `42b20edbc595759926aba0d7495a3342cacb0ab900fd56a18e77f8e145203468` |
 
-> ℹ️ **macOS 提示「已损坏，无法打开」**：v5.0.7 重做了 Mac 包的签名与打包（之前复制进 dmg 的 App 签名会失效，个别 Intel Mac 因此打不开），请重新下载本页 v5.0.8 的包。仍是未购买 Apple 开发者证书的 Ad-hoc 签名，首次打开需「右键 → 打开」或到「系统设置 → 隐私与安全性」放行；旧包可在终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"` 与 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"` 补救。**Mac 包尚未在真实 Mac 上验证，请反馈系统版本与芯片。**
+> ℹ️ **macOS 提示「已损坏，无法打开」**：v5.0.7 重做了 Mac 包的签名与打包（之前复制进 dmg 的 App 签名会失效，个别 Intel Mac 因此打不开），请重新下载本页 v5.0.8 的包。仍是未购买 Apple 开发者证书的 Ad-hoc 签名，首次打开需「右键 → 打开」或到「系统设置 → 隐私与安全性」放行；旧包可在终端执行 `xattr -cr "/Applications/TG自动获客助手 旗舰商业版.app"` 与 `codesign --force --deep --sign - "/Applications/TG自动获客助手 旗舰商业版.app"` 补救。**Mac 已在真实 Mac M4上验证，如果您不能打开请反馈系统版本与芯片。**
 > ℹ️ **v5.0.1 的 Intel 版用户**：旧版在部分 Intel Mac 上启动即报「找不到 libssl.3.dylib」，无法靠应用内更新修复，请直接下载上表的 Intel 安装包覆盖安装（数据目录不受影响）。
 
 > 💡 **快速开始**：
